@@ -1,11 +1,13 @@
 {
+  "permissions": {
+    "allow": [
+      "mcp__youtube-transcript__get_available_languages",
+      "mcp__youtube-transcript__get_video_info",
+      "WebFetch(domain:www.youtube.com)"
+    ]
+  },
   "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "youtube-transcript"
-  ],
-  "permissions": {
-    "allow": [
-      "mcp__youtube-transcript__get_available_languages"
-    ]
-  }
+  ]
 }

@@ -4,3 +4,6 @@
 *.log
 .DS_Store
 Thumbs.db
+
+# 외부 MCP 서버 소스 (별도 프로젝트로 클론한 것)
+youtube-mcp/
