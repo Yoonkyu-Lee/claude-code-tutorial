@@ -55,17 +55,13 @@ URL에서 **영상 ID**를 추출한다. (`v=` 파라미터 값, 또는 `youtu.b
    출력 형식: `YYYYMMDD|제목|채널|초`. 게시일은 `YYYYMMDD` → `YYYY-MM-DD`로 변환.
    `yt-dlp` 미설치면 다음 단계로.
 
-2. **r.jina.ai 프록시** (2차 fallback): `WebFetch`로 다음 URL 호출
-   ```
-   https://r.jina.ai/https://www.youtube.com/watch?v=<ID>
-   ```
-   YouTube SPA를 평문 마크다운으로 받아 페이지에서 게시일을 추출. WebFetch 단독보다 신뢰성 높음.
+2. **WebSearch** (2차 fallback): "<영상 제목> youtube"로 검색해 결과에서 추출.
 
-3. **WebSearch** (3차 fallback): "<영상 제목> youtube"로 검색해 결과에서 추출.
+3. **사용자 입력** (최종 fallback): 위 모든 단계가 실패하면 사용자에게 게시일과 짧은 영문 제목을 물어보고 멈춤.
 
-4. **사용자 입력** (최종 fallback): 위 모든 단계가 실패하면 사용자에게 게시일과 짧은 영문 제목을 물어보고 멈춤.
+**`WebFetch`는 게시일 용도로 쓰지 않는다** — YouTube SPA 구조에서 신뢰할 수 없는 결과를 반환하기 때문 (`.claude/known-issues.md` 참조).
 
-각 fallback이 동작한 경우 노트 메타 섹션에 출처를 짧게 명시한다 (예: `게시일 출처: yt-dlp` / `게시일 출처: r.jina.ai 추출, 검수 필요`).
+각 fallback이 동작한 경우 노트 메타 섹션에 출처를 짧게 명시한다 (예: `게시일 출처: yt-dlp`).
 
 ### Step 2: 파일명 생성
 형식: `YYYY-MM-DD-kebab-case-english-title.md`
@@ -88,7 +84,7 @@ URL에서 **영상 ID**를 추출한다. (`v=` 파라미터 값, 또는 `youtu.b
 - **명백한 오인식**(기술 용어·고유명사 등 컨텍스트로 95% 이상 확실): 정정 후 본문에 사용. 첫 등장 시 한 번 보정 사실을 각주로 노출
 - **모호한 발화**(컨텍스트로도 의도가 불확실): `[불명확: 원문 "..."]`로 표시하고 추측 금지
 
-**정정 사전**: `references/caption-corrections.md`에 자주 등장하는 영문 고유명사·기술 용어의 음차 → 정확 표기 매핑이 있다. Step 4를 시작할 때 이 파일을 한 번 읽어 머릿속에 띄워두고 자막을 훑는다. 새 패턴을 발견하면 사용자가 명시 요청한 경우에만 사전을 보강한다 (자동 갱신 금지).
+**정정 사전**: `references/caption-corrections.md`에 자주 등장하는 영문 고유명사·기술 용어의 음차 → 정확 표기 매핑이 있다. Step 4를 시작할 때 이 파일을 한 번 읽어 머릿속에 띄워두고 자막을 훑는다. 새 패턴을 발견하면 사용자가 명시 요청한 경우에만 사전을 보강한다 (자동 갱신 금지). 사전이 존재하는 배경은 `.claude/known-issues.md` 참조.
 
 흔한 패턴 (사전의 일부):
 - 기술 용어: `패스트 APA` → `FastAPI`, `넥트 JS` → `Next.js`, `멀이드` → `Mermaid`
