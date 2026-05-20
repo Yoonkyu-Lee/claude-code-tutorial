@@ -14,13 +14,14 @@ CLAUDE.md의 작업 우선순위·노트 작성 규칙·negative space를 따른
 ## 워크플로
 
 ### Step 1: 메타데이터 확보
-순서대로 시도, 성공하면 멈춤:
+`youtube-transcript` MCP의 `get_video_info`를 호출한다. 반환 필드에서:
 
-1. `youtube-transcript` MCP에 메타데이터 도구가 있으면 사용
-2. `WebFetch`로 영상 URL을 받아 HTML에서 파싱:
-   - 게시일: `<meta itemprop="datePublished" content="YYYY-MM-DD">`
-   - 제목: `<meta property="og:title" content="...">`
-3. 둘 다 실패 → 사용자에게 게시일 + 짧은 영문 제목을 물어보고 멈춤
+- 게시일 (publish date / upload date)
+- 영상 제목 (title)
+- 영상 길이 (length, 메타 섹션에 기록용)
+- 채널명 (메타 섹션에 기록용)
+
+호출 실패 또는 게시일 필드 누락 시 사용자에게 게시일과 짧은 영문 제목을 물어보고 멈춘다.
 
 ### Step 2: 파일명 생성
 형식: `YYYY-MM-DD-kebab-case-english-title.md`
@@ -32,8 +33,10 @@ CLAUDE.md의 작업 우선순위·노트 작성 규칙·negative space를 따른
 - 같은 이름 파일이 이미 있으면 **덮어쓰기 전 사용자 확인**
 
 ### Step 3: 자막 가져오기
-`youtube-transcript` MCP의 타임스탬프 포함 버전을 우선 사용.
-타임스탬프가 없으면 일반 transcript + "타임스탬프 미제공" 명시.
+1차 시도: `get_timed_transcript` (타임스탬프 포함)
+실패 시 fallback: `get_transcript` (타임스탬프 없음, 노트 메타 섹션에 "타임스탬프 미제공" 명시)
+
+`get_available_languages`는 호출하지 않는다 — 한국어 자동 자막이 없는 영상이 나오면 그때 fallback으로 사용 검토. (대부분의 메이커 에반 영상은 한국어 자동 자막 존재)
 
 ### Step 4: 자막 품질 정정
 자동 자막의 흔한 오인식을 **컨텍스트로 복원**한다. 원문 인용 블록에는 정정된 형태를 쓰되, 명백한 오인식이 아닌 모호한 경우에만 `[불명확: 원문 "..."]`로 표시.
