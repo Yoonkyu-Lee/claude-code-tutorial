@@ -1,0 +1,11 @@
+{
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "youtube-transcript"
+  ],
+  "permissions": {
+    "allow": [
+      "mcp__youtube-transcript__get_available_languages"
+    ]
+  }
+}
