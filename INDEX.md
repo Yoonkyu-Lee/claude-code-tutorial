@@ -6,6 +6,210 @@
 
 ---
 
+## 2026-02-08 — [PPT를 딸깍 한 번에: Skills로 만드는 일관된 문서 결과물](2026-02-08-skills-one-click-ppt-generation.md)
+
+**한 줄 요약**: 같은 AI·같은 모델·같은 프롬프트라도 결과물 품질을 가르는 건 "Skill 세팅 여부"이며, 반복 업무(PPT·보고서·이메일 등)는 Markdown 파일 하나로 전문가 매뉴얼(Skill)을 만들어 두면 "딸깍 한 번"으로 일관된 결과를 얻는다.
+
+**태그**: #Skills #ClaudeCode #Anthropic #PPT #문서자동화 #프롬프트엔지니어링의종말 #비개발자 #반복업무자동화
+
+**도구·스킬**: Claude Code, Agent Skills (PPT/Word/Excel/PDF 내장 Skill), Markdown, Pinterest(레퍼런스 이미지)
+
+**영상 유형**: 혼합 (개념설명 중심 + 카탈로그)
+
+---
+
+## 2026-02-10 — [Vibe Coding Tool Combination — 14 Tips](2026-02-10-vibe-coding-tool-combination-14-tips.md)
+
+**한 줄 요약**: 바이브 코딩의 결과물 차이는 "어떤 프롬프트를 쓰느냐"보다 "각 AI 도구의 강점을 파악해 올바른 순서·조합으로 엮느냐"에서 갈리며, 화자는 직접 삽질로 체득한 14가지 실전 팁을 제시한다.
+
+**태그**: #바이브코딩 #ClaudeCode #Gemini #GoogleStitch #Whisper #shadcnUI #도구조합 #프롬프트경유
+
+**도구·스킬**: Claude / Claude Code, Gemini, Google Stitch, OpenAI Whisper, shadcn/ui, MUI, Vercel, Next.js
+
+**영상 유형**: 카탈로그
+
+---
+
+## 2026-02-12 — [Claude Skills for Non-Developers](2026-02-12-claude-skills-for-non-developers.md)
+
+**한 줄 요약**: Claude Skills는 반복되는 업무 지시(프롬프트 묶음)를 `SKILL.md`라는 매뉴얼 문서 하나로 저장해 두고 "그 스킬 써 줘"로 재사용하는 기능이며, 토큰 절약·결과물 일관성·전문 에이전트화라는 세 가지 이점이 있다 — 비개발자도 코드 없이 자연어로 만들 수 있다.
+
+**태그**: #ClaudeSkills #SkillMd #비개발자 #ProgressiveDisclosure #토큰절약 #SkillCreator #업무자동화 #메타스킬
+
+**도구·스킬**: Claude Skills, SKILL.md, Skill Creator(메타 스킬), 내장 docs/pptx/pdf 스킬
+
+**영상 유형**: 혼합 (개념설명 + 카탈로그)
+
+---
+
+## 2026-02-13 — [클로드 코드는 도구가 아니라 시스템 — 4가지 원칙 + 7가지 실전 팁](2026-02-13-claude-code-system-not-tool-four-principles.md)
+
+**한 줄 요약**: Claude Code는 단순 도구가 아니라 시스템으로 다뤄야 하며, 설정 파일에 구체적 규칙 쓰기·기억 대신 파일에 적게 하기·Hooks로 강제하기·프로젝트를 Claude가 이해하기 쉽게 설계하기라는 4가지 축으로 생산성이 100배까지 갈린다는 개념·실전 가이드.
+
+**태그**: #ClaudeCode #Hooks #CLAUDEmd #vibeReview #monorepo #프로젝트설계 #컨텍스트엔지니어링 #메모리
+
+**도구·스킬**: Claude Code, Hooks, CLAUDE.md, monorepo 구조, vibe review
+
+**영상 유형**: 혼합
+
+---
+
+## 2026-02-13 — [skills.sh — AI 에이전트용 스킬 마켓플레이스 입문](2026-02-13-skills-sh-agent-skill-marketplace.md)
+
+**한 줄 요약**: skills.sh는 AI 에이전트(Claude Code·Cursor 등 18종 이상)에 `SKILL.md` 형태의 절차적 지식을 패키지로 설치·공유하는 마켓플레이스로, `npx skills add` 한 줄이면 깔리며 — 다만 커뮤니티 저품질·악성 스킬을 거르기 위해 공식 벤더 우선·설치수 확인·코드 점검의 3원칙을 지켜야 한다.
+
+**태그**: #skillssh #Vercel #AgentSkills #ClaudeCode #Cursor #SKILLmd #스킬마켓플레이스 #공급망보안
+
+**도구·스킬**: skills.sh, npx skills, find-skills, Vercel React best practices, Remotion best practices, shadcn/ui, Claude Code, Cursor
+
+**영상 유형**: 혼합
+
+---
+
+## 2026-02-14 — [바이브 코딩 기술 스택 — Next.js + FastAPI 조합론](2026-02-14-vibe-coding-stack-nextjs-fastapi.md)
+
+**한 줄 요약**: 1년간 Spring Boot·Rails·Node.js 백엔드를 전부 갈아본 화자가 "바이브 코딩에 최적화된 스택은 프론트엔드 Next.js + 백엔드 FastAPI(Python), 그리고 타입을 빡세게 다는 것"이라고 결론 내린 이유와, 다른 후보들이 탈락한 근거를 정리한 영상.
+
+**태그**: #VibeCoding #Nextjs #FastAPI #Python #TypeScript #기술스택 #Pydantic #AICodingWorkflow
+
+**도구·스킬**: Next.js, FastAPI, Python, TypeScript, Pydantic, SQLModel, SQLAlchemy, LangChain/LangGraph, CrewAI, Vercel AI SDK
+
+**영상 유형**: 혼합
+
+---
+
+## 2026-02-15 — [Kakao GPT Pro: Codex for Beginners](2026-02-15-kakao-gpt-pro-codex-for-beginners.md)
+
+**한 줄 요약**: 카카오톡 프로모션으로 산 GPT Pro의 진짜 가치는 채팅이 아니라 실행형 AI인 Codex에 있으며, 코드를 몰라도 작은 작업·짧은 규칙·사람의 최종 확인 세 가지만 지키면 비개발자도 실무에 쓸 수 있다.
+
+**태그**: #Codex #ChatGPT #GPTPro #AgentsMd #비개발자 #카카오 #입문 #AI코딩
+
+**도구·스킬**: OpenAI Codex, ChatGPT Pro, AGENTS.md
+
+**영상 유형**: 혼합
+
+---
+
+## 2026-02-16 — [바이브 코딩 결과물이 3초 만에 들통나는 이유 — 디자인 규칙 여섯 가지](2026-02-16-six-rules-vibe-coding-design.md)
+
+**한 줄 요약**: 바이브 코딩 결과물이 "AI가 만든 티"가 나는 건 디자인 감각이 아니라 규칙 부재 탓이며, 컬러 팔레트(Coolors)·2색 제한·Stitch·MCP 회피·Skills·shadcn/ui 같은 지키기만 하면 되는 규칙 여섯 가지로 해결할 수 있다는 실전 가이드.
+
+**태그**: #바이브코딩 #디자인 #ClaudeCode #Skills #shadcn #Stitch #Coolors #UIUX
+
+**도구·스킬**: Coolors, Stitch, shadcn/ui, MUI, Claude Code Skills, MCP, Next.js, Tailwind CSS
+
+**영상 유형**: 튜토리얼
+
+---
+
+## 2026-02-16 — [OpenClaw로 24시간 개인 AI 비서 배포하기](2026-02-16-openclaw-personal-ai-assistant-deploy.md)
+
+**한 줄 요약**: 오픈소스 AI 비서 게이트웨이 **OpenClaw**를 Railway 클라우드에 배포해 텔레그램 등 메신저에서 24시간 돌아가는 개인 AI 비서를 만드는 방법과, 반드시 알아야 할 보안 주의 사항을 정리한 실습 가이드.
+
+**태그**: #OpenClaw #AI비서 #Railway #FireworksAI #배포 #AI보안 #프롬프트인젝션 #텔레그램봇
+
+**도구·스킬**: OpenClaw, Railway, Fireworks AI (GLM5), ChatGPT/GPT-5, ClawHub, 텔레그램
+
+**영상 유형**: 튜토리얼
+
+---
+
+## 2026-02-16 — [세 AI 모델 완벽 비교 — Gemini · Claude · GPT 언제 무엇을 쓸까](2026-02-16-three-ai-models-when-to-use-each.md)
+
+**한 줄 요약**: 2026년 시점에서 Gemini·Claude·GPT 세 모델은 각각 강점이 갈리므로, 하나만 쓰지 말고 작업 유형(이미지·영상·문서 분석 / 글쓰기·업무 자동화 / 범용 시작점)에 따라 골라 쓰고, 저가 모델(GPT-5 Nano·Haiku·Flash Lite)로 비용을 줄이는 것이 정답이라는 가이드.
+
+**태그**: #Gemini #Claude #GPT #모델비교 #Haiku #Sonnet #비용최적화 #orchestration
+
+**도구·스킬**: Gemini, Claude (Sonnet, Haiku), GPT (GPT-5 Nano), Gemini Flash 2.5 Lite, tool use/orchestration
+
+**영상 유형**: 개념설명
+
+---
+
+## 2026-02-17 — [질문이 아니라 컨텍스트를 설계하라 — Context Engineering 입문](2026-02-17-context-engineering-not-prompting.md)
+
+**한 줄 요약**: 프롬프트 엔지니어링(뭘 물어볼까)의 시대는 끝났고, AI에게 뭘 보여줄지를 설계하는 컨텍스트 엔지니어링(저장·골라주기·정리·나눠주기)이 핵심 기술이 됐다.
+
+**태그**: #ContextEngineering #PromptEngineering #Karpathy #Manus #Caching #Agent #LLM #ToDoList
+
+**도구·스킬**: Context engineering 4전략(저장/골라주기/정리/나눠주기), to-do list 패턴, prompt caching, Manus, Spotify 사례
+
+**영상 유형**: 개념설명
+
+---
+
+## 2026-02-17 — [프롬프트 엔지니어링은 죽었다 — 대신 스킬을 만들어라](2026-02-17-prompt-engineering-dead-build-skills-instead.md)
+
+**한 줄 요약**: 모델이 바뀔 때마다 최적 프롬프트가 달라지고 최신 추론 모델은 기존 프롬프트 기법(Chain-of-Thought 등)을 오히려 쓰지 말라고 하므로, 사람이 모델별 민감도를 추적·최적화하는 "프롬프트 엔지니어링"은 의미를 잃었고, 대신 재사용 가능한 스킬·컨텍스트·파이프라인 구조를 만드는 쪽으로 옮겨가야 한다는 주장.
+
+**태그**: #PromptEngineering #Skills #ChainOfThought #ReasoningModels #OpenAI #Anthropic #GPT5 #AIWorkflow
+
+**도구·스킬**: Skills(Agent Skills), GPT-4.1/GPT-5 프롬프팅 가이드, Chain-of-Thought, Claude
+
+**영상 유형**: 개념설명
+
+---
+
+## 2026-02-18 — [하니스 엔지니어링 — AI 잘 쓰는 사람은 조용히 설계한다](2026-02-18-harness-engineering-the-quiet-design.md)
+
+**한 줄 요약**: 프롬프트 → 컨텍스트 → 하니스로 이어지는 AI 활용 메타의 진화를 정리하고, "모델이 아니라 하니스가 병목"이라는 명제 아래 CLAUDE.md·MCP·Skill·Agent를 합친 전체 환경 설계가 26년의 핵심 경쟁력이라고 주장하는 개념 설명 영상.
+
+**태그**: #하니스엔지니어링 #컨텍스트엔지니어링 #프롬프트엔지니어링 #ClaudeMd #MCP #Skill #Agent #OpenAICodex
+
+**도구·스킬**: CLAUDE.md, MCP 서버, Skill 파일, Agent 설정, OpenAI Codex, Manus
+
+**영상 유형**: 개념설명
+
+---
+
+## 2026-02-19 — [AI Terms Glossary for Beginners](2026-02-19-ai-terms-glossary-for-beginners.md)
+
+**한 줄 요약**: AI 뉴스에 자주 등장하는 기본 용어(LLM·파라미터·프롬프트·할루시네이션 등)와 주요 챗봇(ChatGPT·Claude·Gemini·Perplexity·Grok), 그리고 클라우드/로컬·오픈소스·API·AI 에이전트 개념을 비전공자 눈높이 비유로 정리한 입문용 개념 설명 영상.
+
+**태그**: #AI입문 #LLM #프롬프트엔지니어링 #할루시네이션 #AI에이전트 #ChatGPT #오픈소스 #API
+
+**도구·스킬**: ChatGPT, Claude, Gemini, Perplexity, Grok, Llama, OpenClaw
+
+**영상 유형**: 개념설명
+
+---
+
+## 2026-02-20 — [파일은 메인 AI에 바로 넣지 말고 싼 모델로 먼저 요약시켜라](2026-02-20-summarize-files-before-main-llm.md)
+
+**한 줄 요약**: AI 에이전트의 파일 업로드 기능에서 사용자가 올린 파일을 비싼 메인 AI(GPT·Claude)에 통째로 던지면 비용이 늘고 성능(집중·정확도·hallucination 억제)도 같이 떨어진다는 문제를 짚고, 빠르고 저렴한 보조 모델(Gemini Flash-Lite 2.5)을 툴로 먼저 호출해 파일을 핵심만 요약시킨 뒤 그 요약만 메인 AI에 넘기라는 두 단계 분업 구조를 비유 중심으로 설명하는 개념 설명형 영상.
+
+**태그**: #AIAgent #파일업로드 #컨텍스트관리 #토큰비용 #GeminiFlashLite #모델분업 #RAG #Hallucination
+
+**도구·스킬**: Gemini Flash-Lite 2.5, GPT, Claude, 툴 호출(tool use), two-tier/summarize-then-reason 패턴
+
+**영상 유형**: 개념설명
+
+---
+
+## 2026-02-20 — [AI로 전자책(PDF) 만들기 4단계](2026-02-20-ebook-pdf-with-claude-code-skills.md)
+
+**한 줄 요약**: 웹 리서치 에이전트로 자료 조사 → 초안 검수 → Pinterest 레퍼런스 + PDF 스킬로 디자인 → 깨진 부분 정밀 수정, 이 4단계로 개발자가 아니어도 Claude Code만으로 고퀄리티 전자책(PDF)을 만든다.
+
+**태그**: #ClaudeCode #Skill #전자책 #PDF #에이전트 #워크플로 #컨텍스트관리 #비개발자
+
+**도구·스킬**: Claude Code, PDF 스킬, 웹 리서치 에이전트, Pinterest
+
+**영상 유형**: 튜토리얼
+
+---
+
+## 2026-02-20 — [RAG is dead 논쟁과 실용적 대안](2026-02-20-rag-is-dead-debate-practical-alternatives.md)
+
+**한 줄 요약**: 단순히 문서를 잘라 저장하는 RAG는 맥락이 끊겨 성능이 안 나오며, "RAG is dead"가 아니라 단순 RAG가 퇴물이 되는 것이다 — 통째로 넣기·하이브리드 서치+리랭킹·Anthropic Contextual Retrieval·요약본 검색/원문 전달 같은 더 정교한 방식이 실용적 해법이다.
+
+**태그**: #RAG #ContextualRetrieval #하이브리드서치 #GraphRAG #LongContext #LostInTheMiddle #ClaudeCode #Anthropic
+
+**도구·스킬**: RAG, Anthropic Contextual Retrieval, 하이브리드 서치(semantic + 키워드), 리랭킹, Graph RAG, long-context, Claude Code
+
+**영상 유형**: 개념설명
+
+---
+
 ## 2026-02-21 — [같은 스킬, 다른 결과 — AI 자동화 도구 3종 스킬 준수 실험](2026-02-21-three-ai-tools-skill-adherence-test.md)
 
 **한 줄 요약**: 세 AI 자동화 도구(Codex, Google Antigravity, Claude Code)에 완전히 동일한 스킬과 작업(PDF·PPT·YouTube 쇼폼 영상 제작)을 시킨 결과, 스킬 가이드라인 준수와 자체 검증 측면에서 Claude Code만 신뢰할 수준이었다는 직접 사용 후기.
