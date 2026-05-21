@@ -46,6 +46,8 @@ URL에서 **영상 ID**를 추출한다. (`v=` 파라미터 값, 또는 `youtu.b
 - 영상 길이 (length, 메타 섹션에 기록용)
 - 채널명 (메타 섹션에 기록용)
 
+**0순위 — 디스패처가 게시일을 줬으면 그대로 쓴다**: `/batch-notes` 메인이나 호출 측이 "게시일(확정): YYYY-MM-DD"를 함께 넘긴 경우, 아래 추출 단계를 **건너뛰고** 그 값을 사용한다. (이유는 1번 ⚠ 참조)
+
 호출 실패 또는 **게시일 필드 누락 시 다음 fallback을 순서대로 시도**한다:
 
 1. **yt-dlp** (1차 fallback, 가장 신뢰): Bash/PowerShell로 다음 명령 실행
@@ -55,11 +57,15 @@ URL에서 **영상 ID**를 추출한다. (`v=` 파라미터 값, 또는 `youtu.b
    출력 형식: `YYYYMMDD|제목|채널|초`. 게시일은 `YYYYMMDD` → `YYYY-MM-DD`로 변환.
    `yt-dlp` 미설치면 다음 단계로.
 
-2. **WebSearch** (2차 fallback): "<영상 제목> youtube"로 검색해 결과에서 추출.
+   > ⚠ **yt-dlp는 셸 도구(Bash/PowerShell)가 있어야 실행된다.** `study-note-worker` 서브에이전트에는 셸 도구가 없어 worker 단독으로는 이 단계를 **수행할 수 없다.** 따라서:
+   > - **일괄 실행**: `/batch-notes` 메인이 dispatch 전(Step 1.5)에 yt-dlp로 게시일을 미리 뽑아 worker에 "게시일(확정)"으로 넘긴다 → worker는 위 0순위로 받는다.
+   > - **단독 실행**: 셸을 가진 메인 에이전트가 직접 yt-dlp를 실행한다.
+
+2. **WebSearch** (2차 fallback): "<영상 제목> youtube"로 검색해 결과에서 추출. 단 **동명 영상을 우리 영상으로 오인하지 않도록** 영상 ID·채널을 교차 확인하고, 확신이 없으면 채택하지 않는다.
 
 3. **사용자 입력** (최종 fallback): 위 모든 단계가 실패하면 사용자에게 게시일과 짧은 영문 제목을 물어보고 멈춤.
 
-**`WebFetch`는 게시일 용도로 쓰지 않는다** — YouTube SPA 구조에서 신뢰할 수 없는 결과를 반환하기 때문 (`.claude/known-issues.md` 참조).
+**`WebFetch`·`r.jina.ai`는 게시일 용도로 쓰지 않는다** — YouTube SPA 구조에서 신뢰할 수 없거나 하루씩 어긋난 값을 반환하기 때문 (`.claude/known-issues.md` 참조).
 
 각 fallback이 동작한 경우 노트 메타 섹션에 출처를 짧게 명시한다 (예: `게시일 출처: yt-dlp`).
 

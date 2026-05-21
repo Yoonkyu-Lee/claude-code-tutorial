@@ -21,14 +21,27 @@ $ARGUMENTS
 
 예: "총 12개 URL을 찾았어요. 3개씩 배치로 처리할게요 (4 배치). 진행할까요?"
 
+### Step 1.5: 게시일 일괄 prefetch (dispatch 전 필수)
+
+`study-note-worker`에는 셸 도구가 없어 worker 단독으로는 `yt-dlp`를 실행하지 못한다 (스킬 Step 1의 ⚠ 참조). 그대로 두면 worker가 WebSearch/r.jina.ai로 흘러가 게시일이 하루씩 어긋나는 사고가 난다 (`.claude/known-issues.md` §1). 그래서 **메인이 dispatch 전에 게시일을 미리 뽑아 worker에 넘긴다.**
+
+승인된 URL 전체에 대해 한 번에 실행:
+
+```
+yt-dlp --skip-download --print "%(id)s|%(upload_date)s" <URL>   # URL마다, 또는 루프로 일괄
+```
+- Windows에서 PATH에 없으면 `$env:PATH = "$env:USERPROFILE\scoop\shims;$env:PATH"` 선행.
+- `YYYYMMDD` → `YYYY-MM-DD` 변환해 URL↔게시일 매핑 표를 만든다.
+- 어떤 URL의 게시일을 못 뽑으면 그 URL만 표시해두고, 해당 worker에는 게시일 없이 보내 스킬의 WebSearch→사용자입력 fallback을 타게 한다 (나머지는 정상 진행).
+
 ### Step 2: 사용자 승인 후 배치 실행
 
-승인되면 URL 리스트를 **3개씩 배치**로 묶어 처리한다.
+승인되면 URL 리스트를 배치(기본 3개, `--concurrency` 지정 시 그 수만큼, 최대 5)로 묶어 처리한다.
 
 각 배치 안에서:
-- 3개의 `study-note-worker` 서브에이전트를 **동시에** 호출 (Task tool 사용)
-- 각 worker에게 URL을 하나씩 전달
-- 3개가 모두 끝날 때까지 대기
+- 배치 크기만큼의 `study-note-worker` 서브에이전트를 **동시에** 호출 (Task tool 사용)
+- 각 worker에게 **URL + Step 1.5에서 뽑은 게시일(확정)**을 전달한다. worker에게 "이 게시일을 그대로 쓰고 yt-dlp/WebSearch/r.jina.ai를 게시일 용도로 호출하지 말라"고 지시한다.
+- 배치의 worker가 모두 끝날 때까지 대기
 
 배치가 끝나면 짧게 보고:
 
