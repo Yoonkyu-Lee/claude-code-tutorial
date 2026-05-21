@@ -6,6 +6,186 @@
 
 ---
 
+## 2026-02-21 — [같은 스킬, 다른 결과 — AI 자동화 도구 3종 스킬 준수 실험](2026-02-21-three-ai-tools-skill-adherence-test.md)
+
+**한 줄 요약**: 세 AI 자동화 도구(Codex, Google Antigravity, Claude Code)에 완전히 동일한 스킬과 작업(PDF·PPT·YouTube 쇼폼 영상 제작)을 시킨 결과, 스킬 가이드라인 준수와 자체 검증 측면에서 Claude Code만 신뢰할 수준이었다는 직접 사용 후기.
+
+**태그**: #ClaudeCode #Codex #Antigravity #Gemini #Skills #자동화 #도구비교 #SelfReview
+
+**도구·스킬**: Claude Code, Codex(OpenAI), Antigravity(Google), Gemini, Skills
+
+**영상 유형**: 혼합
+
+---
+
+## 2026-02-21 — [개발자가 AI 길들이는 데 6개월 걸린 이유 (시행착오 전부 공개)](2026-02-21-six-month-ai-harness-reddit-system.md)
+
+**한 줄 요약**: 한 레딧 개발자가 6개월간 Claude Code로 대형 프로젝트를 혼자 재작성하며 구축한 "AI 하니스 시스템" 4가지(자동 매뉴얼·작업 기억·자동 품질 검사·전문 에이전트)를 비유 중심으로 정리한 영상.
+
+**태그**: #ClaudeCode #Harness #Hooks #Skills #Subagents #ContextManagement #AICodingWorkflow #PlanFirst
+
+**도구·스킬**: Claude Code, Skills, Hooks (PreToolUse/PostToolUse/SessionStart), Subagents
+
+**영상 유형**: 개념설명
+
+---
+
+## 2026-02-21 — [Ralph Wiggum Loop — 자는 동안 AI가 혼자 일하는 자동화](2026-02-21-ralph-wiggum-loop-overnight-autonomous-coding.md)
+
+**한 줄 요약**: AI에게 지시서를 적어두고 "할 수 있는 만큼 하고 다음 할 일을 찾아 반복하라"고 시켜 자는 동안 자동으로 코딩을 돌리는 Ralph Wiggum loop를 비코더 청중에게 설명하고, 이 기법의 핵심이 "매번 컨텍스트를 비우고 새로 시작하는 것"인데 Anthropic의 공식 버전이 그 핵심을 놓쳤다고 지적하는 5분짜리 개념 설명 영상.
+
+**태그**: #RalphWiggumLoop #자율코딩 #컨텍스트관리 #ClaudeCode #Anthropic #bash루프 #자동화 #비코더친화
+
+**도구·스킬**: Ralph Wiggum loop, Claude Code, bash loop, PROMPT.md, IMPLEMENTATION_PLAN.md, GitHub 퀵스타트 가이드
+
+**영상 유형**: 개념설명 (사례·비판 섞인 혼합)
+
+---
+
+## 2026-02-21 — [Single vs Multi-Agent — 구조보다 맥락이 성능을 결정한다](2026-02-21-single-vs-multi-agent-context-management.md)
+
+**한 줄 요약**: Devin(Cognition)과 Anthropic이 "AI 팀(멀티 에이전트)을 만들어야 하나"를 두고 정반대 주장을 펼쳤지만, 두 회사 모두 결국 "AI에게 어떤 맥락(context)을 어떻게 주느냐가 성능의 핵심"이라는 같은 결론에 도달했고, 일의 성격(병렬 가능 vs 순차 누적)에 따라 single/multi를 선택해야 한다.
+
+**태그**: #멀티에이전트 #싱글에이전트 #ContextEngineering #AIAgent #Anthropic #Cognition #ClaudeCode #오케스트레이션
+
+**도구·스킬**: AI 에이전트(single/multi), orchestrator-worker 패턴, sub-agent 컨텍스트 압축, Claude Code
+
+**영상 유형**: 개념설명
+
+---
+
+## 2026-02-21 — [Claude Code `/insights` — AI 사용 습관을 코칭하는 명령어](2026-02-21-insights-command-usage-coaching.md)
+
+**한 줄 요약**: Claude Code의 `/insights` 명령어는 지난 한 달간의 대화 기록을 분석해 사용 습관·마찰 지점·만족도를 리포트로 만들고, 바로 붙여 넣을 수 있는 맞춤 설정 규칙까지 제안하는 자기 성찰형 코칭 기능이다.
+
+**태그**: #ClaudeCode #insights #슬래시명령어 #마찰분석 #사용습관 #CLAUDEmd #할루시네이션 #Haiku
+
+**도구·스킬**: Claude Code, `/insights`, CLAUDE.md 규칙 자동 제안, Haiku(분석 모델)
+
+**영상 유형**: 혼합
+
+---
+
+## 2026-02-22 — [Vibe Coding의 세 가지 보안 사각지대 (결제·로그인·데이터)](2026-02-22-vibe-coding-three-security-blind-spots.md)
+
+**한 줄 요약**: AI 바이브 코딩이 "돌아가는 앱"은 쉽게 만들지만 "안전하게 돌아가는 앱"은 못 만든다 — 결제·로그인·데이터 관리 세 영역에서 습관적으로 보안 구멍을 내며, 이 세 곳만큼은 AI를 맹신하지 말고 사람이 직접 검증해야 한다.
+
+**태그**: #VibeCoding #보안 #결제보안 #인증 #IDOR #CSRF #데이터베이스 #Replit
+
+**도구·스킬**: Replit, JWT, webhook 검증, DB connection pool, AI 자가 코드리뷰, Claude 스킬
+
+**영상 유형**: 혼합
+
+---
+
+## 2026-02-22 — [DDD 구조가 AI 코딩 성패를 가르는 이유](2026-02-22-ddd-structure-for-ai-coding.md)
+
+**한 줄 요약**: 같은 AI를 써도 코드를 담는 구조가 DDD(도메인 주도 설계)냐 아니냐에 따라 AI 코딩의 성패가 갈리며, 비즈니스 언어와 코드 이름을 일치시키고 도메인 단위로 경계를 나누면 AI가 패턴을 복제하고 필요한 맥락만 집중해서 환각이 줄어든다.
+
+**태그**: #DDD #도메인주도설계 #바이브코딩 #AI코딩 #코드구조 #ClaudeCode #Hooks #환각방지
+
+**도구·스킬**: Domain-Driven Design, Claude Code Hooks, Skills, 도메인 트리거
+
+**영상 유형**: 개념설명
+
+---
+
+## 2026-02-23 — [Engineer Quits After Claude Code Automated His Job](2026-02-23-engineer-quits-after-claude-code-automated-job.md)
+
+**한 줄 요약**: 소프트웨어 엔지니어였던 화자가 Claude Code로 자기 업무 대부분을 자동화하다가 "내가 필요 없어지겠다"는 공포를 느끼고 퇴사·창업한 경험담. 살아남은 방식의 핵심은 컨텍스트 관리·테스트 우선·SDD(스펙 우선) 세 가지.
+
+**태그**: #ClaudeCode #ContextManagement #Skills #SDD #Refactoring #Monorepo #AI대체 #개발자커리어
+
+**도구·스킬**: Claude Code, Skills(스킬 파일), 컨텍스트 관리(파일 주입), 테스트 코드, SDD, 모노레포
+
+**영상 유형**: 혼합 (개념설명 + 경험담)
+
+---
+
+## 2026-02-23 — [AI를 쓸수록 일이 늘어나는 진짜 이유 (Dumb Zone과 RPI)](2026-02-23-why-ai-increases-your-workload.md)
+
+**한 줄 요약**: AI를 쓸수록 오히려 일이 늘어나는 이유는 기억 공간(context window)이 차면서 "Dumb Zone"에서 작업하기 때문이며, 해결책은 기억을 주기적으로 비우고 RPI(조사·계획·실행) 순서를 지키되 "생각"만큼은 사람이 직접 하는 것이다.
+
+**태그**: #ContextWindow #DumbZone #RPI #ContextManagement #생산성 #팀워크플로 #프롬프팅 #AI협업
+
+**도구·스킬**: RPI 워크플로(조사·계획·실행), 컨텍스트 요약 후 새 대화 시작, 계획 문서 공유(팀 정렬)
+
+**영상 유형**: 개념설명
+
+---
+
+## 2026-02-23 — [Spec Driven Development — 바이브 코딩의 다음 단계](2026-02-23-spec-driven-development-vibe-coding-future.md)
+
+**한 줄 요약**: AI에게 일을 시키기 전에 "주문서(스펙)"를 먼저 완벽하게 작성하는 Spec Driven Development(SDD) 개념을 설명하고, 기존 SDD 도구(Kiro·Spec Kit·BMAD)의 아쉬운 점을 짚은 뒤 도구에 묶이지 않는 하니스 기반 워크플로우를 대안으로 제시한다.
+
+**태그**: #SpecDrivenDevelopment #SDD #VibeCoding #Harness #Kiro #SpecKit #BMAD #AI워크플로우
+
+**도구·스킬**: Kiro (Amazon), GitHub Spec Kit, BMAD-METHOD, 하니스 기반 워크플로우, ChatGPT, Claude
+
+**영상 유형**: 개념설명 (일부 카탈로그 혼합)
+
+---
+
+## 2026-02-26 — [Boris: 클로드 코드를 직접 만든 사람의 사용법](2026-02-26-boris-how-the-creator-uses-claude-code.md)
+
+**한 줄 요약**: Anthropic의 Claude Code 총책임자 Boris(Boris Cherny)가 공개한 실사용법 5가지(자기 검증·계획 우선·병렬 실행·전용 메모장·단축 명령어)와, 화자가 직접 쓰며 추가로 발견한 팁 5가지를 정리한 영상.
+
+**태그**: #ClaudeCode #BorisCherny #Anthropic #PlanMode #병렬실행 #자기검증 #CLAUDEmd #SDD
+
+**도구·스킬**: Claude Code, Plan 모드, hook(완료 알림), slash command(단축 명령어), Skill, CLAUDE.md, Spec-Driven Development(SDD)
+
+**영상 유형**: 혼합
+
+---
+
+## 2026-03-02 — [AI Product Chat UI Trap](2026-03-02-ai-product-chat-ui-trap.md)
+
+**한 줄 요약**: AI 서비스를 만들 때 거의 반사적으로 채팅 UI(ChatGPT 형태)부터 붙이는 관행이, 실제 제품 단계에서는 (1) 스트리밍 중 사용자 조작에 의한 UI 불안정, (2) ChatGPT와 차별점이 가려짐, (3) 온보딩이 구조적으로 어려움이라는 세 가지 함정으로 이어지므로, 채팅을 아예 빼거나 보조 기능으로만 두고 버튼·폼·선택지 같은 전통적 UI로 핵심 경험을 설계하라는 의견 중심 영상.
+
+**태그**: #AI제품 #채팅UI #UIUX #온보딩 #ChatGPT #제품설계 #차별화 #비코더친화
+
+**도구·스킬**: 채팅 UI 설계 패턴, 버튼/폼/선택지 기반 UI, 채팅 보조 기능화, 온보딩 설계
+
+**영상 유형**: 개념설명
+
+---
+
+## 2026-03-04 — [When Auto-Generated AGENTS.md Hurts AI Performance](2026-03-04-agents-md-auto-generated-hurts-performance.md)
+
+**한 줄 요약**: AI가 자동 생성한 `AGENTS.md`/`CLAUDE.md`는 사람이 쓴 것보다 작업 성공률이 떨어지고 비용은 20% 이상 늘었다는 ETH 취리히 연구를 근거로, "AI가 코드만 봐도 알 수 있는 것은 빼고 절대 모를 것만 핀포인트로 줘라"는 컨텍스트 작성 원칙을 일반 AI 사용까지 확장해 설명한 영상.
+
+**태그**: #ClaudeCode #AgentsMd #ContextEngineering #ETHZurich #프롬프트엔지니어링 #토큰비용 #코딩에이전트 #메이커에반
+
+**도구·스킬**: AGENTS.md, CLAUDE.md, Claude Code, Cursor, GitHub Copilot, /init
+
+**영상 유형**: 개념설명
+
+---
+
+## 2026-03-04 — [AI 협업 핵심 스킬 9가지 — AI를 팀원처럼 관리하는 능력](2026-03-04-nine-ai-collaboration-skills.md)
+
+**한 줄 요약**: AI 시대에 필요한 9가지 스킬은 사실 좋은 팀장·관리자에게 늘 요구되던 능력(명확한 지시, 정보 제공, 기준 설정, 점검, 피드백)과 거의 같으며, 이를 AI에 적용할 때 레버리지가 극대화된다.
+
+**태그**: #AI협업 #에이전틱AI #프롬프트설계 #컨텍스트설계 #병렬작업 #큐레이션 #자동화 #생산성
+
+**도구·스킬**: 작업 분해, 실패 진단·복구, 완료 기준 정의, 컨텍스트/기억 파일, 중간 점검, 병렬 세션 관리, 큐레이션, 반복 지시 자동화
+
+**영상 유형**: 개념설명
+
+---
+
+## 2026-03-04 — [Non-Coder Automates Ecommerce Reviews](2026-03-04-non-coder-automates-ecommerce-reviews.md)
+
+**한 줄 요약**: 코딩 경험이 전무한 패션 커머스 사업가가 Claude Code를 4시간 배운 뒤, 에이블리·지그재그 후기를 카페24에 연동하고 다국어 번역까지 자동화한 실제 사례를, "비개발자야말로 AI 코딩 도구의 진짜 수혜자"라는 주장과 함께 소개하는 사례형 영상.
+
+**태그**: #ClaudeCode #비개발자 #업무자동화 #이커머스 #Skill #API연동 #다국어번역 #AI네이티브
+
+**도구·스킬**: Claude Code, Skill, Python, 카페24 API, 에이블리, 지그재그, Shopify, Qoo10
+
+**영상 유형**: 혼합
+
+---
+
 ## 2026-03-04 — [Claude Code Harness Explained](2026-03-04-claude-code-harness-explained.md)
 
 **한 줄 요약**: Claude Code 하니스를 "신입 직원에게 회사 방식 알려주기"에 비유하면서, 하니스의 세 구성 요소(스킬·에이전트·커맨드)와 자신이 배포한 스킬 6종·에이전트 3종 카탈로그를 비코더 청중을 대상으로 소개하는 5분짜리 개념 설명 영상.
@@ -15,6 +195,66 @@
 **도구·스킬**: Claude Code, FastAPI 백엔드 가이드라인, Next.js 프론트엔드 가이드라인, Mermaid, PDF, PPTX, React Best Practice, Planner, Plan Reviewer, Web Research Specialist
 
 **영상 유형**: 개념설명 + 카탈로그 (혼합)
+
+---
+
+## 2026-03-05 — [Claude for Non-Developers — Skills, Cowork, 모델 선택](2026-03-05-claude-for-non-developers-skills-cowork.md)
+
+**한 줄 요약**: 코딩을 전혀 몰라도 비개발자가 글쓰기·기획·업무 자동화에 Claude를 바로 쓰는 법 — Opus/Sonnet/Haiku 모델 선택, Skill로 전문 지식 주입, Cowork·Projects 작업 공간, Claude Code 맛보기까지 실연으로 보여주는 입문 가이드.
+
+**태그**: #Claude #ClaudeSkills #Cowork #Projects #ClaudeCode #비개발자 #모델선택 #업무자동화
+
+**도구·스킬**: Claude (Opus/Sonnet/Haiku), Claude Skills, Claude Cowork, Claude Projects, Claude Code
+
+**영상 유형**: 혼합
+
+---
+
+## 2026-03-05 — [AI 실력은 복리다 — 고용 충격과 살아남는 10%](2026-03-05-ai-skill-compounding-employment-shock.md)
+
+**한 줄 요약**: AI 실력은 사용 빈도·다양성·기간이 복리로 쌓이는 능력이며, 다가올 사무직 고용 충격에서 살아남는 길은 지금부터 매일 AI를 써서 "AI를 잘 쓰는 10%"에 드는 것이라는 주장.
+
+**태그**: #AI실력 #복리 #고용충격 #사무직 #ClaudeCode #AI도입 #직업전략 #메이커에반
+
+**도구·스킬**: Claude, Claude Code, ChatGPT, Claude 200불 플랜
+
+**영상 유형**: 개념설명
+
+---
+
+## 2026-03-06 — [AI 도입이 바텀업으로 실패하는 이유 — 리더가 먼저 4시간 써봐야 한다](2026-03-06-ai-adoption-fails-bottom-up-leader-first.md)
+
+**한 줄 요약**: AI 도입이 실패하는 건 직원이 게을러서가 아니라 구조가 안 바뀌기 때문이며(바텀업의 함정 — 평가·보상·업무문화가 그대로면 AI 잘 쓰는 사람만 일이 더 늘어남), 성공한 케이스는 모두 리더가 직접 극한까지 써본 뒤 탑다운으로 적용해 리더의 경험이 팀의 방향·언어·위기감이 된 경우라는 사례 기반 의견 + 실행 가이드 영상.
+
+**태그**: #AI도입 #AI전환 #탑다운 #바텀업 #조직변화 #리더십 #중간관리자 #보상체계
+
+**도구·스킬**: Claude Code, 스펙 기반 개발 방법론, 4시간 리더 세션, 파일럿 도입, 주간 보고 구조화
+
+**영상 유형**: 혼합형 (의견 제시 + 사례 소개 + 실행 가이드)
+
+---
+
+## 2026-03-06 — [One Postgres Replaces Redis & Elasticsearch](2026-03-06-one-postgres-replaces-redis-elasticsearch.md)
+
+**한 줄 요약**: 검색·캐시·벡터를 위해 Elasticsearch·Redis·Pinecone을 따로 두는 다중 DB 아키텍처는 비용·인력·동기화 지옥을 부른다. 일정 규모 전까지는 PostgreSQL 하나(+확장)로 통합하는 게 강하며, AI 에이전트 시대에는 이 단순함이 곧 개발 속도다.
+
+**태그**: #PostgreSQL #DatabaseArchitecture #pgvector #Elasticsearch #Redis #Pinecone #AI에이전트 #마이그레이션
+
+**도구·스킬**: PostgreSQL, pgvector, pgvectorscale, pg_search, PGMQ, EXPLAIN ANALYZE, pg_stat_statements
+
+**영상 유형**: 개념설명
+
+---
+
+## 2026-03-06 — [Go 언어 선택이 바이브 코딩 성공률을 가른다](2026-03-06-go-language-choice-vibe-coding.md)
+
+**한 줄 요약**: 바이브 코딩에서 AI에게 어떤 언어로 코드를 짜게 하느냐가 첫 시도 성공률에 영향을 주며, Go는 단순한 설계·실행 전 오류 검사·내장 동시성 덕분에 백엔드·AI 에이전트 영역에서 "한 번에 돌아가는 코드"를 뽑아낼 가능성이 상대적으로 높다.
+
+**태그**: #Go #VibeCoding #언어선택 #Python #TypeScript #AI에이전트 #백엔드 #gofmt
+
+**도구·스킬**: Go, gofmt, Ollama, Milvus, 구글 ADK(추정), Python, TypeScript
+
+**영상 유형**: 개념설명
 
 ---
 
