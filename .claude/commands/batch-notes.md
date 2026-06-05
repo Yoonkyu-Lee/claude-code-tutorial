@@ -21,18 +21,21 @@ $ARGUMENTS
 
 예: "총 12개 URL을 찾았어요. 3개씩 배치로 처리할게요 (4 배치). 진행할까요?"
 
-### Step 1.5: 게시일 일괄 prefetch (dispatch 전 필수)
+### Step 1.5: 게시일 + 채널 일괄 prefetch (dispatch 전 필수)
 
-`study-note-worker`에는 셸 도구가 없어 worker 단독으로는 `yt-dlp`를 실행하지 못한다 (스킬 Step 1의 ⚠ 참조). 그대로 두면 worker가 WebSearch/r.jina.ai로 흘러가 게시일이 하루씩 어긋나는 사고가 난다 (`.claude/known-issues.md` §1). 그래서 **메인이 dispatch 전에 게시일을 미리 뽑아 worker에 넘긴다.**
+`study-note-worker`에는 셸 도구가 없어 worker 단독으로는 `yt-dlp`를 실행하지 못한다 (스킬 Step 1의 ⚠ 참조). 그대로 두면 worker가 WebSearch/r.jina.ai로 흘러가 게시일이 하루씩 어긋나는 사고가 난다 (`.claude/known-issues.md` §1). 그래서 **메인이 dispatch 전에 게시일과 채널 핸들을 미리 뽑아 worker에 넘긴다.**
 
 승인된 URL 전체에 대해 한 번에 실행:
 
 ```
-yt-dlp --skip-download --print "%(id)s|%(upload_date)s" <URL>   # URL마다, 또는 루프로 일괄
+yt-dlp --skip-download --print "%(id)s|%(upload_date)s|%(uploader_id)s" <URL>   # URL마다, 또는 루프로 일괄
 ```
 - Windows에서 PATH에 없으면 `$env:PATH = "$env:USERPROFILE\scoop\shims;$env:PATH"` 선행.
-- `YYYYMMDD` → `YYYY-MM-DD` 변환해 URL↔게시일 매핑 표를 만든다.
+- `YYYYMMDD` → `YYYY-MM-DD` 변환. `uploader_id`는 `@핸들` 형태일 때 `@` 제거 후 핸들 슬러그로 사용.
+- URL ↔ {게시일, 채널 슬러그} 매핑 표를 만든다.
+- **새 채널 발견 시 사용자 확인**: 입력 URL 중 `notes/<핸들>/` 폴더가 아직 없는 채널이 있으면, 진행 전에 그 채널 목록을 사용자에게 한 번 보여주고 "이 채널들도 진행할까요? (`notes/<핸들>/` 폴더를 새로 만듭니다)" 확인을 받는다.
 - 어떤 URL의 게시일을 못 뽑으면 그 URL만 표시해두고, 해당 worker에는 게시일 없이 보내 스킬의 WebSearch→사용자입력 fallback을 타게 한다 (나머지는 정상 진행).
+- 채널 슬러그를 못 뽑으면 그 URL은 dispatch에서 보류하고 사용자에게 핸들을 묻는다 (저장 경로를 결정 못 함).
 
 ### Step 2: 사용자 승인 후 배치 실행
 
@@ -40,7 +43,8 @@ yt-dlp --skip-download --print "%(id)s|%(upload_date)s" <URL>   # URL마다, 또
 
 각 배치 안에서:
 - 배치 크기만큼의 `study-note-worker` 서브에이전트를 **동시에** 호출 (Task tool 사용)
-- 각 worker에게 **URL + Step 1.5에서 뽑은 게시일(확정)**을 전달한다. worker에게 "이 게시일을 그대로 쓰고 yt-dlp/WebSearch/r.jina.ai를 게시일 용도로 호출하지 말라"고 지시한다.
+- 각 worker에게 **URL + 게시일(확정) + 채널 슬러그 + 권장 파일명**을 전달한다. worker에게 "게시일·채널을 그대로 쓰고 yt-dlp/WebSearch/r.jina.ai를 게시일 용도로 호출하지 말라"고 지시한다.
+- 저장 경로는 `notes/<채널>/<파일명>`. worker는 그 폴더에만 쓴다.
 - 배치의 worker가 모두 끝날 때까지 대기
 
 배치가 끝나면 짧게 보고:
@@ -87,21 +91,25 @@ yt-dlp --skip-download --print "%(id)s|%(upload_date)s" <URL>   # URL마다, 또
 - 사용자가 재처리를 원하면, 해당 URL만 모아 worker를 다시 호출하되 **기존 파일 덮어쓰기 전 개별 확인**한다.
 - 원하지 않으면 그대로 종료. 기존 노트는 유지된다.
 
-### Step 4: INDEX.md 일괄 갱신
+### Step 4: 채널별 INDEX.md 일괄 갱신
 
-worker들이 `INDEX.md`를 직접 편집하지 않는 이유는 병렬 race condition 때문이다 (스킬 Step 9 참조). 메인이 받은 보고를 모아 한 번에 처리한다.
+worker들이 `INDEX.md`를 직접 편집하지 않는 이유는 병렬 race condition 때문이다 (스킬 Step 9 참조). 메인이 받은 보고를 모아 채널별로 한 번에 처리한다.
 
 순서:
 
-1. **메타 수집**: 각 worker 종료 보고에서 `INDEX_BLOCK_BEGIN` ~ `INDEX_BLOCK_END` 사이 블록을 추출. 성공한 노트만 대상. 실패·중복 건너뜀은 색인에 추가하지 않는다.
+1. **메타 수집·라우팅**: 각 worker 종료 보고에서 `INDEX_BLOCK_BEGIN` ~ `INDEX_BLOCK_END` 사이 블록을 추출. 첫 줄의 `채널: <handle>`로 라우팅 키 결정. 성공한 노트만 대상. 실패·중복 건너뜀은 색인에 추가하지 않는다. 라우팅 후 `채널:` 줄은 INDEX 본문에 옮기지 않는다.
 
-2. **중복 점검**: 추출한 블록의 파일명(또는 본문 안의 영상 ID)이 기존 `INDEX.md`에 이미 있으면, 그 항목을 새 블록으로 교체한다. 같은 영상 ID로 새 노트를 만들어 덮어쓴 경우(사용자 명시 요청)에 발생.
+2. **중복 점검**: 채널별로, 추출한 블록의 파일명(또는 본문 안의 영상 ID)이 해당 채널 `notes/<handle>/INDEX.md`에 이미 있으면 그 항목을 새 블록으로 교체한다. 같은 영상 ID로 새 노트를 만들어 덮어쓴 경우에 발생.
 
-3. **삽입 위치**: 각 블록은 `## YYYY-MM-DD —`로 시작한다. 게시일 오름차순(오래된 것이 위)을 유지하도록 적절한 위치에 끼워 넣는다.
+3. **삽입 위치**: 각 블록은 `## YYYY-MM-DD —`로 시작한다. 게시일 오름차순(오래된 것이 위)을 유지하도록 그 채널 INDEX의 적절한 위치에 끼워 넣는다.
 
-4. **검증**: 갱신 후 `INDEX.md`에 추가된 블록 수 = 성공한 노트 수인지 확인한다. 불일치면 보고.
+4. **새 채널 처리**: 그 채널의 `INDEX.md`가 아직 없으면 새로 만든다(헤더 한 줄 + 블록). 루트 `INDEX.md` 채널 카탈로그 표에도 새 행을 추가한다 (채널 핸들 / 채널명 / 노트 수 / 기간 / 색인 링크).
 
-5. **요약 보고**: 종합 보고 끝에 "INDEX.md 갱신: N개 항목 추가 / M개 항목 갱신" 한 줄로 보고.
+5. **카탈로그 카운터 갱신(선택)**: 이미 있는 채널이라도 노트 수와 기간이 바뀐다. 루트 `INDEX.md` 표의 해당 행 카운트·기간을 갱신한다.
+
+6. **검증**: 갱신 후 모든 채널 INDEX에 추가된 블록 수 합 = 성공한 노트 수인지 확인. 불일치면 보고.
+
+7. **요약 보고**: 종합 보고 끝에 "INDEX 갱신: <handle> +N (...) · 루트 카탈로그 갱신" 한 줄로 보고.
 
 ## Negative Space
 

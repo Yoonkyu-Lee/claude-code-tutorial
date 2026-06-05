@@ -20,15 +20,27 @@ CLAUDE.md의 작업 우선순위·노트 작성 규칙·negative space를 따른
 ## 입력
 - YouTube URL (필수)
 - 사용자가 게시일을 직접 알려주면 그걸 우선 사용 (필수 fallback 줄임)
+- 채널 핸들이 호출 측에서 같이 오면 사용. 없으면 Step 0에서 추출한다.
 
 ## 워크플로
+
+### Step 0: 채널 폴더 결정
+URL의 채널을 식별해 저장 폴더 `notes/<youtube-handle>/`를 정한다.
+
+- 호출 측이 `채널: <handle>` 또는 `채널 폴더: notes/<handle>/`를 같이 줬으면 그대로 사용.
+- 안 줬으면 다음 순으로 추출:
+  1. **yt-dlp** (셸 있는 환경): `yt-dlp --skip-download --print "%(uploader_id)s|%(channel)s" <URL>`. `@handle` 형태로 나오면 `@` 제거.
+  2. **get_video_info** MCP 응답의 채널/업로더 필드에서 `@핸들`이 보이면 사용.
+  3. 위 둘 다 실패하면 사용자에게 핸들을 묻고 멈춤.
+- 결정된 폴더가 없으면 만든다. 단 **이 저장소 루트의 새 폴더 생성 = 새 채널 진입**이므로 단독 실행 시엔 사용자에게 한 번 확인. 일괄 실행 시엔 호출 측이 이미 결정한 폴더를 받는다.
+- 결정된 폴더 경로를 이후 단계가 사용한다. 변수명: `<NOTES_DIR>` = `notes/<handle>/`.
 
 ### Step 0.5: 중복 검사 (자막 가져오기 전에 먼저)
 URL에서 **영상 ID**를 추출한다. (`v=` 파라미터 값, 또는 `youtu.be/` 뒤의 11자)
 영상 ID는 의역 파일명과 달리 불변이므로 중복 감지의 신뢰할 수 있는 키다.
 
-프로젝트 폴더의 모든 `.md`를 훑어 `영상 ID: ` + 추출한 ID가 들어있는 줄이 있는지 검사한다
-(Glob으로 `*.md` 수집 → Grep 또는 Read).
+`notes/**/*.md` 전체를 훑어 `영상 ID: ` + 추출한 ID가 들어있는 줄이 있는지 검사한다
+(Glob으로 `notes/**/*.md` 수집 → Grep 또는 Read). 채널이 달라도 같은 영상 ID면 중복으로 본다.
 
 이미 같은 ID의 노트가 존재하면:
 - **단독 실행**(/study-note 또는 직접 호출): 사용자에게 "이미 `<파일명>`으로 정리됨. 다시 만들까요?"라고 묻고, 답을 받기 전엔 진행하지 않는다.
@@ -70,7 +82,7 @@ URL에서 **영상 ID**를 추출한다. (`v=` 파라미터 값, 또는 `youtu.b
 각 fallback이 동작한 경우 노트 메타 섹션에 출처를 짧게 명시한다 (예: `게시일 출처: yt-dlp`).
 
 ### Step 2: 파일명 생성
-형식: `YYYY-MM-DD-kebab-case-english-title.md`
+형식: `<NOTES_DIR>/YYYY-MM-DD-kebab-case-english-title.md` (Step 0에서 결정한 채널 폴더 안)
 
 - 영문 제목은 3~6단어, 모두 소문자, 띄어쓰기는 `-`로
 - 한국어 영상이면 핵심 의미를 영문으로 옮긴다 (음역 X, 의역 O)
@@ -82,7 +94,9 @@ URL에서 **영상 ID**를 추출한다. (`v=` 파라미터 값, 또는 `youtu.b
 1차 시도: `get_timed_transcript` (타임스탬프 포함)
 실패 시 fallback: `get_transcript` (타임스탬프 없음, 노트 메타 섹션에 "타임스탬프 미제공" 명시)
 
-`get_available_languages`는 호출하지 않는다 — 한국어 자동 자막이 없는 영상이 나오면 그때 fallback으로 사용 검토. (대부분의 메이커 에반 영상은 한국어 자동 자막 존재)
+`get_available_languages`는 호출하지 않는다 — 자동 자막이 한국어/영어 모두 없으면 그때 fallback으로 사용 검토.
+
+영어 영상은 자막 정정 단계(Step 4)의 한국어 음차 사전이 안 맞을 수 있다. 해당 채널 폴더에 `caption-corrections.md`가 있으면 그걸 우선 사용. 없으면 채널 무관한 기본 사전(`.claude/skills/harness-study-note/references/caption-corrections.md`)을 폴백으로 사용.
 
 ### Step 4: 자막 품질 정정
 자동 자막의 흔한 오인식을 **컨텍스트로 복원**한다.
@@ -143,7 +157,7 @@ CLAUDE.md 3번 규칙 엄수:
 - 보강은 "## 외부 보강" 섹션 안에 모아두고 영상 내용과 섞지 않는다
 
 ### Step 8: 저장 + 보고
-파일을 프로젝트 루트(CLAUDE.md와 같은 위치)에 UTF-8로 저장.
+파일을 Step 0에서 결정한 채널 폴더(`<NOTES_DIR>`)에 UTF-8로 저장.
 
 사용자에게 보고:
 - 저장 경로
@@ -161,9 +175,9 @@ CLAUDE.md 3번 규칙 엄수:
 
 이 단계는 첫 패스에서 빠진 메시지를 잡기 위한 안전망.
 
-### Step 9: INDEX.md 색인 항목 산출
+### Step 9: 채널 INDEX.md 색인 항목 산출
 
-프로젝트 루트의 `INDEX.md`는 모든 study-note의 색인이다. 한 노트가 새로 생기면 색인에도 항목 하나가 들어가야 한다.
+채널 폴더의 `<NOTES_DIR>/INDEX.md`는 그 채널 study-note의 색인이다. 한 노트가 새로 생기면 채널 색인에 항목 하나가 들어가야 한다. (루트 `INDEX.md`는 채널 카탈로그라서 노트 단위로 갱신하지 않는다 — 새 채널 진입 시 또는 노트 수 표기 갱신 시에만 손댄다.)
 
 **색인 메타 5종**을 산출한다 (이 단계가 끝나야 노트가 진짜로 완료된 것이다):
 
@@ -175,15 +189,16 @@ CLAUDE.md 3번 규칙 엄수:
 
 #### 단독 실행과 일괄 실행의 분기
 
-- **단독 실행**(사용자가 직접 호출 또는 `/study-note`): worker가 직접 `INDEX.md`를 편집해 항목을 게시일 순서에 끼워 넣는다. 같은 영상 ID의 기존 항목이 있으면 새 항목으로 덮어쓴다.
-- **일괄 실행**(`study-note-worker`로 dispatch됨): worker는 `INDEX.md`를 **직접 편집하지 않는다** (병렬 worker 사이 race condition 위험). 대신 Step 9의 5종 메타를 종료 보고에 그대로 실어 메인에게 넘긴다. INDEX 갱신은 `/batch-notes` 메인이 일괄로 처리한다.
+- **단독 실행**(사용자가 직접 호출 또는 `/study-note`): worker가 직접 `<NOTES_DIR>/INDEX.md`를 편집해 항목을 게시일 순서에 끼워 넣는다. 같은 영상 ID의 기존 항목이 있으면 새 항목으로 덮어쓴다. 그 채널의 첫 노트라 INDEX가 없으면 새로 만든다 + 루트 `INDEX.md`의 채널 카탈로그에 한 행 추가도 함께 제안.
+- **일괄 실행**(`study-note-worker`로 dispatch됨): worker는 `INDEX.md`를 **직접 편집하지 않는다** (병렬 worker 사이 race condition 위험). 대신 Step 9의 5종 메타를 종료 보고에 그대로 실어 메인에게 넘긴다. INDEX 갱신은 `/batch-notes` 메인이 채널별로 일괄 처리한다.
 
 #### 종료 보고에 포함할 형식
 
-일괄 실행 시 worker의 종료 보고는 본문 출력 없이 다음 블록을 포함한다:
+일괄 실행 시 worker의 종료 보고는 본문 출력 없이 다음 블록을 포함한다 (반드시 `**한 줄 요약**:` 같이 bold 굵게 — bullet `- 한 줄 요약:` 형식 금지):
 
 ```
 INDEX_BLOCK_BEGIN
+채널: <handle>
 ## YYYY-MM-DD — [영문 제목](파일명.md)
 
 **한 줄 요약**: ...
@@ -196,7 +211,7 @@ INDEX_BLOCK_BEGIN
 INDEX_BLOCK_END
 ```
 
-이 블록을 그대로 메인이 `INDEX.md`에 붙일 수 있게 한다.
+`채널:` 줄은 메인이 어느 채널 INDEX에 넣을지 라우팅에 쓰고, 본문에는 옮기지 않는다. 이 블록을 그대로 메인이 `notes/<채널>/INDEX.md`에 붙일 수 있게 한다.
 
 ## Negative Space (CLAUDE.md 6번 보강)
 - 이 SKILL.md를 작업 중 수정하지 않는다

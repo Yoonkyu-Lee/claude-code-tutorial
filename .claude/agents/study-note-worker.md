@@ -32,9 +32,12 @@ YouTube URL 한 개를 입력으로 받아, 그 영상에 대한 study note 한 
 
 ```
 URL: https://www.youtube.com/watch?v=XXXX
+채널: <youtube-handle>           # 예: maker-evan (@제외). 일괄 실행 시 메인이 prefetch로 결정해 함께 넘긴다.
+게시일(확정): YYYY-MM-DD          # 일괄 실행 시 메인이 yt-dlp로 prefetch한 값
+파일명: YYYY-MM-DD-slug.md        # 메인이 권장 파일명을 함께 넘기면 그대로 사용
 ```
 
-추가 메타데이터(게시일 힌트, 제목 힌트 등)가 같이 와도 무방. 있으면 활용, 없으면 스킬의 fallback 사용.
+저장 경로는 `notes/<채널>/<파일명>`. 채널이 안 넘어왔으면 스킬 Step 0의 fallback(MCP 채널 필드)을 사용. 둘 다 실패하면 호출 측에 채널 핸들을 묻는 보고를 남기고 종료.
 
 ## 출력 형식
 
