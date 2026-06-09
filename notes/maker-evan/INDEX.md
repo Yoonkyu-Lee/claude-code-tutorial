@@ -1035,3 +1035,27 @@
 **도구·스킬**: 없음
 
 **영상 유형**: 에세이
+
+---
+
+## 2026-06-07 — [Hermes: Self-Improving AI Agent — Complete Walkthrough](2026-06-07-hermes-self-improving-agent.md)
+
+**한 줄 요약**: Hermes는 LLM의 두뇌(가중치)를 재학습시키지 않고 그 두뇌에게 주는 사용 설명서, 즉 "스킬(Skill)" 파일을 스스로 고쳐 쓰는 오픈소스 에이전트로, (1) 일하면서 분신(clone)이 대화를 복습해 스킬을 자동으로 쌓는 방법과 (2) 사람이 작정하고 여러 버전을 시험 쳐서 최고 점수만 살리는 대청소 방법을 결합해 "쓸수록 똑똑해진다"는 추상적 표현을 사람이 읽을 수 있는 글로 구체화한다.
+
+**태그**: #Hermes #SelfImprovingAgent #Skills #AgentArchitecture #PromptCaching #SubagentClone #OfflineTuning #오픈소스
+
+**도구·스킬**: Hermes (오픈소스 에이전트), Skills (사람이 읽을 수 있는 매뉴얼 파일), 분신(clone) 메커니즘, Prompt caching, Held-out evaluation set, 5-gate 승인 파이프라인
+
+**영상 유형**: 개념설명
+
+---
+
+## 2026-06-08 — [real-power-is-skills-not-agents](2026-06-08-real-power-is-skills-not-agents.md)
+
+**한 줄 요약**: Anthropic이 사내 데이터 분석 95%를 Claude에 위임할 수 있었던 4층 구조(데이터 기초 → 진실의 원천 → 스킬 → 검증) 중 정확도를 21%→95%로 끌어올린 결정적 층은 "스킬"이었고, 결국 우리가 만들어야 할 해자는 에이전트가 아니라 검증된 스킬이라는 결론.
+
+**태그**: #Anthropic #Skills #ClaudeCode #DataAnalysis #SourceOfTruth #CICD #AdversarialReview #스킬설계
+
+**도구·스킬**: Claude, Anthropic 4-layer architecture, Knowledge Skill, Unbook Skill, Semantic Layer, CI/CD, Adversarial Review, Offline Eval, Source Footer
+
+**영상 유형**: 개념설명
