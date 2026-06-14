@@ -1059,3 +1059,63 @@
 **도구·스킬**: Claude, Anthropic 4-layer architecture, Knowledge Skill, Unbook Skill, Semantic Layer, CI/CD, Adversarial Review, Offline Eval, Source Footer
 
 **영상 유형**: 개념설명
+
+---
+
+## 2026-06-09 — [Loop Engineering — AI를 자동으로 진화시키는 법](2026-06-09-loop-engineering-auto-evolving-ai.md)
+
+**한 줄 요약**: 프롬프트·컨텍스트·하니스 엔지니어링 위에 한 단계 더 — AI 스킬이 스스로 점수를 재고 한 번에 하나만 바꿔 검증·머지하는 "측정 기반 자기 개선 루프"를 설계하라는 메타 가이드.
+
+**태그**: #LoopEngineering #HarnessEngineering #SelfImprovingAI #GoldenSet #HumanOnTheLoop #Evaluation #AIWorkflow #메타프레임워크
+
+**도구·스킬**: AI Skill 자기 개선 루프, Golden Set (고정 평가셋), Evaluate-Modify-Verify-Merge 4단계, Human on the Loop, 실패 로그(오답 노트), Andrej Karpathy 인용, Sakana AI Darwin Gödel Machine
+
+**영상 유형**: 개념설명 (마지막에 4단계 실행 가이드 포함된 혼합형이지만 개념 비중이 80% 이상)
+
+---
+
+## 2026-06-13 — [work-automation-lesson-1](2026-06-13-work-automation-lesson-1.md)
+
+**한 줄 요약**: 비개발자가 Claude Code에 한국어 프롬프트만 던져 평소 쓰는 크롬을 CDP로 어태치해 네이버 메일 같은 사이트를 자동화하는 흐름을, 보트 디텍션 4단계(여권/소지품/걸음거리/평판)와 안티디텍트 브라우저+레지덴셜 프록시 우회 구조까지 한 회분에 압축한 개론 강의.
+
+**태그**: #ClaudeCode #BrowserAutomation #CDP #BotDetection #AntiDetect #Proxy #프롬프트엔지니어링 #업무자동화
+
+**도구·스킬**: Claude Code, Python, Chrome DevTools Protocol (port 9222), Playwright, Dolphin Anty, Oxylabs 레지덴셜 프록시, 911 프록시, Antigravity IDE, 네이버 메일
+
+**영상 유형**: 혼합 (개념 설명형 + 실습 데모)
+
+---
+
+## 2026-06-13 — [work-automation-lesson-3-instagram-card-news](2026-06-13-work-automation-lesson-3-instagram-card-news.md)
+
+**한 줄 요약**: Claude Code에 Instagram Card News Generator 스킬을 트리거해 웹 이미지 소싱 → PPT 합성 → Canva MCP 업로드로 편집 가능한 카드 뉴스 8장을 자동 생성하는 워크플로.
+
+**태그**: #ClaudeCode #스킬 #MCP #Canva #GitHubCLI #Replicate #업무자동화 #카드뉴스
+
+**도구·스킬**: Claude Code, Instagram Card News Generator 스킬, PPT 스킬, Canva MCP, GitHub CLI, Replicate API(선택)
+
+**영상 유형**: 튜토리얼
+
+---
+
+## 2026-06-13 — [claude-code-lesson-3-evan-workflow](2026-06-13-claude-code-lesson-3-evan-workflow.md)
+
+**한 줄 요약**: 기획·실행·유지보수·검증 네 영역을 GStack / Superpowers / Matt Pocock skills / Codex Plugin CC에 분담시켜 한 픽 스킬의 한계를 메우는 에반식 통합 워크플로우 소개와 문서 기반 실습 가이드.
+
+**태그**: #ClaudeCode #Superpowers #GStack #MattPocockSkills #CodexPlugin #SubagentDrivenDevelopment #ADR #도메인언어
+
+**도구·스킬**: GStack(Office Hours, Browse), Superpowers(Brainstorming, Writing Plans, Subagent-Driven Development), Matt Pocock skills(Grill With Docs, Improve Codebase Architecture), Codex Plugin CC(Review/Adversarial/Rescue), context.md, ADR
+
+**영상 유형**: 혼합형 (개념 설명 + 카탈로그 + 실습 가이드)
+
+---
+
+## 2026-06-13 — [Claude Cowork Business Automation](2026-06-13-claude-cowork-business-automation.md)
+
+**한 줄 요약**: Claude Cowork의 Schedule 기능에 Playwright MCP와 Claude for Chrome 확장만 연결하면, 코딩 지식 없이 자연어 프롬프트 몇 줄로 인스타그램 신규 게시물 알림·일일 마케팅 트렌드 요약·X→Threads 자동 포스팅 같은 루틴 업무를 매일 자동 실행시킬 수 있다는 점을 세 가지 사례로 시연.
+
+**태그**: #ClaudeCowork #Schedule #PlaywrightMCP #ClaudeForChrome #자동화 #카카오톡 #마케팅자동화
+
+**도구·스킬**: Claude Cowork, Schedule, Playwright MCP, Claude for Chrome, KakaoTalk
+
+**영상 유형**: 혼합 (튜토리얼 + 사례 카탈로그)

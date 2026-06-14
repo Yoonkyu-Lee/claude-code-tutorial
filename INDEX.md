@@ -12,7 +12,7 @@
 
 | 채널 핸들 | 채널명 | 노트 수 | 기간 | 색인 |
 |---|---|---:|---|---|
-| `@maker-evan` | 메이커 에반 | 88 | 2026-02-08 ~ 2026-06-08 | [notes/maker-evan/INDEX.md](notes/maker-evan/INDEX.md) |
+| `@maker-evan` | 메이커 에반 | 93 | 2026-02-08 ~ 2026-06-13 | [notes/maker-evan/INDEX.md](notes/maker-evan/INDEX.md) |
 | `@코딩알려주는누나` | 코딩알려주는누나 | 2 | 2026-05-26 ~ 2026-06-02 | [notes/코딩알려주는누나/INDEX.md](notes/%EC%BD%94%EB%94%A9%EC%95%8C%EB%A0%A4%EC%A3%BC%EB%8A%94%EB%88%84%EB%82%98/INDEX.md) |
 
 ## 분석 산출물 (채널 무관)
