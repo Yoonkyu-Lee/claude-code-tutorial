@@ -35,9 +35,18 @@ URL: https://www.youtube.com/watch?v=XXXX
 채널: <youtube-handle>           # 예: maker-evan (@제외). 일괄 실행 시 메인이 prefetch로 결정해 함께 넘긴다.
 게시일(확정): YYYY-MM-DD          # 일괄 실행 시 메인이 yt-dlp로 prefetch한 값
 파일명: YYYY-MM-DD-slug.md        # 메인이 권장 파일명을 함께 넘기면 그대로 사용
+자막파일: <절대경로>.txt          # 메인이 yt-dlp로 받아 dedup한 clean text (있으면). 없으면 MCP 폴백.
 ```
 
 저장 경로는 `notes/<채널>/<파일명>`. 채널이 안 넘어왔으면 스킬 Step 0의 fallback(MCP 채널 필드)을 사용. 둘 다 실패하면 호출 측에 채널 핸들을 묻는 보고를 남기고 종료.
+
+## 자막 입력 (batch 경로)
+
+디스패처가 `자막파일: <절대경로>`를 넘기면:
+- 그 파일(dedup된 `[MM:SS] 텍스트` clean text)을 Read로 읽어 자막으로 사용한다 (스킬 Step 3의 Plan A 결과와 동등).
+- 파일이 없거나 비어 있으면 스킬 Step 3의 Plan B/C(MCP `get_timed_transcript` → `get_transcript`)로 폴백한다.
+- worker에는 셸이 없으므로 yt-dlp를 직접 실행하지 않는다.
+- 사용한 경로를 노트 메타 `자막 출처:`에 반영한다 (`yt-dlp` = 자막파일 사용 / `MCP ...` = 폴백).
 
 ## 출력 형식
 
