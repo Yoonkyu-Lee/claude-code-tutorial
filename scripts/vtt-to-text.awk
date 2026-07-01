@@ -6,6 +6,9 @@
 {
   line = $0
   gsub(/<[^>]*>/, "", line)                           # <00:00:00.840>, <c>, </c> 제거
+  gsub(/&gt;/, ">", line); gsub(/&lt;/, "<", line)    # HTML 엔티티 복원 (화자 마커 >> 등)
+  gsub(/&#39;/, "'", line); gsub(/&quot;/, "\"", line)
+  gsub(/&amp;/, "\\&", line)                           # &amp;는 마지막에 (재치환 방지)
   gsub(/^[ \t]+|[ \t]+$/, "", line)                   # 트림
   if (line == "") next
   if (line == prev) next                              # 연속 중복(롤링 반복) 제거
