@@ -91,12 +91,35 @@ URL에서 **영상 ID**를 추출한다. (`v=` 파라미터 값, 또는 `youtu.b
 - 같은 이름 파일이 이미 있으면 **덮어쓰기 전 사용자 확인** (1차 중복 방어는 Step 0.5의 ID 검사. 이건 ID가 다른데 우연히 파일명만 겹치는 드문 경우용 2차 방어)
 
 ### Step 3: 자막 가져오기
-1차 시도: `get_timed_transcript` (타임스탬프 포함)
-실패 시 fallback: `get_transcript` (타임스탬프 없음, 노트 메타 섹션에 "타임스탬프 미제공" 명시)
 
-`get_available_languages`는 호출하지 않는다 — 자동 자막이 한국어/영어 모두 없으면 그때 fallback으로 사용 검토.
+자막 획득 우선순위 (품질은 경로 무관 동일 — YouTube 동일 ASR. 순서는 가용성·의존성 기준):
+
+1. **[Plan A] yt-dlp auto-sub** (셸 있는 실행 주체만):
+   ```
+   yt-dlp --skip-download --write-auto-subs --sub-langs ko,en --sub-format vtt -o "<videoId>.%(ext)s" <URL> --no-update
+   ```
+   받은 `<videoId>.ko.vtt`(또는 `.en.vtt`)를 `awk -f scripts/vtt-to-text.awk <vtt>`로 dedup → `[MM:SS] 텍스트` clean text.
+   - Windows에서 PATH에 yt-dlp 없으면 `export PATH="$HOME/scoop/shims:$PATH"` 선행.
+   - **빈 결과/추출 에러 시**: 이 세션에서 아직 안 했으면 `yt-dlp -U` 1회 실행 후 위 명령을 **1회 재시도** (Step 3.3 참조). 그래도 실패하면 Plan B로.
+   - yt-dlp 미설치면 Plan A 건너뛰고 Plan B로.
+2. **[Plan B] `get_timed_transcript` (MCP)** — Plan A가 끝내 실패할 때. 타임스탬프 포함.
+3. **[Plan C] `get_transcript` (MCP)** — Plan B도 실패. 타임스탬프 없음 → 메타에 "타임스탬프 미제공" 명시.
+4. **전부 실패** → 사용자에게 보고하고 멈춤 (CLAUDE.md §7).
+
+동작한 경로를 노트 메타 섹션에 `자막 출처:`로 명시한다 (`yt-dlp` / `MCP(get_transcript, 타임스탬프 없음)` / `MCP (yt-dlp 실패)`).
+
+> **batch 실행 주의**: `study-note-worker`는 셸이 없어 Plan A(yt-dlp)를 직접 못 돈다. batch에서는 `/batch-notes` 메인이 Step 1.5에서 자막을 미리 받아 dedup한 **clean text 파일**을 worker에 넘긴다. worker는 그 파일을 우선 사용하고, 없으면 Plan B/C(MCP)를 직접 호출한다. (batch-notes.md Step 1.5 / study-note-worker.md 참조.)
+
+`get_available_languages`는 호출하지 않는다 — ko/en 자동자막이 모두 없을 때만 fallback으로 검토.
 
 영어 영상은 자막 정정 단계(Step 4)의 한국어 음차 사전이 안 맞을 수 있다. 해당 채널 폴더에 `caption-corrections.md`가 있으면 그걸 우선 사용. 없으면 채널 무관한 기본 사전(`.claude/skills/harness-study-note/references/caption-corrections.md`)을 폴백으로 사용.
+
+#### Step 3.3: yt-dlp 자동 업데이트 시도
+Plan A가 빈 자막/추출 에러를 내면, **세션당 1회** `yt-dlp -U`를 실행하고 자막 명령을 재시도한다.
+- scoop 설치본에서도 `yt-dlp -U` self-update 동작 확인됨(2026-07-01).
+- `-U`가 "패키지 매니저 관리라 불가" 류로 거부되면 `scoop update yt-dlp`를 시도.
+- 업데이트+재시도 후에도 실패하면 조용히 Plan B(MCP)로 폴백.
+- 업데이트는 세션당 1회로 제한 — 매 URL마다 시도해 배치를 느리게 하지 않는다.
 
 ### Step 4: 자막 품질 정정
 자동 자막의 흔한 오인식을 **컨텍스트로 복원**한다.
@@ -141,6 +164,7 @@ CLAUDE.md 3번 규칙 엄수:
 - 영상 ID: `<11자 영상 ID>`
 - 채널: ...
 - 게시: YYYY-MM-DD
+- 자막 출처: yt-dlp   # 또는 MCP(get_transcript, 타임스탬프 없음) / MCP (yt-dlp 실패)
 ```
 
 누락하면 안 되는 항목:
