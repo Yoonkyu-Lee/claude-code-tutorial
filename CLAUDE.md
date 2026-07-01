@@ -49,6 +49,8 @@
 
 여러 영상을 한꺼번에 처리할 때는 `/batch-notes` 커맨드가 각 영상을 `study-note-worker` 서브에이전트로 격리·병렬 처리한다.
 
+채널을 정해 URL을 붙여넣는 대신, 추적 채널(`notes/*/`)의 어제 신규 영상을 **무인으로** 감지·정리하려면 `/collect-new` 커맨드를 쓴다(스케줄러 연동 가능). 인터랙티브 `/batch-notes`는 "승인 후 진입" 가드레일을 유지하고, 무인 `/collect-new`는 그 가드레일을 구조적 4중 상한(시간창·하드캡·ID중복·동시성)으로 대체한다.
+
 ## 5. 파일 명명 규약
 
 - 노트: `notes/<youtube-handle>/YYYY-MM-DD-kebab-case-english-title.md` (핸들은 유튜브 `@핸들`에서 `@` 제거)

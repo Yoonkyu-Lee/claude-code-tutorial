@@ -45,6 +45,21 @@
 - **날짜**: 2026-07-01 확정
 - **관련 스펙/계획**: `docs/superpowers/specs/2026-07-01-ytdlp-subtitle-plan-a-design.md`, `docs/superpowers/plans/2026-07-01-ytdlp-subtitle-plan-a.md`
 
+## 4. 무인 자동 수집의 비용 통제 (승인 게이트 대체)
+
+- **문제**: 완전 자동 수집(`/collect-new`)은 인터랙티브 배치의 "승인 후 진입" 가드레일과 충돌. 승인 없이 폭주 비용 위험.
+- **결정(2026-07-01)**: 가드레일을 제거하지 않고 **맥락별 분화**. 인터랙티브 `/batch-notes`는 승인 유지, 무인 `/collect-new`는 구조적 4중 상한(시간창 기본 어제·하드캡 기본 20·ID중복 제외·동시성 3~5)으로 대체. 하드캡 절단은 최신 우선 + 로그(silent 금지).
+- **관련**: `docs/superpowers/specs/2026-07-01-collect-new-auto-collection-design.md`, 동명 plan.
+- **날짜**: 2026-07-01 확정
+
+## 5. yt-dlp(PyInstaller)와 `TMP`/`TEMP` 셸 변수 충돌
+
+- **문제**: 스크립트에서 임시파일 변수를 `TMP="$(mktemp)"`로 두면 yt-dlp가 `[PYI-xxxx:ERROR] Could not create temporary directory!`로 부팅 실패해 stdout이 빈다(감지·자막 전부 조용히 실패).
+- **원인**: Git Bash는 Windows `TMP`/`TEMP`를 이미 **export**된 상태로 상속. 그 이름에 재대입하면 export 속성이 유지돼, PyInstaller 실행파일인 yt-dlp가 그 값(파일 경로)을 임시 디렉터리로 오인.
+- **채택된 해결**: 셸 임시변수에 `TMP`/`TEMP`/`TMPDIR` 금지. 다른 이름 사용(예: `ACCUM`). `scripts/collect-detect.sh`에 인라인 경고 주석 있음.
+- **부수 발견**: 이 환경 grep은 `-P`(PCRE)를 로케일 문제로 거부("supports only unibyte and UTF-8 locales") → 정확 매칭은 `awk -F'\t'`로.
+- **날짜**: 2026-07-01 확정
+
 ---
 
 ## 새 항목 추가 절차
