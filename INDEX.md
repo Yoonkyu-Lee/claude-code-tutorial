@@ -12,6 +12,7 @@
 | 주제 | 설명 | 채널 수 | 노트 수 | 색인 |
 |---|---|---:|---:|---|
 | `ai-coding` | Claude Code·AI 코딩·하니스 | 2 | 95 | [notes/ai-coding/INDEX.md](notes/ai-coding/INDEX.md) |
+| `business` | 비즈니스·부업·수익화 | 1 | 1 | [notes/business/INDEX.md](notes/business/INDEX.md) |
 
 ## 분석 산출물 (주제 무관)
 
