@@ -32,13 +32,14 @@ YouTube URL 한 개를 입력으로 받아, 그 영상에 대한 study note 한 
 
 ```
 URL: https://www.youtube.com/watch?v=XXXX
+주제: <topic-slug>              # 예: ai-coding, business. 저장 경로 notes/<주제>/<채널>/ 결정. 메인이 결정해 넘긴다.
 채널: <youtube-handle>           # 예: maker-evan (@제외). 일괄 실행 시 메인이 prefetch로 결정해 함께 넘긴다.
 게시일(확정): YYYY-MM-DD          # 일괄 실행 시 메인이 yt-dlp로 prefetch한 값
 파일명: YYYY-MM-DD-slug.md        # 메인이 권장 파일명을 함께 넘기면 그대로 사용
 자막파일: <절대경로>.txt          # 메인이 yt-dlp로 받아 dedup한 clean text (있으면). 없으면 MCP 폴백.
 ```
 
-저장 경로는 `notes/<채널>/<파일명>`. 채널이 안 넘어왔으면 스킬 Step 0의 fallback(MCP 채널 필드)을 사용. 둘 다 실패하면 호출 측에 채널 핸들을 묻는 보고를 남기고 종료.
+저장 경로는 `notes/<주제>/<채널>/<파일명>`. 주제/채널이 안 넘어왔으면 스킬 Step 0의 fallback(기존 폴더 위치·MCP 채널 필드)을 사용. 결정 못 하면 호출 측에 주제·채널을 묻는 보고를 남기고 종료.
 
 ## 자막 입력 (batch 경로)
 

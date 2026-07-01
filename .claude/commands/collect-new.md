@@ -1,5 +1,5 @@
 ---
-description: 추적 채널(notes/*/)의 어제 신규 영상을 무인 감지해 study-note로 자동 정리한다. 승인 게이트 없이 구조적 4중 상한(시간창·하드캡·ID중복·동시성)으로 비용을 통제. 사용법&#58; /collect-new [--since=yesterday|YYYY-MM-DD|Nd] [--cap=20] [--channels=a,b]
+description: 추적 채널(notes/<주제>/<채널>/)의 어제 신규 영상을 무인 감지해 study-note로 자동 정리한다. 승인 게이트 없이 구조적 4중 상한(시간창·하드캡·ID중복·동시성)으로 비용을 통제. 사용법&#58; /collect-new [--since=yesterday|YYYY-MM-DD|Nd] [--cap=20] [--channels=a,b]
 ---
 
 # /collect-new — 무인 신규 영상 수집

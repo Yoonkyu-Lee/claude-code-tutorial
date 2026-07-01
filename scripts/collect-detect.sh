@@ -24,8 +24,9 @@ echo "window: $FROM..$TO  cap: $CAP" >&2
 STATE=".claude/collect-state"; [ -f "$STATE" ] || : > "$STATE"
 
 # 채널 열거
+# 채널은 notes/<주제>/<채널>/ 2계층. 핸들만 있으면 resolve/RSS 가능(주제는 batch가 폴더 위치로 재도출).
 if [ -n "$ONLY" ]; then IFS=',' read -ra HANDLES <<< "$ONLY"
-else HANDLES=(); for d in notes/*/; do [ -d "$d" ] && HANDLES+=("$(basename "$d")"); done; fi
+else HANDLES=(); for d in notes/*/*/; do [ -d "$d" ] && HANDLES+=("$(basename "$d")"); done; fi
 
 # NOTE: 임시 파일 변수명에 TMP/TEMP/TMPDIR 금지 — yt-dlp(PyInstaller)가 그 env를
 # 임시 디렉터리로 오인해 "Could not create temporary directory!"로 부팅 실패한다.
