@@ -13,7 +13,7 @@
 - 원문 보존·의견/사실 분리·`[불명확]`·정정 사전(Step 4) 로직은 **변경 금지**. 이 작업은 자막 *획득 경로*만 바꾼다. (CLAUDE.md §6)
 - MCP 자막 경로를 **제거하지 않는다** — Plan B/C 폴백으로 유지 (yt-dlp 추출 fragility 대비).
 - yt-dlp 자동 업데이트는 **실패 트리거 기반 lazy, 세션당 최대 1회**. 프로액티브 업데이트 금지.
-- yt-dlp 자막 언어 우선순위: `ko,en`. VTT dedup 산출물은 `[MM:SS] 텍스트` 라인 형식 (라인 타임스탬프 보존, 단어 단위 태그 제거).
+- yt-dlp 자막 언어: **ko 우선, 없을 때만 en** (동시 요청 금지 — 429 위험). VTT dedup 산출물은 `[MM:SS] 텍스트` 라인 형식 (라인 타임스탬프 보존, 단어 단위 태그 제거).
 - Windows 네이티브 환경. yt-dlp는 scoop 설치, PATH에 없으면 `$HOME/scoop/shims` 선행. `yt-dlp -U`는 scoop 설치본에서도 self-update 동작 확인됨(2026-07-01).
 - 노트 메타 섹션에 `자막 출처:`를 항상 명시 (`yt-dlp` / `MCP(get_transcript, 타임스탬프 없음)` / `MCP (yt-dlp 실패)`).
 

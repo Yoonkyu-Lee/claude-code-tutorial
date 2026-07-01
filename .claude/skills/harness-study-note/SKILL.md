@@ -94,11 +94,14 @@ URL에서 **영상 ID**를 추출한다. (`v=` 파라미터 값, 또는 `youtu.b
 
 자막 획득 우선순위 (품질은 경로 무관 동일 — YouTube 동일 ASR. 순서는 가용성·의존성 기준):
 
-1. **[Plan A] yt-dlp auto-sub** (셸 있는 실행 주체만):
+1. **[Plan A] yt-dlp auto-sub** (셸 있는 실행 주체만) — **ko 우선, 없을 때만 en**:
    ```
-   yt-dlp --skip-download --write-auto-subs --sub-langs ko,en --sub-format vtt -o "<videoId>.%(ext)s" <URL> --no-update
+   yt-dlp --skip-download --write-auto-subs --sub-langs ko --sub-format vtt -o "<videoId>.%(ext)s" <URL> --no-update
+   # <videoId>.ko.vtt 가 안 생기면 (한국어 자막 없음) en으로만 재시도:
+   yt-dlp --skip-download --write-auto-subs --sub-langs en --sub-format vtt -o "<videoId>.%(ext)s" <URL> --no-update
    ```
-   받은 `<videoId>.ko.vtt`(또는 `.en.vtt`)를 `awk -f scripts/vtt-to-text.awk <vtt>`로 dedup → `[MM:SS] 텍스트` clean text.
+   생성된 `<videoId>.ko.vtt`(우선) 또는 `<videoId>.en.vtt`를 `awk -f scripts/vtt-to-text.awk <vtt>`로 dedup → `[MM:SS] 텍스트` clean text.
+   - ko,en을 한 번에 요청하지 않는다 — 한국어 영상에서 안 쓰는 en 자동번역 트랙까지 받아 **429(rate limit) 위험**을 키우기 때문 (2026-07-01 관찰).
    - Windows에서 PATH에 yt-dlp 없으면 `export PATH="$HOME/scoop/shims:$PATH"` 선행.
    - **빈 결과/추출 에러 시**: 이 세션에서 아직 안 했으면 `yt-dlp -U` 1회 실행 후 위 명령을 **1회 재시도** (Step 3.3 참조). 그래도 실패하면 Plan B로.
    - yt-dlp 미설치면 Plan A 건너뛰고 Plan B로.

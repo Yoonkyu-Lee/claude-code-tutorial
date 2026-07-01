@@ -44,9 +44,13 @@ worker는 셸이 없어 yt-dlp를 못 돈다. 자막도 메인이 미리 받아 
 승인된(중복 제외된) URL마다:
 ```bash
 export PATH="$HOME/scoop/shims:$PATH"
-yt-dlp --skip-download --write-auto-subs --sub-langs ko,en --sub-format vtt \
+# ko 우선. .ko.vtt 안 생기면 en으로만 재시도 (ko,en 동시요청은 429 위험 → 피함).
+yt-dlp --skip-download --write-auto-subs --sub-langs ko --sub-format vtt \
   -o "<scratch>/<videoId>.%(ext)s" <URL> --no-update
-awk -f scripts/vtt-to-text.awk "<scratch>/<videoId>.ko.vtt" > "<scratch>/<videoId>.txt"   # ko 없으면 .en.vtt
+[ -f "<scratch>/<videoId>.ko.vtt" ] || yt-dlp --skip-download --write-auto-subs --sub-langs en --sub-format vtt \
+  -o "<scratch>/<videoId>.%(ext)s" <URL> --no-update
+VTT="<scratch>/<videoId>.ko.vtt"; [ -f "$VTT" ] || VTT="<scratch>/<videoId>.en.vtt"
+awk -f scripts/vtt-to-text.awk "$VTT" > "<scratch>/<videoId>.txt"
 ```
 - `<scratch>`는 세션 scratchpad 폴더. clean text 파일 절대경로를 URL별로 매핑 표에 기록.
 - yt-dlp가 빈 자막/에러면 스킬 Step 3.3(세션당 1회 `yt-dlp -U` 후 재시도)을 적용. 그래도 실패면 그 URL은 **자막파일 없이** dispatch → worker가 MCP 폴백.
