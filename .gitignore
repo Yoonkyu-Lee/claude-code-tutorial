@@ -7,3 +7,6 @@ Thumbs.db
 
 # 외부 MCP 서버 소스 (별도 프로젝트로 클론한 것)
 youtube-mcp/
+
+# /collect-new 런타임 캐시 (handle -> channel_id)
+.claude/collect-state
