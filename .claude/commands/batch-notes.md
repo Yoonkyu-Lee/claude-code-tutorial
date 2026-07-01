@@ -21,7 +21,7 @@ $ARGUMENTS
 
 예: "총 12개 URL을 찾았어요. 3개씩 배치로 처리할게요 (4 배치). 진행할까요?"
 
-### Step 1.5: 게시일 + 채널 일괄 prefetch (dispatch 전 필수)
+### Step 1.5: 게시일 + 채널 + 자막 일괄 prefetch (dispatch 전 필수)
 
 `study-note-worker`에는 셸 도구가 없어 worker 단독으로는 `yt-dlp`를 실행하지 못한다 (스킬 Step 1의 ⚠ 참조). 그대로 두면 worker가 WebSearch/r.jina.ai로 흘러가 게시일이 하루씩 어긋나는 사고가 난다 (`.claude/known-issues.md` §1). 그래서 **메인이 dispatch 전에 게시일과 채널 핸들을 미리 뽑아 worker에 넘긴다.**
 
@@ -37,13 +37,28 @@ yt-dlp --skip-download --print "%(id)s|%(upload_date)s|%(uploader_id)s" <URL>   
 - 어떤 URL의 게시일을 못 뽑으면 그 URL만 표시해두고, 해당 worker에는 게시일 없이 보내 스킬의 WebSearch→사용자입력 fallback을 타게 한다 (나머지는 정상 진행).
 - 채널 슬러그를 못 뽑으면 그 URL은 dispatch에서 보류하고 사용자에게 핸들을 묻는다 (저장 경로를 결정 못 함).
 
+#### 자막 prefetch (메타와 같은 패스)
+
+worker는 셸이 없어 yt-dlp를 못 돈다. 자막도 메인이 미리 받아 dedup해 clean text 파일로 worker에 넘긴다 (스킬 Step 3의 Plan A를 메인이 대행). **중복 노트 검사(영상 ID) 후 남은 URL에 대해서만** 실행해 이미 정리된 영상의 자막을 받는 낭비를 막는다.
+
+승인된(중복 제외된) URL마다:
+```bash
+export PATH="$HOME/scoop/shims:$PATH"
+yt-dlp --skip-download --write-auto-subs --sub-langs ko,en --sub-format vtt \
+  -o "<scratch>/<videoId>.%(ext)s" <URL> --no-update
+awk -f scripts/vtt-to-text.awk "<scratch>/<videoId>.ko.vtt" > "<scratch>/<videoId>.txt"   # ko 없으면 .en.vtt
+```
+- `<scratch>`는 세션 scratchpad 폴더. clean text 파일 절대경로를 URL별로 매핑 표에 기록.
+- yt-dlp가 빈 자막/에러면 스킬 Step 3.3(세션당 1회 `yt-dlp -U` 후 재시도)을 적용. 그래도 실패면 그 URL은 **자막파일 없이** dispatch → worker가 MCP 폴백.
+- 자막 prefetch는 메타 prefetch와 한 번의 yt-dlp 호출로 합쳐도 된다(`--print`와 `--write-auto-subs` 병행). 실측으로 더 단순한 쪽 선택.
+
 ### Step 2: 사용자 승인 후 배치 실행
 
 승인되면 URL 리스트를 배치(기본 3개, `--concurrency` 지정 시 그 수만큼, 최대 5)로 묶어 처리한다.
 
 각 배치 안에서:
 - 배치 크기만큼의 `study-note-worker` 서브에이전트를 **동시에** 호출 (Task tool 사용)
-- 각 worker에게 **URL + 게시일(확정) + 채널 슬러그 + 권장 파일명**을 전달한다. worker에게 "게시일·채널을 그대로 쓰고 yt-dlp/WebSearch/r.jina.ai를 게시일 용도로 호출하지 말라"고 지시한다.
+- 각 worker에게 **URL + 게시일(확정) + 채널 슬러그 + 권장 파일명 + 자막파일(clean text 절대경로, 있으면)**을 전달한다. worker에게 "자막파일이 있으면 그걸 자막으로 쓰고, 없거나 비면 MCP(get_timed_transcript→get_transcript)로 폴백하라. 게시일·채널은 그대로 쓰고 yt-dlp/WebSearch/r.jina.ai를 게시일 용도로 호출하지 말라"고 지시한다.
 - 저장 경로는 `notes/<채널>/<파일명>`. worker는 그 폴더에만 쓴다.
 - 배치의 worker가 모두 끝날 때까지 대기
 
@@ -52,6 +67,7 @@ yt-dlp --skip-download --print "%(id)s|%(upload_date)s|%(uploader_id)s" <URL>   
 ```
 배치 1/4 완료 (3/12)
   ✅ <파일명1>
+  ℹ️ <파일명>: 자막 MCP 폴백 (yt-dlp prefetch 실패)
   ⏭️ <URL2>: 이미 정리됨 (<기존 파일명>)
   ⚠️ <URL3>: <실패 사유 한 줄>
 ```
