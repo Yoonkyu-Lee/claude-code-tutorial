@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015">
+  <title>Test Channel</title>
+  <published>2012-09-02T14:46:48+00:00</published>
+  <entry>
+    <yt:videoId>AAA11111111</yt:videoId>
+    <published>2026-06-30T09:00:00+00:00</published>
+  </entry>
+  <entry>
+    <yt:videoId>BBB22222222</yt:videoId>
+    <published>2026-06-29T09:00:00+00:00</published>
+  </entry>
+  <entry>
+    <yt:videoId>CCC33333333</yt:videoId>
+    <published>2026-06-24T09:00:00+00:00</published>
+  </entry>
+</feed>
