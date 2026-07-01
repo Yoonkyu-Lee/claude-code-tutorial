@@ -35,6 +35,16 @@
   - 새 패턴 발견 시 사용자 명시 요청이 있을 때만 사전 보강 (자동 갱신 금지)
 - **날짜**: 2026-05-20 확정
 
+## 3. 자막 획득 경로 통합 (yt-dlp Plan A 승격)
+
+- **문제**: 자막을 MCP로 1차 획득하면서, 메타데이터용으로 이미 쓰는 yt-dlp와 자막 원천이 이원화. MCP 서버 의존이 별도 실패점.
+- **빈도**: 재발 문제라기보다 구조 개선 (2026-07-01 검증 기반 결정).
+- **검증**: 같은 영상(`MJiQFNp-k10`)의 MCP 자막과 yt-dlp 자막 텍스트 품질이 동일 (동일 YouTube ASR, 음차 오류까지 동일). yt-dlp는 단어 단위 타임스탬프까지 제공.
+- **채택된 해결**: yt-dlp 자막을 Plan A로, MCP를 Plan B/C 폴백으로 유지 (제거 아님 — yt-dlp 추출 fragility 대비). batch는 메인이 메타+자막 한 패스 prefetch → `scripts/vtt-to-text.awk`로 dedup → worker에 clean text 전달. yt-dlp 빈 결과/에러 시 세션당 1회 `yt-dlp -U` 후 재시도.
+- **경고 신호(caveat)**: yt-dlp가 `No supported JavaScript runtime` / 90일+ 구버전 경고를 냄. YouTube 추출은 주기적으로 깨지므로 MCP 폴백 유지가 필수.
+- **날짜**: 2026-07-01 확정
+- **관련 스펙/계획**: `docs/superpowers/specs/2026-07-01-ytdlp-subtitle-plan-a-design.md`, `docs/superpowers/plans/2026-07-01-ytdlp-subtitle-plan-a.md`
+
 ---
 
 ## 새 항목 추가 절차
