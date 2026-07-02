@@ -47,9 +47,10 @@
 
 ## 4. 무인 자동 수집의 비용 통제 (승인 게이트 대체)
 
-- **문제**: 완전 자동 수집(`/collect-new`)은 인터랙티브 배치의 "승인 후 진입" 가드레일과 충돌. 승인 없이 폭주 비용 위험.
-- **결정(2026-07-01)**: 가드레일을 제거하지 않고 **맥락별 분화**. 인터랙티브 `/batch-notes`는 승인 유지, 무인 `/collect-new`는 구조적 4중 상한(시간창 기본 어제·하드캡 기본 20·ID중복 제외·동시성 3~5)으로 대체. 하드캡 절단은 최신 우선 + 로그(silent 금지).
-- **관련**: `docs/superpowers/specs/2026-07-01-collect-new-auto-collection-design.md`, 동명 plan.
+- **문제**: 완전 자동 수집은 인터랙티브 배치의 "승인 후 진입" 가드레일과 충돌. 승인 없이 폭주 비용 위험.
+- **결정(2026-07-01)**: 가드레일을 제거하지 않고 **맥락별 분화**. 인터랙티브 `/batch-notes`는 승인 유지, 무인 수집은 구조적 4중 상한(시간창 기본 어제·하드캡 기본 20·ID중복 제외·동시성 3~5)으로 대체. 하드캡 절단은 최신 우선 + 로그(silent 금지).
+- **후속(2026-07-02)**: notes 무인 수집(`/collect-new`)은 불필요로 폐기, 무인 자동화는 **digest 쪽 `/collect-digest`**(→ commit·push → 사이트 자동 갱신)로 이관. 동일 4중 상한 유지. 채널 슬러그≠핸들 문제는 커밋된 `.claude/channel-handles.tsv`(slug→@handle→channel_id)로 해결.
+- **관련**: `docs/superpowers/specs/2026-07-01-collect-new-auto-collection-design.md`(원 설계, notes 대상), `.claude/commands/collect-digest.md`.
 - **날짜**: 2026-07-01 확정
 
 ## 5. yt-dlp(PyInstaller)와 `TMP`/`TEMP` 셸 변수 충돌
