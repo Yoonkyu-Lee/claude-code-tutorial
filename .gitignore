@@ -10,3 +10,6 @@ youtube-mcp/
 
 # /collect-new 런타임 캐시 (handle -> channel_id)
 .claude/collect-state
+
+# MkDocs 빌드 출력 (사이트는 GitHub Actions가 빌드·배포)
+site/

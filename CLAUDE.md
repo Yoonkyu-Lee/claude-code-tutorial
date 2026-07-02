@@ -13,7 +13,7 @@
 
 ### 주제·채널 폴더 규약
 - 계층: `notes/<주제>/<채널-handle>/`. 주제 슬러그는 소문자 kebab (예: `ai-coding`, `business`). 채널 폴더명 = 유튜브 `@핸들` 그대로.
-- INDEX 3계층: 루트 `INDEX.md`=주제 카탈로그, `notes/<주제>/INDEX.md`=채널 카탈로그, `notes/<주제>/<채널>/INDEX.md`=노트 색인.
+- INDEX 3계층: 루트 `index.md`=주제 카탈로그, `notes/<주제>/INDEX.md`=채널 카탈로그, `notes/<주제>/<채널>/INDEX.md`=노트 색인.
 - 채널은 한 주제에 고정. 이미 있는 채널이면 그 주제를 그대로 쓰고, **새 채널/새 주제는 사용자에게 확인** 후 폴더·INDEX 생성 + 상위 카탈로그에 행 추가.
 
 ## 2. 사용자 컨텍스트 (한 번만 적고 끝)
@@ -56,7 +56,7 @@
 - 노트: `notes/<주제>/<youtube-handle>/YYYY-MM-DD-kebab-case-english-title.md` (핸들은 유튜브 `@핸들`에서 `@` 제거, 주제는 소문자 kebab)
 - 채널 색인: `notes/<주제>/<youtube-handle>/INDEX.md`
 - 주제 색인: `notes/<주제>/INDEX.md` (채널 카탈로그)
-- 루트 색인: `INDEX.md` (주제 카탈로그)
+- 루트 색인: `index.md` (주제 카탈로그)
 - 스킬: `.claude/skills/<kebab-case-name>/SKILL.md`
 - 에이전트: `.claude/agents/<kebab-case-name>.md`
 - 커맨드: `.claude/commands/<kebab-case-name>.md`

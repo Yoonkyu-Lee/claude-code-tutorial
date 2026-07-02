@@ -1,0 +1,58 @@
+site_name: 영상 연구 노트 & digest
+site_description: 유튜브 영상 기반 다주제 연구 노트와 digest 모음
+docs_dir: .
+site_dir: site
+use_directory_urls: true
+
+theme:
+  name: material
+  language: ko
+  palette:
+    - scheme: default
+      primary: teal
+      toggle:
+        icon: material/weather-night
+        name: 다크 모드로
+    - scheme: slate
+      primary: teal
+      toggle:
+        icon: material/weather-sunny
+        name: 라이트 모드로
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+plugins:
+  - same-dir
+  - search
+
+# content가 아닌 도구·메타 파일은 사이트에서 제외 (docs_dir가 리포 루트라서)
+exclude_docs: |
+  site/
+  .claude/
+  .github/
+  scripts/
+  experiments/
+  docs/
+  node_modules/
+  youtube-mcp/
+  *.sh
+  *.awk
+  *.py
+  README.md
+  CLAUDE.md
