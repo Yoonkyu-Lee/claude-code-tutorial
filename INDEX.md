@@ -14,6 +14,10 @@
 | `ai-coding` | Claude Code·AI 코딩·하니스 | 2 | 95 | [notes/ai-coding/INDEX.md](notes/ai-coding/INDEX.md) |
 | `business` | 비즈니스·부업·수익화 | 1 | 1 | [notes/business/INDEX.md](notes/business/INDEX.md) |
 
+## 다른 트리
+
+- [digests/](digests/README.md) — 영상 digest(시간순 전문 + 주제별 상세요약). `notes/`와 별개 워크플로, 같은 `<주제>/<채널>/` 계층.
+
 ## 분석 산출물 (주제 무관)
 
 - [HARNESS_ELEMENTS.md](HARNESS_ELEMENTS.md) — 노트들에서 추출한 하니스 요소 정리 (다음 스킬의 재료)
