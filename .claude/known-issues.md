@@ -60,6 +60,14 @@
 - **부수 발견**: 이 환경 grep은 `-P`(PCRE)를 로케일 문제로 거부("supports only unibyte and UTF-8 locales") → 정확 매칭은 `awk -F'\t'`로.
 - **날짜**: 2026-07-01 확정
 
+## 6. yt-dlp 한글 출력이 Windows 콘솔에서 깨짐
+
+- **문제**: `yt-dlp --print "%(title)s"`를 셸 리다이렉트(`> file`)로 받으면 한글 제목이 공백/물음표로 소실. 채널 영상 목록 열거 시 재발.
+- **원인**: yt-dlp.exe가 stdout을 Windows 콘솔 코드페이지(cp949/cp1252)로 인코딩. 파이썬 stdout도 동일. `PYTHONUTF8=1`/`PYTHONIOENCODING=utf-8`로도 **안 고쳐짐**(콘솔 핸들 경유라).
+- **채택된 해결**: yt-dlp가 **파일을 직접 UTF-8로 쓰게** 한다 — `--print-to-file <tmpl> <file>` (또는 `-J` JSON 덤프). 콘솔 파이프를 우회하면 한글 보존. 채널 열거는 `scripts/channel-videos.sh`(이 방식)로 통일. `/digest` 룰북에도 명시.
+- **부수**: 파이썬으로 그 파일을 읽어 표시할 땐 `PYTHONIOENCODING=utf-8` 필요. temp 파일은 Git Bash `/tmp`가 아니라 scratchpad 절대경로로(파이썬-Windows 경로 불일치 회피).
+- **날짜**: 2026-07-02 확정
+
 ---
 
 ## 새 항목 추가 절차
