@@ -12,7 +12,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false   # 진행 중 Pages 배포를 취소하면 스턱 상태를 유발할 수 있어 완주시킨다
 
 jobs:
   build:
