@@ -1,20 +1,22 @@
 ---
-description: 추적 채널(digests/<주제>/<채널>/ 폴더가 있는 채널)의 어제 신규 영상을 무인 감지해 digest로 정리하고 커밋·push까지 한다(→ 사이트 자동 갱신). 스케줄러(Claude Desktop 로컬 루틴)로 매일 돌리는 용도. 사용법&#58; /collect-digest [--since=yesterday|YYYY-MM-DD|Nd] [--cap=20]
+description: 추적 채널(digests/<주제>/<채널>/ 폴더가 있는 채널)의 아직 정리 안 된 영상(중간 갭 + 마지막 이후 신규)을 무인 감지해 digest로 정리하고 커밋·push까지 한다(→ 사이트 자동 갱신). 현재 정리 상태 기준 채널 스캔(시간창 아님). 스케줄러(작업 스케줄러/로컬 루틴)로 매일 돌리는 용도. 사용법&#58; /collect-digest [--cap=20] [--channels=a,b]
+
 ---
 
-# /collect-digest — 무인 신규 영상 digest (매일 자동화용)
+# /collect-digest — 무인 미처리 영상 digest (매일 자동화용)
 
-추적 채널의 **어제 신규 영상**을 무인 감지 → digest 생성 → **commit + push**한다. push되면 GitHub Actions가 사이트를 자동 재배포하므로 폰에서 바로 보인다. 승인 게이트 없이 구조적 4중 상한(시간창·하드캡·ID중복·동시성)으로 비용을 통제한다.
+추적 채널에서 **아직 digest 안 된 영상(중간 갭 + 마지막 이후 신규)**을 무인 감지 → digest 생성 → **commit + push**한다. push되면 GitHub Actions가 사이트를 자동 재배포한다. 승인 게이트 없이 구조적 상한(하드캡·ID중복·동시성)으로 비용을 통제한다.
 
-`$ARGUMENTS`에서 `--since`(기본 yesterday) / `--cap`(기본 20)을 읽는다.
+`$ARGUMENTS`에서 `--cap`(기본 20) / `--channels`를 읽는다.
 
-## Step 1: 신규 감지
+## Step 1: 미처리 감지 (갭 + 신규, 시간창 아님)
 ```bash
 export PATH="$HOME/scoop/shims:$PATH"
 bash scripts/collect-detect.sh --tree=digests $ARGUMENTS
 ```
-- `--tree=digests`: 추적 채널 = `digests/*/*/` 폴더가 있는 채널. 중복 검사도 `digests/` 기준.
-- stdout = 후보 URL(최신순, cap). stderr = 로그(그대로 사용자/로그에 전달).
+- **감지 방식**: 추적 채널(`digests/*/*/` 폴더가 있는 채널)마다, 그 채널에서 **이미 digest한 것 중 가장 오래된 것(=시작점 앵커)부터 지금까지**를 flat-playlist로 훑어 **아직 digest 안 된 것을 전부** 뽑는다. → 중간에 빠진 **갭** + 마지막 이후 **신규**를 모두 잡는다. (그날 올라왔는지 보는 시간창 방식 아님. 앵커 이전 백카탈로그는 대상 아님.)
+- 제외: 이미 `digests/`에 있는 ID + `.claude/digest-skip.txt`(자막 없음 등 처리 불가 확정분).
+- stdout = 후보 URL(최신순, cap 기본 20). stderr = 로그(그대로 전달).
 - **후보 0이면**: "신규 없음" 로그만 남기고 **종료**(커밋·push 안 함).
 
 ## Step 2: 메타 + 자막 prefetch (메인, 셸)
@@ -28,6 +30,7 @@ yt-dlp --skip-download --write-auto-subs --sub-langs ko --sub-format vtt -o "<sc
 awk -f scripts/vtt-to-text.awk "<scratch>/<id>.ko.vtt" > "<scratch>/<id>.txt"
 ```
 - **주제·채널 결정**: `uploader_id`(@handle) → `.claude/channel-handles.tsv`로 슬러그 매핑 → `digests/<주제>/<슬러그>/` 폴더 위치에서 주제 확정. (추적 채널이라 폴더가 이미 존재.)
+- **자막을 못 얻은 후보**: ko/en 자동자막이 없으면 digest 불가다. 그 영상 ID를 `.claude/digest-skip.txt`에 한 줄 추가한다 → 다음 실행부터 collect-detect가 재감지하지 않는다(무한 재시도 방지). 그 URL은 이번 배치에서 제외.
 
 ## Step 3: digest 생성 (격리 병렬)
 후보를 concurrency(기본 3, 최대 5)로 묶어 **`digest-worker`** 서브에이전트를 동시 호출. 각 worker에 전달: URL + 주제 + 채널 슬러그 + 게시일(확정) + 원제 + 조회수/길이 + 자막파일. 저장 경로 `digests/<주제>/<채널>/`. 한 편 실패가 나머지를 막지 않는다.

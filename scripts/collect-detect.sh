@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
-# 추적 채널(<tree>/<주제>/<채널>/)의 신규 영상 감지 -> 윈도우 필터 -> <tree>/ dedup -> cap.
-# <tree>=notes(기본) 또는 digests. stdout: 후보 URL(newest-first). stderr: 로그.
-# .claude/collect-state = handle<TAB>channel_id 캐시.
+# 추적 채널(<tree>/<주제>/<채널>/)에서 "아직 처리 안 된 갭 + 신규"를 감지한다.
+# 범위: 그 채널에서 이미 처리한 것 중 "가장 오래된 것(=시작점 앵커)"부터 지금까지.
+#   - 앵커보다 이전 백카탈로그는 제외(내가 정한 시작점 이전은 대상 아님).
+#   - 앵커~지금 사이의 미처리 = 중간 갭 + 마지막 이후 신규. (시간창 아님 — 현재 상태 기준 스캔)
+# stdout: 후보 URL(newest-first, cap). stderr: 로그. <tree>=notes|digests.
+# 제외: 이미 <tree>에 있는 ID + .claude/digest-skip.txt(자막 없음 등 처리 불가 확정).
 set -euo pipefail
 export PATH="$HOME/scoop/shims:$PATH"
 
-SINCE="yesterday"; CAP=20; ONLY=""; TREE="notes"
+CAP=20; ONLY=""; TREE="notes"
 for arg in "$@"; do case "$arg" in
-  --since=*)    SINCE="${arg#*=}";;
   --cap=*)      CAP="${arg#*=}";;
   --channels=*) ONLY="${arg#*=}";;
   --tree=*)     TREE="${arg#*=}";;
@@ -15,54 +17,55 @@ for arg in "$@"; do case "$arg" in
 esac; done
 case "$TREE" in notes|digests) ;; *) echo "bad --tree: $TREE (notes|digests)" >&2; exit 2;; esac
 
-TODAY="${COLLECT_TODAY:-$(date +%Y-%m-%d)}"
-case "$SINCE" in
-  yesterday)  FROM=$(date -d "yesterday" +%Y-%m-%d); TO="$FROM";;
-  *d)         N="${SINCE%d}"; FROM=$(date -d "$N days ago" +%Y-%m-%d); TO="$TODAY";;
-  [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]) FROM="$SINCE"; TO="$SINCE";;
-  *) echo "bad --since: $SINCE" >&2; exit 2;;
-esac
-echo "window: $FROM..$TO  cap: $CAP" >&2
-
 STATE=".claude/collect-state"; [ -f "$STATE" ] || : > "$STATE"
-REGISTRY=".claude/channel-handles.tsv"   # slug<TAB>@handle<TAB>channel_id (커밋됨, 슬러그≠핸들 대응)
+REGISTRY=".claude/channel-handles.tsv"
+SKIP=".claude/digest-skip.txt"
+
+DONE="$(mktemp)"; ACC="$(mktemp)"; trap 'rm -f "$DONE" "$ACC"' EXIT
+
+id_of() {  # 파일에서 첫 영상 ID 추출 (youtu.be/<id> 또는 watch?v=<id>)
+  grep -hoE '(youtu\.be/|watch\?v=)[A-Za-z0-9_-]{11}' "$1" 2>/dev/null | grep -oE '[A-Za-z0-9_-]{11}$' | head -1
+}
+
+# 이미 처리된 ID 집합: <tree>의 링크 + skip 목록
+{ grep -rhoE '(youtu\.be/|watch\?v=)[A-Za-z0-9_-]{11}' "$TREE"/ 2>/dev/null | grep -oE '[A-Za-z0-9_-]{11}$'
+  [ -f "$SKIP" ] && grep -oE '[A-Za-z0-9_-]{11}' "$SKIP" 2>/dev/null; } | sort -u > "$DONE"
+echo "이미 처리(또는 skip): $(wc -l < "$DONE")" >&2
 
 # 채널 열거
-# 채널은 <tree>/<주제>/<채널>/ 2계층. 핸들만 있으면 resolve/RSS 가능(주제는 호출 측이 폴더 위치로 재도출).
 if [ -n "$ONLY" ]; then IFS=',' read -ra HANDLES <<< "$ONLY"
 else HANDLES=(); for d in "$TREE"/*/*/; do [ -d "$d" ] && HANDLES+=("$(basename "$d")"); done; fi
 
-# NOTE: 임시 파일 변수명에 TMP/TEMP/TMPDIR 금지 — yt-dlp(PyInstaller)가 그 env를
-# 임시 디렉터리로 오인해 "Could not create temporary directory!"로 부팅 실패한다.
-ACCUM="$(mktemp)"; trap 'rm -f "$ACCUM"' EXIT
 for h in "${HANDLES[@]}"; do
-  # 1) 커밋된 레지스트리(슬러그->channel_id) 우선 — 슬러그≠핸들이어도 정확
+  chdir=$(ls -d "$TREE"/*/"$h"/ 2>/dev/null | head -1)
+  [ -z "$chdir" ] && { echo "  [skip] $h: 폴더 없음" >&2; continue; }
+  # 시작점 앵커 = 이 채널 처리분 중 가장 오래된 것(파일명 날짜 최소)의 영상 ID
+  oldest=$(ls "$chdir"*.md 2>/dev/null | grep -v INDEX | sort | head -1)
+  [ -z "$oldest" ] && { echo "  [skip] $h: 처리분 없음(앵커 불가)" >&2; continue; }
+  boundary=$(id_of "$oldest")
+
   cid=$(awk -F'\t' -v h="$h" '$1==h{print $3; exit}' "$REGISTRY" 2>/dev/null || true)
-  # 2) 런타임 캐시
   [ -n "$cid" ] || cid=$(awk -F'\t' -v h="$h" '$1==h{print $2; exit}' "$STATE" 2>/dev/null || true)
-  # 3) 마지막 수단: @슬러그로 resolve (슬러그=핸들일 때만 성공)
   if [ -z "$cid" ]; then
-    cid=$(yt-dlp --playlist-items 1 --print "%(channel_id)s" \
-          "https://www.youtube.com/@${h}/videos" --no-update 2>/dev/null \
-          | grep -E "^UC" | head -1 || true)
-    if [ -z "$cid" ]; then echo "  [skip] $h: channel_id resolve 실패 (레지스트리에 없고 @${h} 미해결)" >&2; continue; fi
+    cid=$(yt-dlp --playlist-items 1 --print "%(channel_id)s" "https://www.youtube.com/@${h}/videos" --no-update 2>/dev/null | grep -E "^UC" | head -1 || true)
+    [ -z "$cid" ] && { echo "  [skip] $h: channel_id resolve 실패" >&2; continue; }
     printf "%s\t%s\n" "$h" "$cid" >> "$STATE"
   fi
-  feed=$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=${cid}" || true)
-  if [ -z "$feed" ]; then echo "  [skip] $h: RSS 접근 실패" >&2; continue; fi
-  n_in=$(printf "%s" "$feed" | awk -f scripts/collect-window.awk -v from="$FROM" -v to="$TO" | wc -l | tr -d ' ')
-  printf "%s" "$feed" | awk -f scripts/collect-window.awk -v from="$FROM" -v to="$TO" \
-    | while IFS='|' read -r id d; do
-        if grep -rqF -e "$id" "$TREE"/ 2>/dev/null; then continue; fi   # 이미 처리됨 -> 제외 (-e: '-'로 시작하는 ID 대응)
-        printf "%s\t%s\n" "$d" "$id" >> "$ACCUM"
-      done
-  echo "  [$h] 윈도우 내 ${n_in}편 (중복 제외 후 후보는 아래 집계)" >&2
+
+  # flat-playlist newest-first를 훑되, 앵커에 닿으면 멈춤(그 이전은 범위 밖)
+  scanned=0; new=0; hit=0
+  while read -r id; do
+    [ -z "$id" ] && continue
+    scanned=$((scanned+1))
+    [ "$id" = "$boundary" ] && { hit=1; break; }
+    grep -qxF -e "$id" "$DONE" && continue    # 이미 처리/skip (-e: '-' 시작 ID 대응)
+    echo "$id" >> "$ACC"; new=$((new+1))
+  done < <(yt-dlp --flat-playlist --print "%(id)s" "https://www.youtube.com/channel/${cid}/videos" --no-update 2>/dev/null | grep -E '^[A-Za-z0-9_-]{11}$')
+  warn=""; [ "$hit" = 0 ] && warn=" (경고: 앵커 미도달 — 앵커 영상이 내려갔을 수 있음)"
+  echo "  [$h] 앵커 이후 스캔 ${scanned}편, 미처리 ${new}편${warn}" >&2
 done
 
-# 최신순 정렬 -> cap
-sort -r "$ACCUM" | awk -v cap="$CAP" '
-  { total++; if (NR<=cap) print "https://youtu.be/" $2 }
-  END {
-    if (total > cap) printf("  [warn] 후보 %d편 > cap %d -> 오래된 %d편 절단(최신 유지)\n", total, cap, total-cap) > "/dev/stderr"
-    printf("  후보 총 %d편, 처리 %d편\n", total, (total<cap?total:cap)) > "/dev/stderr"
-  }'
+grand=$(wc -l < "$ACC")
+head -n "$CAP" "$ACC" | sed 's#^#https://youtu.be/#'
+[ "$grand" -gt "$CAP" ] && echo "  [warn] 미처리 ${grand}편 > cap ${CAP} -> ${CAP}편만(나머지는 다음 실행)" >&2
+echo "  미처리 총 ${grand}편" >&2

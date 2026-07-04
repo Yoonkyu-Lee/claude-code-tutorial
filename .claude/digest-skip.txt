@@ -1,0 +1,8 @@
+# 자막(ko/en 자동자막)이 없어 digest 불가로 확정된 영상 ID. collect-detect가 감지에서 제외한다.
+# 나중에 자막이 생기면 해당 줄을 지우면 재감지된다.
+1FKBSK5XZl0
+1RKJb5ZaX9k
+6xJVQHJatb4
+rbfilXu76hs
+ezxjpP5a4A4
+czf4O7QZQ94

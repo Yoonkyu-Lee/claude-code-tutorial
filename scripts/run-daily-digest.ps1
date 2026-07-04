@@ -35,11 +35,13 @@ foreach ($tool in @("claude","yt-dlp","git")) {
 $Prompt = @'
 You are Claude Code running headless in this repository for a daily unattended job.
 Read .claude/commands/collect-digest.md and follow that rulebook exactly.
-Goal: detect yesterday's newly uploaded videos on the tracked channels
-(the channels that have a digests/<topic>/<channel>/ folder), create a digest
-for each new one under digests/<topic>/<channel>/, update that channel INDEX,
-then git add/commit/push origin main so the site redeploys.
-If there are NO new videos, do nothing: no files, no commit, no push. Stay silent.
+Goal: on each tracked channel (those with a digests/<topic>/<channel>/ folder),
+detect every video that is NOT yet digested within the covered range - i.e.
+from that channel's earliest existing digest onward: middle gaps + anything new
+after the last. This is a state-based channel scan, NOT a "was it uploaded today"
+time window. Create a digest for each, update that channel INDEX, then
+git add/commit/push origin main so the site redeploys.
+If there is nothing un-digested, do nothing: no files, no commit, no push. Stay silent.
 Never ask for confirmation; this is fully unattended.
 '@
 
