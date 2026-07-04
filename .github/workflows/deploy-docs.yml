@@ -24,6 +24,7 @@ jobs:
         with:
           python-version: '3.x'
       - run: pip install -r requirements-docs.txt
+      - run: bash scripts/gen-pages.sh   # 채널 폴더 .pages(최신순) 생성 (새 채널도 자동)
       - run: mkdocs build
         env:
           DISABLE_MKDOCS_2_WARNING: 'true'

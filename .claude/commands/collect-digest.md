@@ -36,7 +36,7 @@ awk -f scripts/vtt-to-text.awk "<scratch>/<id>.ko.vtt" > "<scratch>/<id>.txt"
 후보를 concurrency(기본 3, 최대 5)로 묶어 **`digest-worker`** 서브에이전트를 동시 호출. 각 worker에 전달: URL + 주제 + 채널 슬러그 + 게시일(확정) + 원제 + 조회수/길이 + 자막파일. 저장 경로 `digests/<주제>/<채널>/`. 한 편 실패가 나머지를 막지 않는다.
 
 ## Step 4: INDEX 갱신 + commit + push
-- 생성된 digest를 `digests/<주제>/<채널>/INDEX.md`에 게시일 순서로 추가.
+- 생성된 digest를 `digests/<주제>/<채널>/INDEX.md` 표에 **최신순(최신이 위)**으로 추가. 링크는 **전체 파일명**(`YYYY-MM-DD-slug.md`, 날짜 접두 포함 — 빠뜨리면 사이트 링크가 깨진다).
 - **커밋 + push**:
   ```bash
   git add digests/

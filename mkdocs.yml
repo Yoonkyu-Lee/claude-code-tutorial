@@ -39,7 +39,11 @@ markdown_extensions:
 
 plugins:
   - same-dir
+  - awesome-pages   # 채널 폴더의 .pages(order: desc)로 네비를 최신순 정렬
   - search
+
+extra_javascript:
+  - js/last-viewed.js   # 이 기기에서 각 글을 마지막으로 본 시각 표시
 
 # content가 아닌 도구·메타 파일은 사이트에서 제외 (docs_dir가 리포 루트라서)
 exclude_docs: |
