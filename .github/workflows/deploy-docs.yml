@@ -5,17 +5,18 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# gh-pages 브랜치 방식: 빌드한 site/를 gh-pages 브랜치에 직접 push한다.
+# actions/deploy-pages 백엔드가 이 리포에서 간헐적으로 "deployment_queued"로
+# 스턱되어(2026-07 재발), 그 백엔드를 우회하는 브랜치 배포로 전환.
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
-  cancel-in-progress: false   # 진행 중 Pages 배포를 취소하면 스턱 상태를 유발할 수 있어 완주시킨다
+  cancel-in-progress: false
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -26,16 +27,8 @@ jobs:
       - run: mkdocs build
         env:
           DISABLE_MKDOCS_2_WARNING: 'true'
-      - uses: actions/upload-pages-artifact@v3
+      - uses: peaceiris/actions-gh-pages@v4
         with:
-          path: site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          force_orphan: true
