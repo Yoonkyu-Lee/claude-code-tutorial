@@ -44,6 +44,7 @@ plugins:
 
 extra_javascript:
   - js/last-viewed.js   # 이 기기에서 각 글을 마지막으로 본 시각 표시
+  - js/sort-toggle.js   # 목록 정렬 토글(기본 최신순 ↔ 오래된순)
 
 # content가 아닌 도구·메타 파일은 사이트에서 제외 (docs_dir가 리포 루트라서)
 exclude_docs: |
