@@ -1,6 +1,6 @@
 # unrealtech (@unrealtech · 안될공학 - IT 테크 신기술) — digest 색인
 
-주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 168편. (최신순)
+주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 193편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
@@ -172,3 +172,28 @@
 | 2025-11-07 | [2025-11-07-floppy-disk-history-storage-tech](2025-11-07-floppy-disk-history-storage-tech.md) | Z세대는 절대 모르는 이 버튼의 정체... 플로피 디스크를 아시나요?  천공 카드부터 클라우드까지, 저장 기술의 모든 것 |
 | 2025-11-06 | [2025-11-06-oklo-fast-reactor-fuel-recycling-datacenter-power](2025-11-06-oklo-fast-reactor-fuel-recycling-datacenter-power.md) | AI 데이터센터 옆에 왜 하필 원자력발전? \| 샘 알트먼 투자 오클로(Oklo)가 단순한 SMR 기업이 아닌 이유 [한국투자신탁운용x안될공학] |
 | 2025-11-05 | [2025-11-05-exynos-2600-benchmark-m5-samsung-foundry-2nm](2025-11-05-exynos-2600-benchmark-m5-samsung-foundry-2nm.md) | 삼성 엑시노스 2600... 애플 M5 동급 성능 유출 \| 중요한 건 파운드리 2nm 입니다 |
+| 2025-11-04 | [2025-11-04-nvidia-260k-gpu-korea-meaning](2025-11-04-nvidia-260k-gpu-korea-meaning.md) | 왜 NVIDIA가 한국에...? GPU 26만장의 진짜 의미 |
+| 2025-10-31 | [2025-10-31-qualcomm-ai200-lpddr-inference-chip-vs-nvidia-hbm](2025-10-31-qualcomm-ai200-lpddr-inference-chip-vs-nvidia-hbm.md) | 퀄컴의 미친 역습…엔비디아의 HBM 대신 LPDDR 메모리로 GPU 시장 공략한다 \| 사우디 3조 잭팟 터뜨린 진짜 이유 \| LPDDR \| HBM |
+| 2025-10-30 | [2025-10-30-ferrite-core-cable-cylinder-noise-filter](2025-10-30-ferrite-core-cable-cylinder-noise-filter.md) | 케이블에 달린 검은 원통... 대체 왜 달려있을까요?  페라이트 코어 |
+| 2025-10-27 | [2025-10-27-china-dram-hkmg-euv-mass-production-barrier](2025-10-27-china-dram-hkmg-euv-mass-production-barrier.md) | 중국 DRAM 양산 본격화에도... SK하이닉스, 삼성 이기기 어렵다, 앞으로 더딜 수 밖에 없는 기술적 이유 \| HKMG 누설전류 \| EUV |
+| 2025-10-26 | [2025-10-26-cxmt-lpddr5x-thinnest-memory-packaging-vs-frontend](2025-10-26-cxmt-lpddr5x-thinnest-memory-packaging-vs-frontend.md) | 중국 CXMT, LPDDR5X 출시는 물론 세계에서 가장 얇은 메모리 개발 \| 삼성, SK Hynix DRAM 슈퍼사이클 이슈? 가격하락 되나 \| 전공정과 패키징 |
+| 2025-10-25 | [2025-10-25-oracle-ai-cloud-pivot](2025-10-25-oracle-ai-cloud-pivot.md) | 오픈AI가 MS 대신 선택한 그 기업… 오라클, AI 전문 클라우드 변신은 너무나도 당연한 수순이었다 \| AWS, MS 위협하는 오라클의 AI 대반격 [한국투자신탁운용x안될공학] |
+| 2025-10-25 | [2025-10-25-north-korea-3-year-government-hack-gpki-zero-trust](2025-10-25-north-korea-3-year-government-hack-gpki-zero-trust.md) | (공식인정)(속보) 대한민국 정부는 3년간 북한에게 해킹당하고 있었습니다... 프랙 보고서, 사실이었다  \| 제로트러스트 \| 온나라 |
+| 2025-10-24 | [2025-10-24-galaxy-s26-exynos-2600-2nm-yield-wafer-supply](2025-10-24-galaxy-s26-exynos-2600-2nm-yield-wafer-supply.md) | 갤럭시S26 울트라, ”삼성 칩 탑재 어렵다“ 2nm 수율 50% 아니다? \| 퀄컴 압도적인 CPU 성능 격차 \| 초도물량 15,000장 의미 |
+| 2025-10-23 | [2025-10-23-google-quantum-echoes-verifiable-advantage](2025-10-23-google-quantum-echoes-verifiable-advantage.md) | 구글 미쳤 ㄷㄷ 양자컴퓨팅으로 신약개발, 신소재까지 된다  \| 13000배 빠르고 누가 검증해도 된다 \| '퀀텀 에코스' 총정리 |
+| 2025-10-21 | [2025-10-21-samsung-exynos2600-galaxy-s26-full-lineup](2025-10-21-samsung-exynos2600-galaxy-s26-full-lineup.md) | 삼성 칩 갤럭시S26 전 라인업 탑재 ㄷㄷㄷ 2nm GAA x Exynos2600, 애플 성능도 이기고 퀄컴 마저 이긴다? \| 반도체 업계 지각변동의 시작 |
+| 2025-10-20 | [2025-10-20-deepseek-ocr-optical-compression-gpu-efficiency](2025-10-20-deepseek-ocr-optical-compression-gpu-efficiency.md) | 중국 GPU 규제가 이렇게 돌아온다... 딥시크의 미친 아이디어, GPU 1/10로 만들다 \| 텍스트를 이미지로 10배 압축 |
+| 2025-10-17 | [2025-10-17-nvidia-dgx-spark-slower-than-mac-memory-bandwidth-cuda](2025-10-17-nvidia-dgx-spark-slower-than-mac-memory-bandwidth-cuda.md) | 엔비디아 개인용 AI 슈퍼컴 출시! 하자마자 실패...? 맥스튜디오, 맥미니보다 느린 진짜 이유 \|  핵심은 메모리 대역폭, 그리고 CUDA \| HBM \| LPDDR5X |
+| 2025-10-16 | [2025-10-16-google-veo-3-1-launch-video-ai](2025-10-16-google-veo-3-1-launch-video-ai.md) | 구글, 또 미친 AI ㄷㄷㄷ... 편집과 오디오까지 자연스러운 영상 AI!! 광고, PPL, 편집까지 ㄷㄷ 구글 Veo 3.1 본격 출시 |
+| 2025-10-14 | [2025-10-14-amd-nvidia-ai-gpu-helios-openai-mi400](2025-10-14-amd-nvidia-ai-gpu-helios-openai-mi400.md) | AMD, 드디어 엔비디아와 싸움이 된다 \| AI GPU 싸움의 온도가 바뀐 이유 \| Helios, OpenAI의 전격 채택 |
+| 2025-10-13 | [2025-10-13-semiconductor-five-walls-scaling-era-end](2025-10-13-semiconductor-five-walls-scaling-era-end.md) | 반도체 기술의 미래를 가로막는 5가지 거대한 장벽...  '새로운 시대'가 시작되는 이유 |
+| 2025-10-11 | [2025-10-11-samsung-trm-tiny-recursive-model-on-device-ai](2025-10-11-samsung-trm-tiny-recursive-model-on-device-ai.md) | 삼성 드디어 AI로 일 냈다? Gemini, 딥시크 다 이긴 10,000의 1 크기 TRM 의미 |
+| 2025-10-11 | [2025-10-11-figure-03-humanoid-home-mass-production](2025-10-11-figure-03-humanoid-home-mass-production.md) | 마침내 공개된 Figure 03... 테슬라 옵티머스 대항마, 3세대 휴머노이드 전격 출시, 대량생산 - 가정용으로 공략한다 |
+| 2025-10-09 | [2025-10-09-boston-dynamics-gr2-gripper-thinking-hand](2025-10-09-boston-dynamics-gr2-gripper-thinking-hand.md) | 보스턴 다이내믹스 생각하는 손 등장 \| 왜 손가락이 3개 뿐일까? (feat. 테슬라 옵티머스) |
+| 2025-10-05 | [2025-10-05-qualcomm-edge-ai-six-trends](2025-10-05-qualcomm-edge-ai-six-trends.md) | 퀄컴이 AI 시대 더 주목받게 되는 진짜 이유… 순식간에 변화할 AI 트렌드 \| 글래스, 폰, 자동차 등 엣지 디바이스 모두에 퀄컴 칩 |
+| 2025-10-03 | [2025-10-03-micron-hbm4-11gbps-base-die-meaning](2025-10-03-micron-hbm4-11gbps-base-die-meaning.md) | 핵심은 베이스 다이? 마이크론 HBM4... 세계 최고 속도 11Gbps 달성의 진짜 의미 |
+| 2025-10-02 | [2025-10-02-zoomtopia-2025-ai-work-platform-digital-twin](2025-10-02-zoomtopia-2025-ai-work-platform-digital-twin.md) | 내 아바타가 줌 미팅을...? AI 업무 플랫폼으로의 완전한 변신, 줌토피아 2025 에서 공개된 충격적인 업무 자동화의 미래 [안될공학xZoom] |
+| 2025-10-01 | [2025-10-01-snapdragon-x2-elite-extreme-arm-laptop-shift](2025-10-01-snapdragon-x2-elite-extreme-arm-laptop-shift.md) | 스냅드래곤 X2 Elite Extreme 등장... 지금 노트북 사지 마세요 \| 윈도우 PC, 노트북 시장까지 바뀔 예정 (ft. 인텔, AMD, 애플) |
+| 2025-10-01 | [2025-10-01-iphone-17-pro-three-key-technologies](2025-10-01-iphone-17-pro-three-key-technologies.md) | 아이폰 17 프로 시리즈... 대표 기술 3가지 의미 분석 \| 8배 줌이 대단한...거야? \| A19 Pro, ‘전력 효율’로 압살 \| 최초? 알루미늄 유니바디 의미 |
+| 2025-09-30 | [2025-09-30-snapdragon-8-elite-gen5-summit-galaxy-s26-ultra](2025-09-30-snapdragon-8-elite-gen5-summit-galaxy-s26-ultra.md) | 하와이 가서 직접 보고 왔습니다... 갤럭시 S26 Ultra 탑재 예상, 스냅드래곤 8 엘리트 Gen 5, 성능이 정말 미쳤어요 |
+| 2025-09-28 | [2025-09-28-huangs-law-1000x-full-stack-optimization](2025-09-28-huangs-law-1000x-full-stack-optimization.md) | 10년 사이 성능 1,000배가 된다...  황의 법칙, AI 시대의 새로운 기술 법칙이 가능했던 이유 \| NVLink \| Infiniband \| CUDA |
