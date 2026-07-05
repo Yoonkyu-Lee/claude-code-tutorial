@@ -1,6 +1,6 @@
 # unrealtech (@unrealtech · 안될공학 - IT 테크 신기술) — digest 색인
 
-주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 96편. (최신순, 채널 최신 100편부터)
+주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 168편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
@@ -100,3 +100,75 @@
 | 2026-03-04 | [2026-03-04-ald-epitaxy-asm-3d-semiconductor](2026-03-04-ald-epitaxy-asm-3d-semiconductor.md) | GAA, 3D DRAM, NAND도 이 기술 없인 불가능 \| 3D 반도체 구조에 ALD 기술이 필수적인 이유 [ASMx안될공학] |
 | 2026-03-03 | [2026-03-03-qualcomm-x105-release-19-modem-6g](2026-03-03-qualcomm-x105-release-19-modem-6g.md) | 드디어 6G 전쟁인가...  AI 시대 통신칩 중요해진다 \| 퀄컴 세계 최초 Release 19 모뎀칩 X105 공개의 진짜 의미 |
 | 2026-03-01 | [2026-03-01-nvidia-groq-sram-lpu-inference-chip-gtc-2026](2026-03-01-nvidia-groq-sram-lpu-inference-chip-gtc-2026.md) | NVIDIA, HBM 버리고 택한 이것... GTC 2026 공개할 AI 추론칩 신의 한수 \| 삼성 파운드리 부활로 보는 이유 |
+| 2026-02-27 | [2026-02-27-galaxy-s26-ultra-privacy-display-oled-light-direction](2026-02-27-galaxy-s26-ultra-privacy-display-oled-light-direction.md) | 옆에서 안보이네... 갤럭시 S26 울트라 디스플레이 프라이버시 디스플레이 가능했던 진짜 이유 \| 세계 최초 빛의 방향을 설계한 삼성 디스플레이 OLED |
+| 2026-02-25 | [2026-02-25-anthropic-china-distillation-attack-claude](2026-02-25-anthropic-china-distillation-attack-claude.md) | 중국, 결국 미국 AI 베낀것? Anthropic이 공개한 충격적 증거 \| 가계정 25,000개로 1600만번 복제…DeepSeek, Kimi, MiniMax 적발 |
+| 2026-02-24 | [2026-02-24-samsung-dram-lead-recapture-wafer-capa-hbm4](2026-02-24-samsung-dram-lead-recapture-wafer-capa-hbm4.md) | 삼성 메모리 1위 탈환, 앞으로도 지속될 가능성 높은 이유 \| 웨이퍼 팹 캐파 \| HBM4 양산 시작 |
+| 2026-02-20 | [2026-02-20-samsung-hbm4-13gbps-base-die-1c-process](2026-02-20-samsung-hbm4-13gbps-base-die-1c-process.md) | 삼성 최대 13Gbps HBM4 출시 의미 분석 \| 베이스다이 1c 공정 |
+| 2026-02-20 | [2026-02-20-google-lyria-3-realtime-music-generation](2026-02-20-google-lyria-3-realtime-music-generation.md) | 구글이 또… 텍스트, 이미지 넣으면 노래 음악 I 실시간 작곡구글 Lyria 3 Gemini에 출시 \| Lyria Realtime으로 실시간 생성형 음악 등장… |
+| 2026-02-18 | [2026-02-18-korea-semiconductor-engineer-talent-war-tesla-hynix-micron](2026-02-18-korea-semiconductor-engineer-talent-war-tesla-hynix-micron.md) | AI발 퇴사 이직 시작 \| 테슬라 한국 인력 리크루팅 \|  SK하이닉스 3000% 성과급 \| 마이크론 한국 인재 사냥 현황 |
+| 2026-02-17 | [2026-02-17-openclaw-mac-mini-on-device-ai-permission-over-performance](2026-02-17-openclaw-mac-mini-on-device-ai-permission-over-performance.md) | OpenClaw 맥미니 대란…. 애플이 AI로 새롭게 주목받는 진짜 이유 \| 온디바이스AI 새로운 부활, 성능보다 권한이 되는 순간 |
+| 2026-02-16 | [2026-02-16-bytedance-seedance-ai-chip-samsung-foundry-memory-leverage](2026-02-16-bytedance-seedance-ai-chip-samsung-foundry-memory-leverage.md) | 설 연휴 제2차 딥시크… AI칩은 삼성 파운드리가 맡는다? 중국의 구글 ByteDance, 삼성이 강해질 수 있는 건 메모리x파운드리 협상 |
+| 2026-02-15 | [2026-02-15-elice-cloud-pmdc-modular-datacenter-eci-gpu-virtualization](2026-02-15-elice-cloud-pmdc-modular-datacenter-eci-gpu-virtualization.md) | 건물형 데이터센터는 이제 한계입니다... 모듈형(PMDC)으로 B200 냉각 잡았다 \| GPU 효율 100% 뽑아내는 가상화(ECI) 기술의 실체 [안될공학x엘리스클라우드] |
+| 2026-02-10 | [2026-02-10-space-datacenter-starship-thermal-radiator](2026-02-10-space-datacenter-starship-thermal-radiator.md) | 우주 데이터센터, 구글, MS까지... 결국은 일론머스크 스타십이 답? 발사체부터 에너지, 냉각까지, 우주 데이터센터 공학 분석 |
+| 2026-02-08 | [2026-02-08-claude-opus-4-6-office-plugin-excel-powerpoint](2026-02-08-claude-opus-4-6-office-plugin-excel-powerpoint.md) | Claude 구독자 주목... Opus 4.6을 PPT 엑셀에서 직접 사용 가능 \| 누가 쓸 수 있고 뭐가 달라졌나 |
+| 2026-02-08 | [2026-02-08-ai-coding-distribution-war-opus-4-6-codex-5-3](2026-02-08-ai-coding-distribution-war-opus-4-6-codex-5-3.md) | Anthropic 직후 OpenAI가 또… 이유가 있다. 이제 AI 코딩 전쟁은 모델이 아니라 유통 전쟁이다 \| 중국 AI 위협 \| Opus 4.6 \| GPT-5.3-Codex |
+| 2026-02-06 | [2026-02-06-manus-skills-save-workflow-sop](2026-02-06-manus-skills-save-workflow-sop.md) | 이제 AI로 반복 업무 끝! 업무 방식 통째로 저장 \| Manus Skills로 24시간 걸릴 일을 1시간만에 \| AI로 PPT, 보고서, 웹페이지, 영상편집[안될공학xManus] |
+| 2026-02-05 | [2026-02-05-cxmt-chinese-dram-pc-makers-shortage](2026-02-05-cxmt-chinese-dram-pc-makers-shortage.md) | 중국 DRAM 찾기 시작… 글로벌 PC 공룡들의 조용한 선택 \| CXMT 수준, 메모리 부족이 만든 변화, DRAM 공급 구조는 어떻게 바뀌는가 |
+| 2026-02-05 | [2026-02-05-apple-xcode-26-3-ai-agent-coding-strategy](2026-02-05-apple-xcode-26-3-ai-agent-coding-strategy.md) | 애플 앱 개발에 드디어 AI가? 애플의 AI 전략은 확실하다 \| OpenAI, Claude AI 코딩까지 품었다 \| Xcode 26.3 출시와 M5 Pro, Max 맥북 출시 예상 |
+| 2026-02-03 | [2026-02-03-google-tpu-dram-instead-of-hbm-optical-switching](2026-02-03-google-tpu-dram-instead-of-hbm-optical-switching.md) | 구글 TPU만 가능하다... HBM 대신 DRAM, 광스위치로 \| 메모리 계층화를 통한 HBM 줄인 설계가 NVIDIA와는 다르게 가능한 이유 \| DRAM 은 더 부족해진다 |
+| 2026-02-02 | [2026-02-02-genspark-agentic-ai-integration-platform-productivity-structure](2026-02-02-genspark-agentic-ai-integration-platform-productivity-structure.md) | PPT, 엑셀, 메일... 전화 인터뷰까지 대신 한다 \| 에이전틱 AI 통합 플랫폼이 더 중요... 생산성 늘리는 건 모델이 아니라 ‘구조’ [안될공학xGenspark] |
+| 2026-01-31 | [2026-01-31-moltbook-ai-agent-social-network-religion](2026-01-31-moltbook-ai-agent-social-network-religion.md) | 클로드봇, 사람 없는 SNS의 탄생… AI 대화 내용 봤더니, 종교도 만들었네요 \| 댓글 여론 조작 위협이 순식간에 커집니다 \| Moltbook의 실체 |
+| 2026-01-31 | [2026-01-31-claudebot-openclaude-os-agent-on-mac-mini](2026-01-31-claudebot-openclaude-os-agent-on-mac-mini.md) | 클로드봇이 뭐길래... AI 진짜 자비스 나와서 난리난 근황, 근데 해킹? \| 메신저로 시키고 알아서 결제, 예약, 영상편집 \| 애플 맥미니 쇼티지 |
+| 2026-01-30 | [2026-01-30-google-genie-3-world-model-hbm-demand](2026-01-30-google-genie-3-world-model-hbm-demand.md) | 구글이 이걸 푸네요… HBM 더 폭증 \| 월드모델 Genie 3 사용자들 경악 \| 월드 모델은 LLM과는 아예 다른 경쟁 기준이 됩니다 |
+| 2026-01-29 | [2026-01-29-valley-ai-bigtech-ai-business-structure-6-layers](2026-01-29-valley-ai-bigtech-ai-business-structure-6-layers.md) | 테슬라·구글·엔비디아·브로드컴... Valley AI로 보는 빅테크 AI 비즈니스 구조 \| 돈 버는 목표, 구조가 다릅니다 [뉴로퓨전(월가아재)x안될공학] |
+| 2026-01-26 | [2026-01-26-smartphone-packaging-wmcm-shpmim-vs-hpb](2026-01-26-smartphone-packaging-wmcm-shpmim-vs-hpb.md) | 2나노 공정만으론 부족하다… 갤럭시, 아이폰에 들어갈 서로다른 신규 패키징 기술 비교 \| 애플 A20 WMCM, SHPMIM과 퀄컴 스냅드래곤 8 젠6 엑시노스2600 기술 HPB |
+| 2026-01-24 | [2026-01-24-cuda-moat-amd-gpu-porting-claude-code-factcheck](2026-01-24-cuda-moat-amd-gpu-porting-claude-code-factcheck.md) | AI가 CUDA 해자를 균열시키나... Claude Code 사용해서 CUDA를 AMD GPU 로 연결 팩트체크 \| CUDA가 쉽게 무너지기 힘든 이유와 의미 |
+| 2026-01-22 | [2026-01-22-hallucination-structural-reasons-llm-comparison](2026-01-22-hallucination-structural-reasons-llm-comparison.md) | AI 헛소리는 버그 아니다... 할루시네이션 구조적 이유, 최신 기술, 꿀팁 \| GPT, Gemini, Grok, Claude 비교 |
+| 2026-01-19 | [2026-01-19-nvidia-icms-nand-price-surge-kv-cache-bluefield4](2026-01-19-nvidia-icms-nand-price-surge-kv-cache-bluefield4.md) | NVIDIA, ICMS가 뭐길래... NAND 가격까지 폭등해버린 진짜 이유 \|  HBF 조기 상용화? KV 캐시, 대용량 Storage, DPU, BlueField 4 |
+| 2026-01-15 | [2026-01-15-deepseek-ngram-dram-scaling-cxl](2026-01-15-deepseek-ngram-dram-scaling-cxl.md) | DeepSeek AI 신규 기술... DRAM 대폭 늘리면 성능 더 좋아진다 \| DDR4, DDR5 부족사태, CXL도 다시 주목받나 |
+| 2026-01-12 | [2026-01-12-samsung-cis-image-sensor-iphone-foundry-semianalysis](2026-01-12-samsung-cis-image-sensor-iphone-foundry-semianalysis.md) | "삼성 이미지 센서, 아이폰에 더 많이 들어간다" 삼성 파운드리 매출 2조까지 확대 예상, SemiAnalysis 아이폰 카메라 30% 주장 나오는 이유 |
+| 2026-01-11 | [2026-01-11-samsung-semiconductor-2026-revival-hbm3e-shortage-2nm](2026-01-11-samsung-semiconductor-2026-revival-hbm3e-shortage-2nm.md) | 2026년 삼성 반도체, 완벽한 부활이 될 수 밖에 없는 4가지 핵심 기술 \| HBM3E 주류화, 메모리 쇼티지… 2나노 수주… 카메라 반전까지 |
+| 2026-01-10 | [2026-01-10-samsung-2nm-foundry-cost-exynos-qualcomm-dual-foundry](2026-01-10-samsung-2nm-foundry-cost-exynos-qualcomm-dual-foundry.md) | 갤럭시 S26, 삼성 칩, 퀄컴 칩 비교했을 때, 2나노 파운드리 진짜 쌀까? \| 웨이퍼 수와 실제 수익 계산 \| 퀄컴의 듀얼 파운드리 전략 |
+| 2026-01-09 | [2026-01-09-korean-ai-startup-affine-india-credit-scoring-architecture](2026-01-09-korean-ai-startup-affine-india-credit-scoring-architecture.md) | 글로벌 AI 챌린지 1위 휩쓴 한국 스타트업 ... 신용 정보 0인 인도 10억 인구를 분석하는 한국 AI 아키텍처 [안될공학x어피닛] |
+| 2026-01-07 | [2026-01-07-nvidia-ces-2026-keynote-vera-rubin-cosmos-dlss](2026-01-07-nvidia-ces-2026-keynote-vera-rubin-cosmos-dlss.md) | NVIDIA의 전략은 확실하네요. CES 2026 Keynote 핵심 정리 \| 자율주행 '플랫폼‘을 팔고 Vera-Rubin GPU, Cosmos와 DLSS 4.5까지 |
+| 2026-01-07 | [2026-01-07-boston-dynamics-new-atlas-hyundai-ces-gemini-robotics](2026-01-07-boston-dynamics-new-atlas-hyundai-ces-gemini-robotics.md) | 보스턴 다이내믹스, 현대차 CES 발표 중 실물 깜짝 공개... 구글 Gemini Robotics 크로스! 알아서 배터리 갈고, 방수, 무게 50kg 든다 |
+| 2026-01-05 | [2026-01-05-hyundai-solid-state-battery-ev-pilot-line](2026-01-05-hyundai-solid-state-battery-ev-pilot-line.md) | 현대차, 세계 최초 전고체 배터리 전기차, ‘대거 생산’ 보도의 진짜 의미 \| 테슬라, BYD 비교 |
+| 2025-12-30 | [2025-12-30-spotify-music-recommendation-algorithm-engineering](2025-12-30-spotify-music-recommendation-algorithm-engineering.md) | (광고아님) 유독 스포티파이가 노래 추천을 잘한다는 평이 많은 이유 |
+| 2025-12-28 | [2025-12-28-samsung-custom-gpu-ecosystem-challenge](2025-12-28-samsung-custom-gpu-ecosystem-challenge.md) | 삼성 GPU, 2년 뒤 출시만 한다고 끝이 아니다 \| 엔비디아 CUDA 가 강력한 이유... 퀄컴 아드레노 20년 노하우 |
+| 2025-12-26 | [2025-12-26-samsung-in-house-gpu-memory-centric-on-device-ai](2025-12-26-samsung-in-house-gpu-memory-centric-on-device-ai.md) | 삼성 독자 GPU 개발의 진짜 의미… AI와 메모리 중심 컴퓨팅 준비 \| On-Device AI, AR Glass, XR Device \| 퀄컴 애플 |
+| 2025-12-25 | [2025-12-25-nvidia-groq-lpu-sram-inference-chip-acquisition](2025-12-25-nvidia-groq-lpu-sram-inference-chip-acquisition.md) | 와 엔비디아 무섭네요... TPU 막는다, 추론 속도 최강칩 Groq 인수 \| 전 TPU 설계 엔지니어 흡수 \| Groq SRAM 기반 칩, 추론 시장 판도 바꾼 |
+| 2025-12-24 | [2025-12-24-xai-grok-collections-rag-api](2025-12-24-xai-grok-collections-rag-api.md) | 구글, OpenAI와는 다르다... xAI Grok, 초간단 실시간 시스템 만든다 \| 기업 정보 정확도까지 1등 \| RAG API |
+| 2025-12-22 | [2025-12-22-torchtpu-google-meta-cuda-moat](2025-12-22-torchtpu-google-meta-cuda-moat.md) | NVIDIA CUDA 무너뜨리려 작정했네요... 구글, 메타가 몰래 만든 TPU 기반 비장의 무기 TorchTPU \| 얼마나 강력한가 |
+| 2025-12-20 | [2025-12-20-manus-1-6-max-agentic-ai-demo](2025-12-20-manus-1-6-max-agentic-ai-demo.md) | ChatGPT, Gemini 발전될수록 훨씬 강력해진다! 주식분석·리서치·엑셀·앱 개발까지 한 번에 \| 에이전틱 AI Manus 1.6 MAX 실전 시연[안될공학xManus AI] |
+| 2025-12-19 | [2025-12-19-korea-ai-chip-tpu-shift-domestic-llm-npu-package](2025-12-19-korea-ai-chip-tpu-shift-domestic-llm-npu-package.md) | 구글 TPU 사태로인한 변화... 한국 AI 칩이 주인공이 될 수 있는 이유 \| 국산 LLM·국산 NPU 패키지 [안될공학x과학기술정보통신부] |
+| 2025-12-19 | [2025-12-19-gemini-3-flash-cheap-fast-but-flawed](2025-12-19-gemini-3-flash-cheap-fast-but-flawed.md) | 싸고 성능 좋은 건 없다...? 구글, 겁나 빠르고 싼데 GPT5.2 동급 Gemini 3.0 Flash 출시 \|  그런데... 소름 돋는 성능과 치명적 결함? |
+| 2025-12-18 | [2025-12-18-google-realtime-speech-to-speech-translation](2025-12-18-google-realtime-speech-to-speech-translation.md) | 구글이 또 미친 물건을... '진짜' 실시간 통역 출시 \| 스마트 글래스 큰 그림 \| Speech-to-Speech 원리 |
+| 2025-12-16 | [2025-12-16-macos-26-2-thunderbolt5-rdma-mac-cluster](2025-12-16-macos-26-2-thunderbolt5-rdma-mac-cluster.md) | 애플 vs NVIDIA? 맥OS 26.2 업데이트하니... 맥미니 연결하면 AI 슈퍼컴 된다 \| Thunderbolt 5 기반 RDMA 분석 |
+| 2025-12-15 | [2025-12-15-hbm4-sphbm-serdes-base-die-cowos](2025-12-15-hbm4-sphbm-serdes-base-die-cowos.md) | HBM4 경쟁 구도 완전히 바뀝니다... 신호 수 1/4 줄어드는데 대역폭 같다 \| SPHBM4, 베이스다이 훨씬 중요 \| SerDes \| CoWoS-R \| CoWoS-L |
+| 2025-12-13 | [2025-12-13-aws-trainium-3-4-nvlink-fusion-mgx](2025-12-13-aws-trainium-3-4-nvlink-fusion-mgx.md) | 구글 TPU와 또 다르다… AWS, 자체칩 서비스 시작 \| NVIDIA 독자규격 흡수 \| NVLink Fusion + MGX 기반  의미 |
+| 2025-12-12 | [2025-12-12-gpt-5-2-hallucination-reduction-gemini-comparison](2025-12-12-gpt-5-2-hallucination-reduction-gemini-comparison.md) | 와... GPT 5.2 기습 출시!  구글과 비교 \| 성능도 좋은데 헛소리 진짜 줄었다 ... 새로운 기법 적용 |
+| 2025-12-12 | [2025-12-12-ai-snake-oil-book-review](2025-12-12-ai-snake-oil-book-review.md) | AI, 절반은 과장되었다...? 예측형·생성형 AI의 진짜 한계, 딥페이크와 AGI 공포까지 \| 'AI 버블이 온다' 완전 분석 [안될공학x윌북] |
+| 2025-12-09 | [2025-12-09-usb-c-charging-guide](2025-12-09-usb-c-charging-guide.md) | 같은 USB-C인데 충전 속도 왜 이래? \| USB-C  충전기, 충전 케이블, 충전에 대한 모든 꿀팁 정리 |
+| 2025-12-08 | [2025-12-08-engine-ai-t800-humanoid-actuator-vs-tesla-optimus](2025-12-08-engine-ai-t800-humanoid-actuator-vs-tesla-optimus.md) | 사람, 발로 차서 날렸다... NVIDIA 칩 탑재 Engine AI, 성인 남성보다 훨씬 더 강력한 액츄에이터 T-800 공개 \| 테슬라 옵티머스와 비교 |
+| 2025-12-06 | [2025-12-06-apple-developer-academy-showcase-vision-pro-accessibility-apps](2025-12-06-apple-developer-academy-showcase-vision-pro-accessibility-apps.md) | XR·AI·Accessibility… 애플 학생 개발자 쇼케이스 현장, 놀라운 앱들 \| Vision Pro·경찰 수사·접근성 혁신 앱 총정리 \| 애플 디벨로퍼 아카데미 5기 모집중 |
+| 2025-12-06 | [2025-12-06-ai-infra-five-bottlenecks-hbm-cowos](2025-12-06-ai-infra-five-bottlenecks-hbm-cowos.md) | GPU만 빠르면 뭐해? ... HBM과 CoWoS가 없어서 못 팔게된 이유 \| AI 인프라 5가지 병목 |
+| 2025-12-05 | [2025-12-05-apple-games-showcase-korea-inzoi-mac-unified-memory](2025-12-05-apple-games-showcase-korea-inzoi-mac-unified-memory.md) | 한국 최초네요... 애플 게임 쇼케이스 \| 인조이, AION2 부터 미공개 게임까지 \| 아이폰 17 Pro 스펙 이유 \| Unified Memory, N1 칩 \| 게임 포팅 툴킷 |
+| 2025-12-04 | [2025-12-04-tesla-optimus-running-humanoid-speed-comparison](2025-12-04-tesla-optimus-running-humanoid-speed-comparison.md) | 휴머노이드도 러닝 시대… 테슬라 옵티머스 실제 속도 \| 경쟁 로봇 비교 \| 기술 의미 정리 |
+| 2025-12-03 | [2025-12-03-samsung-galaxy-z-trifold-vs-huawei-mate-xt](2025-12-03-samsung-galaxy-z-trifold-vs-huawei-mate-xt.md) | 360만 원짜리 삼성 두번 접는 폴더블폰? \| 1년 전 화웨이보다 싸다?  장점과 아쉬운 점 |
+| 2025-12-01 | [2025-12-01-google-tpu-vs-nvidia-cost-hyperscaler-vs-startup](2025-12-01-google-tpu-vs-nvidia-cost-hyperscaler-vs-startup.md) | 구글 TPU, 진짜 쌀까...? NVIDIA가 더 싸던데? 하이퍼스케일과 스타트업의 다른 계산법 |
+| 2025-11-30 | [2025-11-30-meta-anthropic-google-tpu-vs-nvidia-cuda-moat](2025-11-30-meta-anthropic-google-tpu-vs-nvidia-cuda-moat.md) | Meta, Anthropic의 구글 TPU 선택, 검토 이유... NVIDIA의 CUDA를 벗어나는 것이 가능한가 |
+| 2025-11-29 | [2025-11-29-nvidia-rubin-cpx-gddr-vs-google-tpu](2025-11-29-nvidia-rubin-cpx-gddr-vs-google-tpu.md) | 구글 TPU 막아라... HBM 없는 엔비디아 신기술 등장 \| 사실 GPU, TPU 모두 설계가 계속 바뀌어 왔습니다 \| Rubin CPX가 GDDR로 가능한 이유 |
+| 2025-11-29 | [2025-11-29-coupang-data-breach-33million-voice-phishing](2025-11-29-coupang-data-breach-33million-voice-phishing.md) | 보이스 피싱이 이제 더 심해집니다... 쿠팡 개인정보 3370만 건 유출 \| 이름, 전화번호, 주소까지 ㄷㄷ |
+| 2025-11-28 | [2025-11-28-tpu-vs-cuda-moat-nvidia-rubin-cpx-dgx-spark](2025-11-28-tpu-vs-cuda-moat-nvidia-rubin-cpx-dgx-spark.md) | CUDA 때문에 절대 안된다? 구글 TPU 사태의 본질, 엔비디아가 급해진 이유 \| NVIDIA가 루빈 CPX, DGX Spark 내놓은 이유 |
+| 2025-11-27 | [2025-11-27-genspark-agentic-ai-demo](2025-11-27-genspark-agentic-ai-demo.md) | 이 영상 보고나면 다 쓰게 될겁니다... AI로 PPT, 주식 분석, 앱 개발까지 [젠스파크x안될공학] |
+| 2025-11-24 | [2025-11-24-nvidia-lpddr-mobile-dram-price-surge](2025-11-24-nvidia-lpddr-mobile-dram-price-surge.md) | 모바일 용 DRAM 가격 폭등이... 엔비디아 때문에 벌어진다 \| 서버 1대 팔면 휴대폰 40대? \| 엔비디아, 모바일 램 LPDDR 싹쓸이 |
+| 2025-11-23 | [2025-11-23-nano-banana-pro-image-ai-tips](2025-11-23-nano-banana-pro-image-ai-tips.md) | 이것만 알아도 돈 시간 아낀다... 구글 신규 이미지 AI 나노 바나나 프로 꿀 팁 모음 |
+| 2025-11-21 | [2025-11-21-nano-banana-pro-google-image-model](2025-11-21-nano-banana-pro-google-image-model.md) | 구글이 또 역사를 씁니다... 제2의 지브리 사태, 한글 텍스트까지 완벽한 이미지 생성 나노바나나 프로 출시 \| 디자인 업계 출렁 |
+| 2025-11-21 | [2025-11-21-gemini-3-pro-benchmarks-web-design-tpu-price](2025-11-21-gemini-3-pro-benchmarks-web-design-tpu-price.md) | 구글, AI 역사에 한 획을 또 긋습니다... Gemini 3.0 Pro 발표의 진짜 의미 \| 가격은 싸고 모든 벤치마크 1위, 웹디자인 전멸,  가격 파괴의 비밀은 TPU? |
+| 2025-11-19 | [2025-11-19-cxl-is-not-second-hbm](2025-11-19-cxl-is-not-second-hbm.md) | CXL이 제2의 HBM? 삼성 양산 시작? 다들 잘못알고 계십니다 \| CXL이 HBM만큼 파급력이 없는 이유 |
+| 2025-11-17 | [2025-11-17-dram-price-hike-mask-set-server-leverage](2025-11-17-dram-price-hike-mask-set-server-leverage.md) | DRAM가격 또 오를겁니다... 안 사면 안 만들면 되는 상황 \| 50% 인상 통보가 가능한 기술적 이유 |
+| 2025-11-14 | [2025-11-14-brain-it-fmri-visual-reconstruction-bci](2025-11-14-brain-it-fmri-visual-reconstruction-bci.md) | 내가 본 장면을 AI가 재현하는 기술 등장...  디테일까지 다 살리는 이유 \| 뉴럴링크 BCI 기술 의미 |
+| 2025-11-10 | [2025-11-10-google-tpu-ironwood-v7-vs-nvidia-gb300](2025-11-10-google-tpu-ironwood-v7-vs-nvidia-gb300.md) | AI 칩 판도가 서서히 바뀐다... 구글 TPU Ironwood 본격 출시 \| 엔비디아 GB300과 정면 비교 |
+| 2025-11-07 | [2025-11-07-floppy-disk-history-storage-tech](2025-11-07-floppy-disk-history-storage-tech.md) | Z세대는 절대 모르는 이 버튼의 정체... 플로피 디스크를 아시나요?  천공 카드부터 클라우드까지, 저장 기술의 모든 것 |
+| 2025-11-06 | [2025-11-06-oklo-fast-reactor-fuel-recycling-datacenter-power](2025-11-06-oklo-fast-reactor-fuel-recycling-datacenter-power.md) | AI 데이터센터 옆에 왜 하필 원자력발전? \| 샘 알트먼 투자 오클로(Oklo)가 단순한 SMR 기업이 아닌 이유 [한국투자신탁운용x안될공학] |
+| 2025-11-05 | [2025-11-05-exynos-2600-benchmark-m5-samsung-foundry-2nm](2025-11-05-exynos-2600-benchmark-m5-samsung-foundry-2nm.md) | 삼성 엑시노스 2600... 애플 M5 동급 성능 유출 \| 중요한 건 파운드리 2nm 입니다 |
