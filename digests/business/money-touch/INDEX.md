@@ -1,9 +1,10 @@
 # money-touch (@MONEY_TOUCH) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 12편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 13편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-06 | [2026-07-06-naver-brand-connect-affiliate-side-hustle](2026-07-06-naver-brand-connect-affiliate-side-hustle.md) | "99.9%는 이게 있는 줄도 모를걸요?" 이미지 이어 붙이고 8천만 원 버는 역대급 부업 |
 | 2026-06-26 | [2026-06-26-no-inventory-brand-dropshipping-program](2026-06-26-no-inventory-brand-dropshipping-program.md) | 평일에 회사도 안가고 육아 하면서, 4천만 원씩 버는 40대 백수아빠의 비밀 부업 추천 |
 | 2026-06-22 | [2026-06-22-google-adsense-blog-dollar-side-hustle](2026-06-22-google-adsense-blog-dollar-side-hustle.md) | "전세계가 다 하는데 한국인만 안 합니다" 65세 엄마도 하루 2,000달러 벌어요 외국인만 꿀 빠는 부업으로 75억 번 가족 (마감, 1주일 특별연장) |
 | 2026-06-20 | [2026-06-20-cosmetics-dropshipping-automation-side-hustle](2026-06-20-cosmetics-dropshipping-automation-side-hustle.md) | "한국에서 1%만 이 부업 해요" 29살에 시작한 부업으로 한달 순수익 1천만 원 인생이 180도 달라진 29살 |
