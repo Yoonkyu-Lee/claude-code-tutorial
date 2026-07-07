@@ -13,3 +13,6 @@ youtube-mcp/
 
 # MkDocs 빌드 출력 (사이트는 GitHub Actions가 빌드·배포)
 site/
+
+# 대용량 자료 zip (커밋 금지)
+*.zip
