@@ -1,9 +1,10 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 90편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 91편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-07 | [2026-07-07-evaluation-market-scoring-moat](2026-07-07-evaluation-market-scoring-moat.md) | 채점만 해주는 회사가 어떻게 1조 7천억을 벌었을까? |
 | 2026-07-01 | [2026-07-01-job-titles-fade-five-archetypes](2026-07-01-job-titles-fade-five-archetypes.md) | 개발자, 기획자, 디자이너… 이 명함 곧 사라집니다 |
 | 2026-06-24 | [2026-06-24-why-skills-lost-agents-md](2026-06-24-why-skills-lost-agents-md.md) | 왜 스킬이 졌을까?(feat. agent.md 의 비밀) |
 | 2026-06-14 | [2026-06-14-ax-adoption-90-percent-flee](2026-06-14-ax-adoption-90-percent-flee.md) | AX 도입, 직원 90%가 도망가는 진짜 이유 |

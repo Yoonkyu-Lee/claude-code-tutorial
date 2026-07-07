@@ -1,9 +1,10 @@
 # unrealtech (@unrealtech · 안될공학 - IT 테크 신기술) — digest 색인
 
-주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 193편. (최신순)
+주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 194편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-07 | [2026-07-07-monsoon-engineering-water-umbrella-tire-radio-city](2026-07-07-monsoon-engineering-water-umbrella-tire-radio-city.md) | 장마 속에 숨은 기술 이야기 \| 우산·자동차·통신·도시를 움직이는 공학 비가 오면 인터넷이 느려진다? \| 당신이 몰랐던 장마철 공학 이야기 |
 | 2026-07-05 | [2026-07-05-smartphone-chip-heat-samsung-detach-huawei-fold](2026-07-05-smartphone-chip-heat-samsung-detach-huawei-fold.md) | 삼성은 뜯고 화웨이는 접었다 … 스마트폰 칩 전쟁의 정반대 해법 \| 발열의 진짜 이유 |
 | 2026-07-04 | [2026-07-04-iphone-18-us-qualcomm-modem-mmwave](2026-07-04-iphone-18-us-qualcomm-modem-mmwave.md) | 아이폰 18 해킹 유출에서 드러난 사실… 미국판만 퀄컴 모뎀 쓴다? 애플이 아직 못 넘은 mmWave 5G 기술 |
 | 2026-07-03 | [2026-07-03-meta-cloud-business-gpu-surplus-meaning](2026-07-03-meta-cloud-business-gpu-surplus-meaning.md) | 충격적인 메타의 한 마디... GPU 가 남는다? 메타의 클라우드 사업 진출의 진짜 의미 |

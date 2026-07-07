@@ -1,9 +1,10 @@
 # editorp89 (@editorp89 · 편집자P) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 13편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 14편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-06 | [2026-07-06-chatgpt-ductape-image-generation](2026-07-06-chatgpt-ductape-image-generation.md) | [시즌 3][강의] 바로바로 챗GPTx덕테이프x코덱스 ━ 03 |
 | 2026-07-04 | [2026-07-04-codex-vs-claude-landing-page-lottie](2026-07-04-codex-vs-claude-landing-page-lottie.md) | [시즌 3] 두 소 중 어떤 소가 더 일을 잘하냐? 두 에이전트로 랜딩 페이지 만들기 + 로티 스킬 |
 | 2026-06-29 | [2026-06-29-obsidian-zettelkasten-llm-wiki](2026-06-29-obsidian-zettelkasten-llm-wiki.md) | [시즌 3] 편집자가 생각하는 옵시디언 본질과 사용법, 제텔카스텐 + LLM Wiki |
 | 2026-06-27 | [2026-06-27-chatgpt-ductape-codex-app-cli-beginner-guide](2026-06-27-chatgpt-ductape-codex-app-cli-beginner-guide.md) | [예스24X골든래빗] 챗GPT + 덕테이프 + 코덱스 앱 입문 가이드 |
