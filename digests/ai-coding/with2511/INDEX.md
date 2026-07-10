@@ -1,9 +1,10 @@
 # with2511 (@with2511 · 기술노트with 알렉) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 14편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 15편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-10 | [2026-07-10-can-vibe-coding-build-daangn-like-service](2026-07-10-can-vibe-coding-build-daangn-like-service.md) | 바이브코딩으로 서비스를 만드실 분들은 꼭 끝까지보세요 \| 당근마켓 견적 이야기 |
 | 2026-07-04 | [2026-07-04-before-building-service-topic-app-db-server](2026-07-04-before-building-service-topic-app-db-server.md) | 서비스 만들기 전에 꼭 확인하세요 \| 주제 선정, 앱 유형, DB, 서버 구축 |
 | 2026-06-30 | [2026-06-30-uipath-maestro-ai-automation-demo](2026-06-30-uipath-maestro-ai-automation-demo.md) | 회사에서 바로 쓸 수 있는 AI 자동화 만들어보기 \| UiPath Maestro |
 | 2026-06-27 | [2026-06-27-vibe-coding-start-dev-terms-explained](2026-06-27-vibe-coding-start-dev-terms-explained.md) | 바이브코딩 바로 시작합니다. 개발 용어 쉽게 설명 드립니다. \| 바이브코딩 |

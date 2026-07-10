@@ -1,9 +1,10 @@
 # unrealtech (@unrealtech · 안될공학 - IT 테크 신기술) — digest 색인
 
-주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 196편. (최신순)
+주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 197편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-10 | [2026-07-10-apple-iphone-96bit-memory-bus-lpddr6-a20-pro](2026-07-10-apple-iphone-96bit-memory-bus-lpddr6-a20-pro.md) | 애플이 13년 만에 아이폰 메모리를 바꾸는 이유 \| A20 Pro 96비트와 LPDDR6 가능성 |
 | 2026-07-09 | [2026-07-09-data-logistics-airplane-vs-internet-bandwidth-latency](2026-07-09-data-logistics-airplane-vs-internet-bandwidth-latency.md) | AI 시대, 데이터를 왜 비행기로 이동할까? \| 대역폭과 지연시간의 역설 |
 | 2026-07-08 | [2026-07-08-ai-datacenter-skt-15gw-national-infra](2026-07-08-ai-datacenter-skt-15gw-national-infra.md) | AI의 다음 전쟁터는 데이터센터 \| SKT 15GW와 국가 인프라의 미래 |
 | 2026-07-07 | [2026-07-07-monsoon-engineering-water-umbrella-tire-radio-city](2026-07-07-monsoon-engineering-water-umbrella-tire-radio-city.md) | 장마 속에 숨은 기술 이야기 \| 우산·자동차·통신·도시를 움직이는 공학 비가 오면 인터넷이 느려진다? \| 당신이 몰랐던 장마철 공학 이야기 |
