@@ -1,9 +1,10 @@
 # editorp89 (@editorp89 · 편집자P) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 15편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 16편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-10 | [2026-07-10-codex-app-renamed-to-chatgpt](2026-07-10-codex-app-renamed-to-chatgpt.md) | [시즌 3] 코덱스 앱이 없어졌어요, 요즘 왜 이러는 거죠? |
 | 2026-07-08 | [2026-07-08-claude-desktop-cowork-disappeared](2026-07-08-claude-desktop-cowork-disappeared.md) | [시즌 3] 클로드 데스크톱에서 코워크가 사라졌어요! |
 | 2026-07-06 | [2026-07-06-chatgpt-ductape-image-generation](2026-07-06-chatgpt-ductape-image-generation.md) | [시즌 3][강의] 바로바로 챗GPTx덕테이프x코덱스 ━ 03 |
 | 2026-07-04 | [2026-07-04-codex-vs-claude-landing-page-lottie](2026-07-04-codex-vs-claude-landing-page-lottie.md) | [시즌 3] 두 소 중 어떤 소가 더 일을 잘하냐? 두 에이전트로 랜딩 페이지 만들기 + 로티 스킬 |

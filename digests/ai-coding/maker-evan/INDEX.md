@@ -1,9 +1,10 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 92편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 93편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-11 | [2026-07-11-payment-took-two-months-vibe-coding](2026-07-11-payment-took-two-months-vibe-coding.md) | 4일 만에 만들었는데, 결제 붙이는 데 2달 걸렸습니다 |
 | 2026-07-10 | [2026-07-10-taste-and-eval-not-prompts](2026-07-10-taste-and-eval-not-prompts.md) | 프롬프트 아무리 잘 써도 결과물이 안 좋은 진짜 이유 |
 | 2026-07-07 | [2026-07-07-evaluation-market-scoring-moat](2026-07-07-evaluation-market-scoring-moat.md) | 채점만 해주는 회사가 어떻게 1조 7천억을 벌었을까? |
 | 2026-07-01 | [2026-07-01-job-titles-fade-five-archetypes](2026-07-01-job-titles-fade-five-archetypes.md) | 개발자, 기획자, 디자이너… 이 명함 곧 사라집니다 |
