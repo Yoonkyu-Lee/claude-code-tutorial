@@ -1,9 +1,10 @@
 # unrealtech (@unrealtech · 안될공학 - IT 테크 신기술) — digest 색인
 
-주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 198편. (최신순)
+주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 199편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-13 | [2026-07-13-china-rocket-net-capture-recovery](2026-07-13-china-rocket-net-capture-recovery.md) | 중국 무섭네요… 스페이스X 독점 끝나나 \| 철 그물 통한 새로운 로켓 회수 방식 의미 |
 | 2026-07-11 | [2026-07-11-china-tornado-urban-flood-engineering](2026-07-11-china-tornado-urban-flood-engineering.md) | 토네이도는 왜 강물까지 들어 올렸을까? \| 중국 폭우와 강남역 침수의 공학 |
 | 2026-07-10 | [2026-07-10-apple-iphone-96bit-memory-bus-lpddr6-a20-pro](2026-07-10-apple-iphone-96bit-memory-bus-lpddr6-a20-pro.md) | 애플이 13년 만에 아이폰 메모리를 바꾸는 이유 \| A20 Pro 96비트와 LPDDR6 가능성 |
 | 2026-07-09 | [2026-07-09-data-logistics-airplane-vs-internet-bandwidth-latency](2026-07-09-data-logistics-airplane-vs-internet-bandwidth-latency.md) | AI 시대, 데이터를 왜 비행기로 이동할까? \| 대역폭과 지연시간의 역설 |

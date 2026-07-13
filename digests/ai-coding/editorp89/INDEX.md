@@ -1,9 +1,10 @@
 # editorp89 (@editorp89 · 편집자P) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 16편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 17편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-12 | [2026-07-12-chatgpt-app-change-harness-engineering-basics](2026-07-12-chatgpt-app-change-harness-engineering-basics.md) | [시즌 3] 바로바로 챗GPTx덕테이프x코덱스 ━ 04 : 챗GPT앱 변화점, 하네스 엔지니어링 기초 |
 | 2026-07-10 | [2026-07-10-codex-app-renamed-to-chatgpt](2026-07-10-codex-app-renamed-to-chatgpt.md) | [시즌 3] 코덱스 앱이 없어졌어요, 요즘 왜 이러는 거죠? |
 | 2026-07-08 | [2026-07-08-claude-desktop-cowork-disappeared](2026-07-08-claude-desktop-cowork-disappeared.md) | [시즌 3] 클로드 데스크톱에서 코워크가 사라졌어요! |
 | 2026-07-06 | [2026-07-06-chatgpt-ductape-image-generation](2026-07-06-chatgpt-ductape-image-generation.md) | [시즌 3][강의] 바로바로 챗GPTx덕테이프x코덱스 ━ 03 |
