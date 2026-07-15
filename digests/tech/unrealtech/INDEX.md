@@ -1,9 +1,11 @@
 # unrealtech (@unrealtech · 안될공학 - IT 테크 신기술) — digest 색인
 
-주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 199편. (최신순)
+주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 201편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-15 | [2026-07-15-ssd-drives-ddr4-dram-shortage](2026-07-15-ssd-drives-ddr4-dram-shortage.md) | SSD가 잘 팔리는데 왜 메모리가 부족할까 … 저장장치가 부른 뜻밖의 품귀 |
+| 2026-07-14 | [2026-07-14-claude-billing-glitch-gpt56-coding-agents](2026-07-14-claude-billing-glitch-gpt56-coding-agents.md) | 클로드 잠깐 썼는데 251억원? GPT5.6 갈아타는 개발자들 \| 이제 가격을 다시 계산하기 시작한다 |
 | 2026-07-13 | [2026-07-13-china-rocket-net-capture-recovery](2026-07-13-china-rocket-net-capture-recovery.md) | 중국 무섭네요… 스페이스X 독점 끝나나 \| 철 그물 통한 새로운 로켓 회수 방식 의미 |
 | 2026-07-11 | [2026-07-11-china-tornado-urban-flood-engineering](2026-07-11-china-tornado-urban-flood-engineering.md) | 토네이도는 왜 강물까지 들어 올렸을까? \| 중국 폭우와 강남역 침수의 공학 |
 | 2026-07-10 | [2026-07-10-apple-iphone-96bit-memory-bus-lpddr6-a20-pro](2026-07-10-apple-iphone-96bit-memory-bus-lpddr6-a20-pro.md) | 애플이 13년 만에 아이폰 메모리를 바꾸는 이유 \| A20 Pro 96비트와 LPDDR6 가능성 |
