@@ -23,3 +23,5 @@ C4ZX5rdAEHw
 lf9a5VIPAkM
 TNGW49pXvPU
 o0ss3x9FE78
+# 2026-07-16 honjobs 당일 업로드, ko/en 자동자막 아직 없음 (자막 생기면 이 줄 삭제 시 재감지)
+HNtS6WGGhNU
