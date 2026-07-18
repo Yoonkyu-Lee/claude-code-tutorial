@@ -15,9 +15,10 @@ digest는 `notes/`와 **별개 워크플로**다. 각 영상은 `digest-worker` 
 - **URL 모드**: 입력에서 YouTube URL 추출.
 - **채널 모드**: 공용 열거 스크립트로 UTF-8 목록 확보 (Windows 콘솔이 한글 제목을 깨므로 반드시 이 경로):
   ```bash
-  bash scripts/channel-videos.sh @handle --out="<scratch>/ch.tsv"   # id<TAB>date<TAB>dur<TAB>title
+  bash scripts/channel-videos.sh @handle --limit=50 --out="<scratch>/ch.tsv"   # id<TAB>YYYYMMDD<TAB>dur<TAB>title (최신순)
   ```
   `--all`이면 전체, `--since=..`면 그 창만 필터.
+  **`--limit=N`을 기본으로 붙인다** — 스크립트는 영상 1편당 메타를 조회하므로 수백 편 채널에서 전체 열거는 몇 분씩 걸린다. "최근 N편" 요청이면 `--limit=N`이 정확히 그 일을 한다. 전체가 정말 필요할 때만 생략. (`--jobs=N`으로 동시 실행 수 조절, 기본 8)
 - **주제·채널 결정**: 채널이 이미 `notes/<주제>/<채널>/` 또는 `digests/<주제>/<채널>/`에 있으면 그 주제 재사용. 새 채널/주제면 사용자 확인(`--topic`으로 주면 사용).
 
 ## Step 2: 중복 제외 + 승인

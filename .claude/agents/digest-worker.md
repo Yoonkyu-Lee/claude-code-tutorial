@@ -6,6 +6,7 @@ tools:
   - mcp__youtube-transcript__get_transcript
   - Read
   - Write
+  - Edit
   - Glob
 ---
 
@@ -31,7 +32,7 @@ URL: https://youtu.be/XXXX
 1. **파일명 생성**: `YYYY-MM-DD-english-title.md` (harness-study-note Step 2 규약 — 게시일 + 핵심 의미 영문 slug, 소문자 kebab). 같은 영상의 노트가 `notes/<주제>/<채널>/`에 이미 있으면 그 파일명을 재사용해 노트↔digest 파일명을 일치.
 2. **자막 확보**: 전달받은 `자막파일`을 Read로 읽어 사용. 없거나 비면 MCP(`get_timed_transcript`→`get_transcript`) 폴백. 셸/yt-dlp는 쓰지 않는다.
 3. **Layer 1 — paraphrase**: `digest-from-transcript` 스킬 규칙대로 시간순 심층 정리글을 작성해 `digests/<주제>/<채널>/<파일명>`에 저장.
-4. **Layer 2 — summary**: `summarize-digest` 스킬 규칙대로 그 파일을 읽어 **주제별 상세 요약(기본 detailed)**을 파일 맨 위에 삽입.
+4. **Layer 2 — summary**: `summarize-digest` 스킬 규칙대로 그 파일을 읽어 **주제별 상세 요약(기본 detailed)**을 파일 맨 위에 삽입. 삽입은 **Edit로** 한다 — 전문을 통째로 다시 Write하면 토큰 낭비이고 Layer 1 본문이 변조될 위험이 있다.
 5. **보고**(본문 요약 금지): 저장 경로 / paraphrase 구간 수 / 요약 주제 수 / `[불명확]` 개수.
 
 ## 출력 형식
