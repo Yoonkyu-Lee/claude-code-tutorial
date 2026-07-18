@@ -19,3 +19,5 @@ site/
 
 # conference 원본 자료 (대용량·저작권 웨비나 자료, 커밋 금지)
 conference/materials/
+
+.scratch/
