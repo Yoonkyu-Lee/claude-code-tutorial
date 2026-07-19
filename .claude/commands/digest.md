@@ -29,17 +29,24 @@ digest는 `notes/`와 **별개 워크플로**다. 각 영상은 `digest-worker` 
 - 남은 목록(번호 + 날짜 + 제목)과 개수를 사용자에게 보여주고 **진행 확인**. (대량 비용 방지 — 배치 진입 전 승인 필수. `/batch-notes`와 동일 가드.)
 
 ## Step 3: 메타 + 자막 prefetch (메인, 셸)
-`digest-worker`는 셸이 없다. 메인이 승인된 각 영상에 대해:
+`digest-worker`는 셸이 없다. 메인이 승인된 영상들의 자막을 미리 받아 clean text 경로로 넘긴다.
+
+**자막은 전용 스크립트로 일괄 처리한다** (직접 yt-dlp를 부르지 말 것 — 언어 코드 함정이 있다):
+```bash
+# 승인된 ID 목록을 파일로 (channel-videos.sh 출력 TSV를 그대로 줘도 된다 — 첫 칼럼만 읽는다)
+bash scripts/fetch-transcripts.sh --ids="<scratch>/ids.txt" --outdir="<scratch>" --jobs=6
+# 결과: <scratch>/<id>.txt (clean text, [mm:ss] 포함) — 이 경로를 worker에 넘긴다
+```
+- 언어 우선순위 기본값은 `ko.*,en.*`. **와일드카드가 핵심**이다 — YouTube는 같은 한국어 자동자막을 영상마다 `ko` 또는 `ko-ko`로 주는데 `--sub-langs ko`는 `ko-ko`를 못 잡아 **자막이 있는데도 조용히 누락**된다.
+- 못 받은 영상은 `<outdir>/_skipped.tsv`(`id<TAB>사유<TAB>원문`)에 남는다. 사유 해석은 Step 1의 누락 처리 규칙과 같다 — `no-subs`·`members-only` 등 정상 사유는 **후보고 한 줄**, `other`·`no-error-output`만 사용자에게 판단을 구한다.
+- 이미 `<id>.txt`가 있으면 건너뛴다. 실패분만 재시도하려면 같은 명령을 다시 돌리면 된다.
+
+메타(게시일·원제·조회수)는 채널 모드면 Step 1의 `ch.tsv`에 이미 있으니 재사용한다. URL 모드에서 개별로 필요하면:
 ```bash
 export PATH="$HOME/scoop/shims:$PATH"
-# 원제(UTF-8)는 print-to-file로 (콘솔 파이프 우회)
+# 원제(UTF-8)는 print-to-file로 (콘솔 파이프 우회 — 셸 리다이렉트는 한글을 깨뜨린다)
 yt-dlp --skip-download --print-to-file "%(upload_date)s	%(view_count)s	%(duration)s	%(title)s" "<scratch>/<id>.meta" "https://youtu.be/<id>" --no-update
-# 자막: ko 우선 → dedup
-yt-dlp --skip-download --write-auto-subs --sub-langs ko --sub-format vtt -o "<scratch>/<id>.%(ext)s" "https://youtu.be/<id>" --no-update
-[ -f "<scratch>/<id>.ko.vtt" ] || yt-dlp ... --sub-langs en ...   # 없으면 en
-awk -f scripts/vtt-to-text.awk "<scratch>/<id>.ko.vtt" > "<scratch>/<id>.txt"
 ```
-채널 모드면 Step 1의 `ch.tsv`에 날짜·원제가 이미 있으니 재사용(개별 meta 호출 생략 가능).
 
 ## Step 4: 배치 dispatch (격리 병렬)
 - 승인 목록을 concurrency(기본 3, 최대 5)만큼 묶어 `digest-worker`를 **동시 호출**.

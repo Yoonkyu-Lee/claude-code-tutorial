@@ -85,8 +85,10 @@ for idf in "$PARTS"/*.id; do
   printf '%s\t%s\t%s\n' "$id" "$why" "${msg#ERROR: }" >> "$OUT.skipped"
 done
 
-got=$(grep -c . "$OUT" 2>/dev/null || echo 0)
-want=$(grep -c . "$IDS" 2>/dev/null || echo 0)
+# grep -c는 0건일 때 "0"을 찍고 exit 1을 낸다. `|| echo 0`이면 0이 두 줄 나와 산술식이 깨진다.
+nlines() { grep -c . "$1" 2>/dev/null || true; }
+got=$(nlines "$OUT")
+want=$(nlines "$IDS")
 echo "listed $got/$want videos -> $OUT" >&2
 
 if [ -s "$OUT.skipped" ]; then

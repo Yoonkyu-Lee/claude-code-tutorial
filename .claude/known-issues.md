@@ -93,6 +93,15 @@
 - **채택된 해결**: `.claude/agents/digest-worker.md`의 `tools:`에 `Edit` 추가, 워크플로 4단계에 "삽입은 Edit로" 명시.
 - **날짜**: 2026-07-18 확정
 
+## 10. 자막 언어 코드 `ko` vs `ko-ko` — 자막이 있는데 조용히 누락
+
+- **문제**: `--sub-langs ko`로 prefetch하면 일부 영상만 자막이 안 잡힌다. @ColorScale 50편 중 6편이 그랬다. 에러도 안 나고 파일만 없어서 알아채기 어렵다.
+- **원인**: YouTube가 같은 한국어 자동자막을 영상마다 다른 코드로 준다 — `ko`(Korean) 또는 `ko-ko`(Korean from Korean). `--sub-langs ko`는 정확 일치라 `ko-ko`를 안 잡는다. `--list-subs`로 확인하면 `ko-ko`만 있는 영상이 보인다.
+- **채택된 해결**: `scripts/fetch-transcripts.sh` 신설. 언어 패턴을 와일드카드(`ko.*,en.*`)로 받아 앞에서부터 시도하고, clean text(`<id>.txt`) 변환까지 한 번에 한다. `/digest` Step 3은 이 스크립트를 부르고 yt-dlp를 직접 쓰지 않는다.
+- **함정 1**: `ko.*`를 주면 한 영상에 여러 변형이 동시에 떨어진다(`ko` / `ko-orig` / `ko-ko`). `ls | head -1`로 고르면 알파벳순이라 번역본을 집을 수 있다. 선호 순서를 명시할 것 — 정확한 코드 > `-orig`(원본 오디오) > `base-base`(동일 언어 ASR) > 나머지.
+- **함정 2**: 자막 트랙이 아예 없는 경우(`no-subs`)와 접근 제한(`members-only` 등)은 다른 사유다. 스크립트가 `_skipped.tsv`에 분류해 남기니 항목 9의 규칙대로 처리하면 된다.
+- **날짜**: 2026-07-19 확정
+
 ---
 
 ## 새 항목 추가 절차
