@@ -13,7 +13,7 @@
 |---|---|---:|---:|---|
 | `ai-coding` | Claude Code·AI 코딩·하니스 | 2 | 95 | [notes/ai-coding/INDEX.md](notes/ai-coding/INDEX.md) |
 | `business` | 비즈니스·부업·수익화 | 1 | 1 | [notes/business/INDEX.md](notes/business/INDEX.md) |
-| `tech` | IT·테크 뉴스 (digest 전용) | 3 | — | [unrealtech](digests/tech/unrealtech/INDEX.md) · [softdragon](digests/tech/softdragon/INDEX.md) · [ColorScale](digests/tech/ColorScale/INDEX.md) |
+| `tech` | IT·테크 뉴스 (digest 전용) | 4 | — | [unrealtech](digests/tech/unrealtech/INDEX.md) · [softdragon](digests/tech/softdragon/INDEX.md) · [ColorScale](digests/tech/ColorScale/INDEX.md) · [alview](digests/tech/alview/INDEX.md) |
 
 ## 다른 트리
 
