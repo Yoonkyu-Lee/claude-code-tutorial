@@ -82,3 +82,19 @@
 
 ### [02:38–02:50] 마무리 — 시청자 의견 요청
 플렉스 티타늄이 기대하던 주름 감소와 내구성 강화를 실제로 가져다줄 수 있을지, 갤럭시 Z 폴드 8에 대한 생각을 댓글로 남겨 달라는 요청으로 영상을 마친다.
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 갤럭시Z 폴드8 소식입니다 시청해주셔서 감사합니다
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+> Contact: ppchhomin@gmail.com
+
+### 링크
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+- https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-%ED%94%8C%EB%A0%89%EC%8A%A4-%ED%8B%B0%ED%83%80%EB%8A%84-%EA%B8%B0%EC%88%A0%EB%A1%9C-%ED%8F%B4%EB%8D%94%EB%B8%94-%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4
+

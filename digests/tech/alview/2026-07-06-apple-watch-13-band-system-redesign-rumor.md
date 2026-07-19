@@ -89,3 +89,19 @@
 
 ### [02:48–02:56] 마무리
 시청자가 생각하는 애플워치와 아이폰 18 Pro에 대해 댓글을 남겨 달라는 요청으로 마무리하고, "지금까지 알뷰였습니다"로 끝낸다(자막 원문 "알비").
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 애플워치 13 소식입니다 시청해주셔서 감사합니다
+> ppchhomin@gmail.com
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+
+### 링크
+- https://www.notebookcheck.net/Apple-Watch-13-said-to-finally-get-new-design-but-battery-upgrade-remains-uncertain.1331994.0.html
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+

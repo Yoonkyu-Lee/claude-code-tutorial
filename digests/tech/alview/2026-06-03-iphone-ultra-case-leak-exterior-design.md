@@ -100,3 +100,20 @@
 > "과연 폴더블 아이폰 아이폰 울트라는 폴더블 폰 시장의 활성화 그리고 아이폰의 라인업 확대 등 의미 있는 제품이 될 수 있을까요? 아니면 애플 비전 프로가 될까요?" [03:22]
 
 클로징 인사 후 "알뷰였습니다"로 마무리한다([03:36] 자막은 "지금까지 비었습니다"로 오인식).
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 폴더블 아이폰 소식입니다 시청해주셔서 감사합니다
+> ppchhomin@gmail.com
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+
+### 링크
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+- https://www.letemsvetemapplem.eu/en/2026/06/03/oblibena-aplikace-prinasi-texty-pisni-do-carplay-novinku-oceni-fanousci-apple-music-i-spotify/#al1
+- https://toon.at/donate/allview
+

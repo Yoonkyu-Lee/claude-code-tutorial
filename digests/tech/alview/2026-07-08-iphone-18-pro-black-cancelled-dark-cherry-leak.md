@@ -92,3 +92,19 @@ Instant Digital은 다크 체리 외 다른 출시 색상에 대해서도 언급
 
 ### [02:51–03:00] 마무리
 화자는 시청자들에게 아이폰 18 Pro의 출시 색상에 대한 의견을 댓글로 남겨 달라고 요청하고 영상을 마친다.
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 아이폰 18 프로 소식입니다 시청해주셔서 감사합니다
+> ppchhomin@gmail.com
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+
+### 링크
+- https://weibo.com/5143897135/R6wn38Zgo
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+

@@ -89,3 +89,20 @@
 
 ### [02:08–02:16] 클로징
 화자는 아이폰 18 Pro의 카메라 원가(코스트)에 대해 어떻게 생각하는지 댓글로 남겨 달라고 요청하며 마무리한다. ("지금까지 알뷰였습니다")
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 아이폰 18 프로 소식입니다 시청해주셔서 감사합니다
+> ppchhomin@gmail.com
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+
+### 링크
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+- https://www.macrumors.com/2026/05/29/iphone-18-pros-camera-upgrade-will-cost-more/
+- https://toon.at/donate/allview
+

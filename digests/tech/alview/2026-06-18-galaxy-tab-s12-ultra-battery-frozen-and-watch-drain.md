@@ -125,3 +125,20 @@
 > "[의견] 한 차례 수정이 됐던 문제기 때문에 금방 해결이 되지 않을까 싶네요." [02:52]
 
 이전에 한 번 패치로 잡힌 전례가 있으니 이번에도 빠르게 해결될 것으로 본다는 화자의 전망이다([의견], 근거는 전례뿐). 이어 갤럭시 탭 S12 울트라와 갤럭시 워치에 대한 생각을 댓글로 남겨 달라고 요청하며 영상을 마친다(클로징 "지금까지 비었습니다"는 "알뷰였습니다"의 자막 오인식).
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 갤럭시탭 S12 울트라 소식입니다 시청해주셔서 감사합니다
+> ppchhomin@gmail.com
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+
+### 링크
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+- https://www.galaxyclub.nl/samsung/galaxy-tab-s12-ultra/
+- https://toon.at/donate/allview
+

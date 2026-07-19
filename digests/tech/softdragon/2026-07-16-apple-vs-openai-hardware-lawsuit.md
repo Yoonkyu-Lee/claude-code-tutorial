@@ -155,3 +155,41 @@
 ### [10:33–11:04] 마무리 — 애플의 "느리지만 완벽함"은 통할까
 > "아이폰을 끝낼 것은 더 좋은 스마트폰이 아닐지도 모릅니다. 스마트폰을 열 필요가 없게 만드는 기기가 될 거예요." [10:33]
 화자는 AI에서 미적지근했던 애플이 '넥스트 스마트폰'에서 승리할지 잘 모르겠다고 말한다 [의견]. 한 달이면 SOTA 모델이 바뀌는 시대, 폴더블조차 뒤늦게 내는 행보를 보면 "느리지만 완벽함"이 여전히 승리할지, 아니면 AI 시대 애플 최악의 패착으로 교과서에 남을지 — 시청자 의견을 댓글로 요청하며 끝난다.
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 차세대 스마트폰을 건 애플과 오픈AI의 전쟁이 시작됐습니다. 핵심 인재 400명이 오픈AI는 애플 출신 인재 400명을 데려오며 아이폰을 끝낼 프로젝트를 준비하고 있었습니다. 자세한 내용은 영상으로 확인하시죠!
+
+### 인용 출처
+- 1. Apple Inc., “UNITED STATES DISTRIC COURT NORTHERN DISTRIC OF CALIFORNIA SAN JOSE DIVISION”, 2026
+- 2. Kif Leswing, “Apple sues OpenAI... scheme was at every level”, CNBC, 2026
+- 3. Clare Duffy, “Apple teams up with Google Gemini for AI-powered Siri”, CNN, 2026
+- 4. Hartley Charlton, “Everything We Know About OpenAI's Planned iPhone Rival”, MacRumors, 2026
+- 5. Juli Clover, “Jony Ive's First OpenAI Device Will Be Smart Speaker With Camera, 2027 Launch Planned”, MacRumors, 2026
+- 6. Anthony Ha, “OpenAI and Jony Ive may be struggling to figure out their AI device”, TechCrunch, 2025
+- 7.Steve Jobs, “Triumph of the Nerds”, PBS, 1996
+- 8. Sarah Perez, “Apple sues OpenAI over alleged trade secret theft”, TechCrunch, 2026
+- 9. Gerrit De Vynck, “Apple sues OpenAI, alleging the AI company stole trade secrets”, The Washington Post, 2026
+
+### 링크
+- 하이젠버그에서 더 자세한 정보를 얻어가세요: https://heisenberg.kr
+- 인스타그램: https://www.instagram.com/softdragon__/
+
+### 챕터
+- 0:00 인트로
+- 0:54 내 아이폰의 미래
+- 2:18 애플 엘리트 엑소더스
+- 4:35 애플의 주장 분석
+- 8:00 앞으로의 미래
+
+### 기타
+- 1. Shades - Dramatic by Ziv Moran
+- 2. Bloom by Brianna Tam
+- 3. Juggernaut by Kevin Graham
+- 4. CHONKLAP - Short version by Out of Flux
+- 5. Omega by Ardie Son
+- image : gettyimageskorea
+

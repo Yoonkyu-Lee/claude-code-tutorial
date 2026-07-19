@@ -90,3 +90,20 @@
 
 ### [02:17–02:34] 마무리 — 구매 기준이 하나 늘었다
 결과적으로 프로냐 울트라냐를 가르는 기준이, 기존의 **S펜을 쓰느냐 / 큰 화면이 필요하냐**를 넘어 **카메라 사용 패턴이 어떤가**까지 포함하게 될 것으로 보인다는 게 화자의 정리다. 마지막으로 S27 Pro에 대한 시청자 의견을 댓글로 남겨달라고 요청하며 영상을 닫는다. (클로징 인사는 자막상 "지금까지 비었습니다"로 오인식되었으나 실제로는 "알뷰였습니다")
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 갤럭시 S27 프로 소식입니다 시청해주셔서 감사합니다
+> ppchhomin@gmail.com
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+
+### 링크
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+- https://www.gizmochina.com/2026/05/28/740167/
+- https://toon.at/donate/allview
+

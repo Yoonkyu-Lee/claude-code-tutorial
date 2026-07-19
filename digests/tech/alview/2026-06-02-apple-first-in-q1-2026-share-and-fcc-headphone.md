@@ -90,3 +90,21 @@
 
 ### [03:00–03:08] 클로징
 2026년 1분기 출하량과 애플의 헤드폰에 대한 의견을 댓글로 남겨 달라는 요청과 함께 영상을 마친다. (마지막 "지금까지 비었습니다"는 "지금까지 **알뷰**였습니다"의 자막 오인식.)
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 2026년 1분기 점유율 소식입니다 시청해주셔서 감사합니다
+> ppchhomin@gmail.com
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+
+### 링크
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+- https://counterpointresearch.com/en/insights/iphone-17-global-best-selling-smartphone-in-q1-2026-top-10-take-25-percent-share
+- https://counterpointresearch.com/en/insights/global-smartphone-share
+- https://toon.at/donate/allview
+

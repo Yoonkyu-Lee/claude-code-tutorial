@@ -83,3 +83,20 @@
 
 ### [02:21–02:40] 마무리 — 단순 마케팅인가 실질 차별화인가
 화자는 이번 루머대로 갤럭시 Z 폴드 울트라로 출시될지, 출시된다면 **정말 단순 마케팅에 그칠지 아니면 "울트라"라는 차별성이 실제로 있을지** 궁금하다며 시청자 의견을 댓글로 남겨달라고 요청하고 영상을 마친다.
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 소식입니다 시청해주셔서 감사합니다
+> ppchhomin@gmail.com
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+
+### 링크
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+- https://www.sammobile.com/news/samsung-galaxy-z-fold-8-ultra-branding/
+- https://toon.at/donate/allview
+

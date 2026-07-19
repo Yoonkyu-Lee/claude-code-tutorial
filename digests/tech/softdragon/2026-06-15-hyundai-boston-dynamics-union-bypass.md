@@ -151,3 +151,44 @@
 
 ### [11:28–12:18] 세일즈 구조 — 하이젠버그 유료 구독 안내
 [세일즈 장치 기록] 오늘 내용은 "텍스트를 확률로 조합하는 LLM은 절대 못 본 내용"이라며 자신의 리서치 서비스 **하이젠버그**를 안내한다. 전원 석박사 **54명**으로 구성되어 있고 유튜브 멤버십이 아니라고 두 번 강조하며, 구글 검색 또는 고정 댓글로 가입해야 "정의선이 들어간 보스턴 다이내믹스 같은 두 번째·세 번째 회사"를 알 수 있다고 말한다. 요금제 구조 관련 안내도 덧붙인다 — **기본 요금제에서 상위 요금제로 바로 갈 수 없고**, 한 달 기다렸다 취소 후 상위로 옮겨야 하므로 처음부터 연구자 의견을 듣고 싶으면 **비즈니스 요금제** 구독을 추천한다.
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 현대차가 인수한 보스턴 다이나믹스가 최근 엄청난 영상들을 공개하며, 전세계의 관심을 받고 있습니다.
+> 노조의 종말을 이끌 것이라는 전망까지 나오는 현재, 현대차가 그리는 큰그림을 영상으로 확인해보세요!
+
+### 인용 출처
+- 1.이병구, “냉장고 번쩍 드는 로봇에 '깜짝'…2050년 이전 인간 대체 어렵다”, 동아사이언스, 2026
+- 2.Maria Petrova et al, “Career Values for Labor Markets: Evidence from Robot Adoption”, NBER, 2025
+- 3.Mauro Caselli et al, “What workers and robots do: An activity-based analysis of the impact of robotization on changes in local employment”, Research Policy, 2025
+- 4.Vladimir M. Stone et al, Effects of Automation on Mexican Automotive Employment 2013–2022”, The Indian Journal of Labour Economics, 2024
+- 5.Hyundai, “Hyundai Motor Group Completes Acquisition of Boston Dynamics from SoftBank”, 2021
+- 6.FigureAI, “F.02 Contributed to the Production of 30,000 Cars at BMW”, 2025
+- 7.Goldman Sachs, “The global market for humanoid robots could reach $38 billion by 2035”, 2024
+- 8.곽호룡, “평균연봉 1억 현대차, 생산직 또 뽑는다...하반기 기술인재 채용 공고”, 한국금융, 2024
+- 9.양성운, “현대차 노조, 성과급 30%·로봇 도입 제동…노사 갈등 확대”, 메트로, 2026
+
+### 링크
+- 하이젠버그에서 더 자세한 정보를 얻어가세요: https://heisenberg.kr
+- 인스타그램: https://www.instagram.com/softdragon__/
+
+### 챕터
+- 0:00 인트로
+- 1:01 휴머노이드 시대
+- 2:47 최근 연구 동향
+- 6:16 한국에 미칠 영향
+- 8:12 앞으로의 미래
+- 9:53 나의 생각
+- 11:29 하이젠버그
+
+### 기타
+- 1. Slam - Creative Cut - Alternative by Semo
+- 2. Teddy Bass by Ariel Shalom
+- 3. Forever by Jonezen
+- 4. Tempesta by Steven Beddall
+- 5. Battery Bass by Danny Shields
+- 사진 출처 : Gettyimageskorea
+

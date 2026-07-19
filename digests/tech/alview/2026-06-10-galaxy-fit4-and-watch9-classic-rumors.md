@@ -86,3 +86,20 @@
 
 > "시청해 주셔서 감사합니다. 지금까지 알뷰였습니다." [02:21]
 > (자막 "지금까지 비었습니다"는 채널명 "알뷰"의 오인식)
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 갤럭시 핏4 소식입니다 시청해주셔서 감사합니다
+> ppchhomin@gmail.com
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+
+### 링크
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+- https://www.sammobile.com/news/galaxy-fit-4-launch-date-late-2026
+- https://toon.at/donate/allview
+

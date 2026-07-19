@@ -97,3 +97,20 @@
 
 ### [05:20–05:41] 남은 기대치와 클로징
 현실적으로 기대할 수 있는 시나리오는 두 가지다. 출시 전까지 환율이 안정화되거나, 아니면 **고용량 옵션일수록 메모리 인상 폭이 크므로 256GB 시작 옵션 가격만이라도 동결되는** 방향이다. 화자는 아이폰 18 Pro에 대한 시청자 의견을 댓글로 남겨달라고 요청하며 마무리한다. ("지금까지 알뷰였습니다")
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 아이폰 18 프로 소식입니다 시청해주셔서 감사합니다
+> ppchhomin@gmail.com
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+
+### 링크
+- 👉 https://surfshark.com/alview 클릭하거나 결제 시 코드 alview 입력하고 Surfshark 4개월 추가 사용 혜택을 받아가세요!
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+- https://www.wsj.com/tech/apple-price-increases-memory-supply-199845b1
+

@@ -108,3 +108,20 @@
 ### [03:18–03:29] 클로징
 지금의 애플 제품들처럼 폴더블 아이폰이 **폴더블폰 대중화를 이끌어낼 수 있을지** 궁금하다며 마무리하고, 아이폰 울트라에 대한 댓글을 요청한다.
 > "지금까지 알뷰였습니다." [03:29] (자막 오인식: "지금까지 알겠습니다")
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 폴더블 아이폰 소식입니다 시청해주셔서 감사합니다
+> ppchhomin@gmail.com
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+
+### 링크
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+- https://x.com/SonnyDickson/status/2063490633696976975?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2063490633696976975%7Ctwgr%5Ef95a3dda98abfb98b7c895e24c16089961f7a660%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.macrumors.com%2F2026%2F06%2F07%2Fbest-look-yet-at-foldable-iphone-design-revealed%2F
+- https://toon.at/donate/allview
+

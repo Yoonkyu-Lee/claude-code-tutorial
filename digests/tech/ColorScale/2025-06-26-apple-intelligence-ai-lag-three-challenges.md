@@ -143,3 +143,44 @@ AI 경쟁력이 뒤처진 상황에서도 어떻게든 아이폰·아이패드·
 
 ### [15:25–15:59] 마무리 CTA와 후원자 호명
 구독·좋아요·알림 설정 요청 후, 슈퍼챗 후원자와 멤버십 가입자에 대한 감사 인사로 영상을 마친다.
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> AI 지각생이라는 이야기를 듣던 애플,
+> 작년 WWDC에서 야심찬 계획으로 반전을 꾀했습니다.
+> 하지만 애플의 계획은 실패했습니다.
+> 애플은 아직까지도 작년에 내세웠던 목표를 달성하지 못했고, 올해 WWDC에서 보여준 시연은 작년보다도 후퇴했습니다.
+> 세계 최고의 테크 기업이던 애플이 도대체 왜 이렇게까지 뒤쳐진 걸까요?
+> 애플은 이 위기를 극복할 수 있을까요?
+> 더 자세한 내용, 영상에서 살펴보시죠
+> [참고 자료]
+> Liu, Runze, et al. "Can 1B LLM Surpass 405B LLM? Rethinking Compute-Optimal Test-Time Scaling." arXiv preprint arXiv:2502.06703 (2025).
+> Yao, Shunyu, et al. "tau -bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains." arXiv preprint arXiv:2406.12045 (2024).
+> #appleintelligence #wwdc2025 #apple
+
+### 링크
+- 컬러스케일 구독은 http://bit.ly/32PAy5F
+- 멤버십 가입으로 컬러스케일 응원하기 - https://www.youtube.com/channel/UCRqYpgUV0xPDWignRgTzp6g/join
+- Updates to Apple's On-Device and Server Foundation Language Models - https://machinelearning.apple.com/research/apple-foundation-models-2025-updates
+- Introducing Apple’s On-Device and Server Foundation Models - https://machinelearning.apple.com/research/introducing-apple-foundation-models
+- How Apple Fell Behind in the AI Arms Race - https://www.wsj.com/tech/ai/apple-ai-siri-development-behind-9ea65ee8
+- Why Apple Still Hasn’t Cracked AI - https://www.bloomberg.com/news/features/2025-05-18/how-apple-intelligence-and-siri-ai-went-so-wrong
+
+### 챕터
+- 0:00 지난 이야기
+- 0:21 인트로
+- 0:57 애플의 강점
+- 3:55 애플의 문제점
+- 5:11 LLM 성능의 핵심
+- 6:38 책임자는 누구?
+- 7:48 애플에 남겨진 과제
+- 8:48 과제 1
+- 10:34 과제 2
+- 11:02 과제 3
+- 12:37 나머지 과제
+- 13:57 향후 전망
+- 15:19 마무리
+

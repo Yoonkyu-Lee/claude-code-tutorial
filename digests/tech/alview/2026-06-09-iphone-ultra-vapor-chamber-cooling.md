@@ -78,3 +78,20 @@ AI 기능이 본격적으로 스마트폰에 들어가기 시작하면서 AP에 
 
 ### [02:03–02:11] 클로징
 화자는 지금 나오는 소식대로만 나왔으면 좋겠다는 바람을 밝히고 [의견], 시청자들이 예상하는 아이폰 울트라에 대해 댓글을 남겨달라고 요청하며 영상을 마무리한다. (자막 말미 "지금까지 었습니다"는 "알뷰였습니다"의 오인식)
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 폴더블 아이폰 소식입니다 시청해주셔서 감사합니다
+> ppchhomin@gmail.com
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+
+### 링크
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+- https://www.phonearena.com/news/apples-foldable-iphone-may-offer-monstrous-performance-thanks-to-this-rumored-feature_id180803
+- https://toon.at/donate/allview
+

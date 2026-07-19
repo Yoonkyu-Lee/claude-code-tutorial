@@ -86,3 +86,20 @@
 > "폴더블 폰이 가지는 여러 단점들이 있는데 그중 내구성과 주름은 가장 큰 단점에 포함되기 때문에" [02:13]
 
 (클로징 인사 "지금까지 알뷰였습니다" — 자막에는 "지금까지 왔었습니다"로 오인식)
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 갤럭시Z 폴드8 소식입니다 시청해주셔서 감사합니다
+> ppchhomin@gmail.com
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+
+### 링크
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+- https://www.sammobile.com/news/galaxy-z-fold-8-significantly-smoother-foldable-display/
+- https://toon.at/donate/allview
+

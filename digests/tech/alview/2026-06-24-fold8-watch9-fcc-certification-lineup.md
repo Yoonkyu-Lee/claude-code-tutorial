@@ -91,3 +91,20 @@ FCC 인증에서 확인된 내용은 아니지만, 이번 **갤럭시 Z 플립 8
 
 ### [02:36–02:42] 마무리
 여러분이 기대하는 하반기 신제품에 대해 댓글을 남겨 달라는 요청으로 마무리한다. 클로징 멘트는 "알뷰였습니다"(자막 "지금까지 해비였습니다"는 오인식).
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 갤럭시Z 폴드8, 갤럭시 워치9 소식입니다 시청해주셔서 감사합니다
+> ppchhomin@gmail.com
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+
+### 링크
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+- https://www.androidauthority.com/samsung-galaxy-z-flip-fold-8-ultra-watch-9-fcc-listing-3677394/
+- https://toon.at/donate/allview
+

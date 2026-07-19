@@ -83,3 +83,21 @@
 
 ### [02:09–02:29] 마무리 CTA
 아이폰 18 Pro Max의 무게와 두께에 대해 어떻게 생각하는지 댓글로 남겨 달라는 요청으로 마무리한다. 시청 감사 인사와 채널명 사인오프(자막상 "비었습니다" — "알뷰였습니다"의 오인식)로 끝난다.
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 아이폰 18 프로 소식입니다
+> 시청해주셔서 감사합니다
+> #아이폰18프로 #아이폰18 #아이폰 #애플
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+> 문의: ppchhomin@gmail.com
+
+### 링크
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+- https://weibo.com/5673255066/R7SFuF16r
+

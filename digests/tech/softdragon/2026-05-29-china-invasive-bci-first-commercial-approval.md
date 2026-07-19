@@ -169,3 +169,39 @@ BCI가 읽는 신호는 사용자가 어디에 집중하고 있는지, 무엇을
 
 ### [09:10–09:37] 마무리 — 기술력의 미국 vs 데이터·시스템의 중국
 애플이 아무리 BCI 표준을 깔더라도, 메타가 아무리 대단한 글라스를 시장에 풀더라도, 그 위에 올라갈 알고리즘은 **가장 많은 신경 데이터를 학습한 쪽**이 먼저 선점하게 될지도 모른다 [의견]. 미국 빅테크가 통제할 줄 알았던 차세대 AI 디바이스 패권이 넘어가고 있다는 것이다. 화자는 "기술력의 미국, 데이터와 시스템의 중국"이라는 구도로 정리하며 다음 시대 패권을 누가 잡을 것 같은지 댓글로 의견을 요청하며 끝맺는다.
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 일론 머스크의 뉴럴링크보다 먼저 뉴라클에서 세계 최초로 침습형 BCI 판매가 승인되었습니다.
+> 스마트폰 다음의 세상, AI에 가장 적합한 디바이스는 여기서 나올 겁니다.
+
+### 인용 출처
+- 1.갱스타, “세계 최초 ‘침습형 BCI’ 판매 승인, 중국이 먼저 해냈다”, 하이젠버그, 2026
+- 2.레몬맛콜라사탕, “뉴럴링크보다 5년 앞선 BCI의 숨은 최강자, Synchron”, 하이젠버그, 2025
+- 3.갱스타, “칩인류의 탄생… AI가 두려웠던 머스크의 선택”, 하이젠버그, 2025
+- 4.송혜진, “中, '뇌-컴퓨터 인터페이스(BCI)' 치료 세계 최초 상업화”, 조선일보, 2026
+- 5.Fudan University, “World’s First BCI for Hand Movement Approved in China”, 2026
+- 6.Smriti Mallapaty, "China just approved its first brain implant for commercial use, a world first.", Scientific American, 2026
+- 7.Synchron, "Synchron To Achieve First Native BCI Integration with iPhone, iPad and Apple Vision Pro.", Business Wire, 2025
+
+### 링크
+- 하이젠버그에서 더 자세한 정보를 얻어가세요: https://heisenberg.kr
+- 인스타그램: https://www.instagram.com/softdragon__/
+
+### 챕터
+- 0:00 BCI
+- 0:56 배경과 원리
+- 3:19 BCI의 목적
+- 5:52 애플의 신의 한 수
+- 7:12 중국의 힘
+
+### 기타
+- 1. Champion by Cosmonkey
+- 2. Breaking Sweat by BalloonPlanet
+- 3. Top of the Rock by Ikoliks
+- 4. Seguiré Soñando - Short version e by Roie Shpigler
+- 5. On the Way by Ian Post
+

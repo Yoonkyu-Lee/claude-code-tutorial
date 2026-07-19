@@ -92,3 +92,18 @@
 
 ### [02:19–02:32] 마무리
 이번 특허가 미래 출시 제품에 어떤 식으로 적용될지 질문을 던지며, 삼성전자의 폴더블·롤러블 특허에 대한 시청자 의견을 댓글로 남겨달라고 요청하고 영상을 닫는다. (클로징 "지금까지 비었습니다"는 "알뷰였습니다"의 자막 오인식)
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 삼성의 폴더블 폰 소식입니다 시청해주셔서 감사합니다
+> ppchhomin@gmail.com
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+
+### 링크
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+

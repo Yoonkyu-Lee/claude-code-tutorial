@@ -115,3 +115,21 @@
 
 ### [03:01–03:14] 마무리 — 하반기 언팩 동시 공개 가능성 + CTA
 지금처럼 계속 소식이 풀리는 걸 보면 **하반기 언팩 행사에서 갤럭시 글래스 등과 함께 공개될 가능성도 있어 보인다**고 전망한다. [의견] 이어 S27 BOE 건과 갤럭시 버즈 에이블에 대한 시청자 의견을 댓글로 남겨 달라고 요청하며 영상을 끝낸다. (클로징 "지금까지 알뷰였습니다" — 자막에는 "지금까지 비었습니다"로 오인식됨)
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 갤럭시 S27 소식입니다 시청해주셔서 감사합니다
+> ppchhomin@gmail.com
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+
+### 링크
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+- https://www.etnews.com/20260521000104?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp
+- https://zdnet.co.kr/view/?no=20260522093951
+- https://toon.at/donate/allview
+

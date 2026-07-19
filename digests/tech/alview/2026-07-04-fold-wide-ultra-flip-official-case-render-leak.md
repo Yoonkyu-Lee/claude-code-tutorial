@@ -98,3 +98,19 @@
 
 ### [03:02–03:26] 마무리 — 시청자 질문
 화자는 "이번 **8세대 폴더블폰**의 공식 이미지"에 대한 시청자 생각을 묻는다. [의견] 폴드 예상 디자인 이미지를 워낙 많이 봐서 익숙해졌다고 생각했는데, 넓어진 디자인을 공식 이미지로 보니 또 새로운 느낌이 든다고 덧붙인다. 마지막으로 "갤럭시 Z 폴드와 폴더블 아이폰의 전쟁은 누구의 승리로 끝날까"를 던지며 댓글을 유도하고 영상을 닫는다. (클로징 "지금까지 비었습니다"는 "알뷰였습니다"의 자막 오인식)
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 갤럭시Z 폴드8 소식입니다 시청해주셔서 감사합니다
+> ppchhomin@gmail.com
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+
+### 링크
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+- https://www.androidheadlines.com/samsung-galaxy-z-fold-8-cases.html
+

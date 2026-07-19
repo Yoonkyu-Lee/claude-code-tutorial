@@ -192,3 +192,52 @@
 화자는 3년 전 투자자 **세르게이 영**의 역노화 관련 책에 **싱클레어 교수, 레이 커즈와일과 함께 추천사를 쓰는 영광**을 가졌다고 밝힌다. 그리고 같은 책에 추천사를 쓴 커즈와일의 말로 영상을 닫는다(자막은 문장 도중 종료).
 
 > "혁신이 혁신으로 인정받기 전까지는 미친 생각으로 치부되지만, 기술 발전은 불가능을 가능케 한다. 여러분은 살아생전 노화가 해결되고 죽음이 극복되는 것을 보게 될…" [09:05]
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 사상 최초로 역노화 약이 인간에게 투여되기 시작했습니다.
+> 아마존의 제프 베조스, OpenAI의 샘 올트먼 등 세계적인 거부들이 투자하는 이유,
+> 야마나카 신야와 제니퍼 다우드나 같은 석학들도 뛰어든 이유, 영상으로 확인하시죠!
+
+### 인용 출처
+- 1.Carly Cassella, "World First: Patient Receives High-Risk Therapy to Make Cells Young Again", ScienceAlert, 2026
+- 2.M. Einstein, "Billionaires Bankroll Cell Rejuvenation Tech as the Latest Gambit to Slow Aging", Scientific American, 2024
+- 3.Charles Rollet, "Retro Biosciences, backed by Sam Altman, is raising $1 billion to extend human lifespan", TechCrunch, 2025
+- 4.OpenAI, "Accelerating life sciences research with Retro Biosciences", 2025
+- 5.Antonio Regalado, "OpenAI has created an AI model for longevity science", MIT Technology Review, 2025
+- 6.Griffin Dean, "ChatGPT and Retro Biosciences (Sam Altman $180M)", NAD.com, 2025
+- 7.Cass Almendral, "Bezos and Thiel Longevity Investments", Social Life Magazine, 2026
+- 8.Paul Knoepfler, "FDA OKs risky, pioneering OSK rejuvenation trial with Sinclair's ER-100", The Niche, 2026
+- 9.Felix Wong et al, "Discovering small-molecule senolytics with deep neural networks", nature Aging, 2023
+- 10.박정연, "좀비처럼 죽지않는 '항노화 약물 후보물질' AI로 확인", 동아사이언스, 2023
+- 11.지홍구, “세계 1위 바이오 도시 송도, 의약품 생산능력 더 키운다”, 매일경제, 2026
+- 12.정민승, "대한민국 이제 '초고령사회'…2017년→7년", 한국일보, 2024
+- 13.세르게이 영, “역노화”, 더퀘스트, 2023
+- 14.연합뉴스, "임진왜란 때 태어났소… 500살 그린란드 상어", 2016
+- 15.Insider, "Exclusive: Elon Musk On Twitter Fame, Loneliness, And AI", 2022
+- 16."David A. Sinclair", Wikipedia, 2026
+- 17.Longevity Technology, "Reversing biological age: longevity researcher's routine", 2023
+- 18.이에스더, “시진핑의 말, 뇌 회춘시키면 빈말 아니다”, 중앙일보, 2025
+
+### 링크
+- 하이젠버그에서 더 자세한 정보를 얻어가세요: https://heisenberg.kr
+- 인스타그램: https://www.instagram.com/softdragon__/
+
+### 챕터
+- 0:00 데이비드 싱클레어
+- 1:02 거부들의 투자
+- 2:18 왜 지금인가
+- 4:40 역노화 최초 시도
+- 7:18 앞으로의 미래
+
+### 기타
+- 1. [1분 6초, 시네마틱] Adventurist - Creative Cut - Alternative by Lance Conrad
+- 2. [1분 38초, 시네마틱]Legend Is Born by Tristan Barton
+- 3. [2분 27초, 시네마틱, 75BPN]Parlous Reign by FableForte
+- 4. [3분 1초, 시네마틱] Above the Clouds by Jamie Wright
+- 5. [2분 2초, 일렉트릭]Iron Caravan - No Backing Vocals by BalloonPlanet
+- 사진 출처 : gettyimageskorea
+

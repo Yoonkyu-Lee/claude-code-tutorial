@@ -90,3 +90,20 @@
 > "그냥 국내는 스냅드래곤 탑재했으면 좋겠습니다." [02:14]
 
 마지막은 시청자에게 원하는 갤럭시 Z 플립8에 대해 댓글을 남겨 달라는 요청과 인사로 끝난다.
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 갤럭시Z 플립8 소식입니다 시청해주셔서 감사합니다
+> ppchhomin@gmail.com
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+
+### 링크
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+- https://www.phonearena.com/news/samsung-might-borrow-game-plan-from-galaxy-s26-for-galaxy-z-flip-8_id180868
+- https://toon.at/donate/allview
+

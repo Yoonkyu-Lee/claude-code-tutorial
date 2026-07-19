@@ -158,3 +158,50 @@
 
 ### [08:19–08:48] 마무리 — 시청자 혜택과 CTA
 에이전트 AI가 중요하다는 얘기는 SOD에서도, 다른 채널에서도, 뉴스에서도 수없이 들었을 텐데 정작 어떻게 써야 할지 감이 안 왔던 사람들에게 높은 편의성으로 접근할 수 있을 것이라고 마무리한다. 세일즈 구조로서, **이번 영상을 지원해 준 마누스가 구독자에게 1천 크레딧 혜택을 제공**하며 고정 댓글을 통해 안내한다고 밝히고, 에이전트 AI를 고민하는 사람들에게 도움이 되길 바란다는 인사로 끝낸다.
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> AI에이전트는 피할 수 없는 흐름이 되었는데, 아직 너무 어렵습니다.
+> 현재 미국과 중국에서 가장 핫한 AI 에이전트인 '마누스'를 직접 써봤습니다.
+> 어떤 에이전트 AI를 사용해야 할지 고민되신다면, 이번 영상이 큰 도움이 되실 겁니다!
+> ⭐️마누스 AI 크레딧 혜택 받고 체험해보기 👇
+> *이 영상은 Manus AI의 지원으로 제작되었습니다.
+
+### 인용 출처
+- 1.오로라, “中, 메타의 마누스 인수 금지 명령... '미국 자본 끊어내기' 착수”, 조선일보, 2026
+- 2.The Decoder, "Meta pays $3 billion for Manus AI", 2025
+- 3.FinancialContent, "Meta Accelerates 'Agentic' Future with $2 Billion Acquisition of Autonomous AI Pioneer Manus", 2026
+- 4.Yichao Ji, "Context Engineering for AI Agents: Lessons from Building Manus", Manus, 2025
+- 5.Alex Olteanu, "Manus AI: Features, Architecture, Access, Early Issues & More”, datacamp, 2025
+- 6.김성모, “마누스가 뭐길래..."세계 최초 범용 AI"라 자평까지”, 조선일보, 2025
+- 7.Aili McConnon and Anabelle Nicoud, “A week of Manus”, IBM, 2025
+- 8.Victor Luckerson, “Here’s Proof That Instagram Was One of the Smartest Acquisitions Ever”, Time, 2016
+- 9.CBC, “1 year later, Facebook stock remains below IPO price”, 2013
+- 10.Amanda Gerut, “Meta just bumped its 2026 capex forecast up to as much as $145 billion for the AI boom—and investors flinched”, FORTUNE, 2026
+- 11.Steve Dent, “Meta has reportedly laid off 8,000 employees”, engadget, 2026
+- 12.No Code, “Manus AI Pricing 2026: Plans, Credits & Costs Compared”, 2026
+- 13.Riley Griffin, “Meta’s Giant AI Data Center Is Reshaping Rural Louisiana”, Bloomberg, 2026
+- 14.Gartner, “Gartner Predicts Over 40% of Agentic AI Projects Will Be Canceled by End of 2027”, 2025
+
+### 링크
+- https://manus.im/redeem?c=SOD1G726
+- 하이젠버그에서 더 자세한 정보를 얻어가세요: https://heisenberg.kr
+- 인스타그램: https://www.instagram.com/softdragon__/
+
+### 챕터
+- 0:00 인트로
+- 0:48 에이전트를 만드는 이유
+- 2:50 마누스 사용 후기
+- 7:39 앞으로의 미래
+
+### 기타
+- 1. KLIK! by Out of Flux
+- 2. Just Take a Shot By CustomMelody
+- 3. CHONKLAP by Out of Flux
+- 4. Reverberation - Instrumental version by Perle Blanche
+- 5. Stellar Drift by Damon Power
+- 6. What The Dog Doing by Out of Flux
+

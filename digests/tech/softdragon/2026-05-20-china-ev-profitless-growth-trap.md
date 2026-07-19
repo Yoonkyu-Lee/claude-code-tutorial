@@ -145,3 +145,38 @@ BYD는 1,360kW급 초고속 충전기를 중국에 4,000개 설치했는데, 그
 우리도 중국의 상황을 보며 낙관해서도 안 되고 안이해져서도 안 된다는 결론으로 이어진다. 화자는 현대차그룹 정의선 회장의 발언을 인용하며 끝맺는다.
 
 > "피해갈 수 없는 도전들이 기다리고 있다. 우리 앞에 놓인 도전과 불확실성 때문에 위축될 필요는 없다. 위기가 없으면 낙관에 사로잡혀 안이해지고 그것은 그 어떤 외부 위기보다 우리를 더 위험하게 만든다." [08:57]
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 세계 1위를 차지한 중국 전기차와 BYD의 충격적인 내부 상황을 알고 계시나요? 압도적인 배터리 기술력과 수백 조의 정부 지원에도 불구하고, 팔면 팔수록 적자를 보는 기형적인 출혈경쟁의 실체를 분석했습니다.
+
+### 인용 출처
+- 1.김은정, “1등할 수록 남는 게 없다… 중국 제조업 집어삼킨 내권”, 한국경제, 2026
+- 2.이혜인, “지방정부에 달콤한 내권… 멈출 수가 없다”, 한국경제, 2026
+- 3.Chang-Xin Zhao et al, “Electrolytes that reduce electro-osmotic drag improve fast charging of lithium-ion batteries”, Science, 2025 (DOI: 10.1126/science.adv1739)
+- 4.Shuibin Tu et al, “Fast-charging capability of graphite-based lithium-ion batteries enabled by Li3P-based crystalline solid–electrolyte interphase”, nature energy, 2023
+- 5.BYD코리아, "BYD, ‘2세대 블레이드 배터리’ 및 ‘FLASH 충전 기술’ 공개”, 2026
+- 6.BYD, “BYD Unveils Super e-Platform with Megawatt Flash Charging for Electric Vehicles, Matching Refueling Speeds”, 2025
+- 7.Tobi Opeyemi Amure, “Tesla’s biggest Chinese rival just got hit by an ugly reality”, TheStreet, 2026
+- 8.라온, “빛에 취한 BYD, 빚에 잠식당하다”, 하이젠버그, 2025
+
+### 링크
+- 하이젠버그에서 더 자세한 정보를 얻어가세요: https://heisenberg.kr
+- 인스타그램: https://www.instagram.com/softdragon__/
+
+### 챕터
+- 0:00 인트로
+- 0:34 중국 내부 상황
+- 3:40 연구 결과
+- 5:11 현실적인 한계점
+- 6:41 무너지는 중국 시스템
+
+### 기타
+- 1. Circle of Life - Short version by Letra
+- 2. Fires by Roie Shpigler
+- 3. Zero Hour by Letra
+- 4. Forged in Chaos - No Backing Vocals by  BalloonPlanet
+

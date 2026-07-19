@@ -91,3 +91,20 @@
 
 ### [02:19–02:29] 클로징
 갤럭시 S27에 대한 시청자 의견을 댓글로 남겨 달라는 요청과 시청 감사 인사, 그리고 채널 클로징 멘트("알뷰였습니다" — 자막상 오인식)로 끝난다.
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 갤럭시 S27 소식입니다 시청해주셔서 감사합니다
+> ppchhomin@gmail.com
+> Creative Commons — Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0
+
+### 링크
+- Buddha by Kontekst https://soundcloud.com/kontekstmusic
+- Free Download / Stream: http://bit.ly/2Pe7mBN
+- Music promoted by Audio Library https://youtu.be/b6jK2t3lcRs
+- https://zdnet.co.kr/view/?no=20260616012606
+- https://toon.at/donate/allview
+

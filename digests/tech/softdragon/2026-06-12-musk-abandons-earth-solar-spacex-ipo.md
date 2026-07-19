@@ -179,3 +179,42 @@ GPU는 **본래 하나처럼 크게 작동하는 것이 가장 이상적**이지
 ### [08:58–09:31] 마무리 잡담 — 스타링크 기내 와이파이
 대한항공이 이코노미 좌석에도 스타링크를 이용한 무료 와이파이를 제공할 예정이라는 소식을 전한다. `[의견]` 화자는 비행기에서 와이파이를 그리 좋아하지 않는다고 말한다. 다 꺼두고 10~12시간 비행 후 내렸을 때 쏟아지는 알람을 보면 속이 답답해지지만, **그 시간 동안 세상과 단절되어 혼자만의 세상을 갖는 것이 좋았다**며, 그런 세상이 점점 사라지는 것이 개인적으로 아쉽다는 소회로 영상을 닫는다.
 *([불명확: 원문 "뒤에 뒤속스를 하고"] — 문맥상 기내에서 무언가를 하며 보낸다는 의미로 보이나 특정 불가)*
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 일론 머스크 스페이스X의 상장이 드디어 다가왔습니다.
+> 태양광에 대한 파격적인 내용을 확인할 수 있었는데, 스페이스X가 그리는 미래를 영상으로 확인하시죠!
+
+### 인용 출처
+- 1.Tim De Chant. "Elon Musk has given up on solar power", TechCrunch, 2026
+- 2.Alina Maria Stan, "SpaceX’s IPO filing says its orbital data centres may never work. Three months ago, Musk called them a no-brainer", TNW, 2026
+- 3.산업통상자원부, "재생에너지 3020 이행계획(안)", 2017
+- 4.백종수, “2022 국정감사- 산림청, 산림조합중앙회 등”, 농업인신문, 2022
+- 5.설인호, “중국산 태양광 셀, 국내 시장 95% 점령”, 스트레이트뉴스, 2025
+- 6.한국핵융합에너지연구원, “핵융합” (https://www.kfe.re.kr/menu.es?mid=a10201010000)
+- 7.Michael Banks, “China’s Experimental Advanced Superconducting Tokamak smashes fusion confinement record”, physics world, 2025
+- 8.Tim De Chant, “Helion, the Sam Altman-backed fusion startup, raises $465M to build a power plant for Microsoft”, Tech Crunch, 2026
+- 9.L'etranger "미국 전력 인프라 1위 콴타 서비스, AI 전력난의 진짜 수혜주", 하이젠버그, 2026
+
+### 링크
+- 하이젠버그에서 더 자세한 정보를 얻어가세요: https://heisenberg.kr
+- 인스타그램: https://www.instagram.com/softdragon__/
+
+### 챕터
+- 0:00 인트로
+- 0:41 갑자기 가스를?
+- 2:40 머스크의 생각
+- 5:00 데이터센터 에너지 해결법
+- 6:39 스페이스X의 경쟁력
+
+### 기타
+- 1.  What The Dog Doing by Out of Flux
+- 2. Solara by Brianna Tam
+- 3. The Arrival by Evgeny Bardyuzha
+- 4. Velocity by Romeo
+- 5. Resonate - Instrumental version by Romeo
+- 사진출처: gettyimageskorea
+

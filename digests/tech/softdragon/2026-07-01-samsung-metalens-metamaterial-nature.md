@@ -180,3 +180,40 @@
 그런 천재 입장에서 노사 문제 같은 부분은 삼성이 앞으로 풀어가야 할 숙제라고 정리한다. 마지막은 이건희 회장의 2002년 발언 인용으로 닫는다.
 
 > "천재 한 사람이 10만 명을 먹여 살린다." [11:52] (이건희 회장, 2002년 — 화자 인용)
+
+## 영상 더보기란
+
+아래는 영상 설명란 원문이며 화자 발언이 아니다. 링크는 홍보·제휴 여부와 무관하게 적힌 그대로 옮겼고, 내용을 확인하거나 평가하지 않았다.
+
+### 설명
+> 애플의 시대가 끝나고, 정말 삼성전자의 시대가 올지도 모르겠습니다.
+> 최근 국내 최초로 nature에 논문 두편이 동시 게재되며 메타표면이 급부상했습니다.
+> 앞으로 오게 될 넥스트 스마트폰과 삼성, 포스텍 등이 그리고 있는 미래에 대해 확인해보세요!
+
+### 인용 출처
+- 1.Soekil Moon et al, “Switchable 2D-3D display through a metasurface lentricular lens”, nature, 2026
+- 2.Trung Hoang et al, "300-unit-per-second roll-to-roll manufacturing of visible metalenses", nature, 2026
+- 3.메타, "국내 최초 nature 동시 게재, 삼성 '메타표면'의 한계와 가능성", 하이젠버그, 2026
+- 4.연지안, "안경없는 2D-3D 전환형 메타렌즈 세계 첫 개발", 파이낸셜뉴스, 2026
+- 5.메타, “버튼 하나로 2D·3D 자유 전환, 삼성전자 세계 첫 개발 성공”, 하이젠버그, 2026
+- 6.안시욱, "K전차에 '투명 망토' 덮는 스텔스 기술 나왔다," 한국경제, 2026
+- 7.삼성 뉴스룸, “삼성전자, 국내 최초 무안경 3D 모니터 출시”, 2025
+
+### 링크
+- 하이젠버그에서 더 자세한 정보를 얻어가세요: https://heisenberg.kr
+- 인스타그램: https://www.instagram.com/softdragon__/
+
+### 챕터
+- 0:00 새로운 황제
+- 1:00 2D와 3D 전환
+- 5:26 메타렌즈 상용화
+- 9:36 앞으로의 미래
+
+### 기타
+- 1. Slam - Creative Cut - Alternative by Semo
+- 2. Shook Up - No Lead Vocals by RocknStock
+- 3. Victory Dreams - Instrumental version by Wheres LuLu
+- 4. Just Take a Shot By CustomMelody
+- 5. Flat Earth by Ace
+- 6. Battery Bass by Danny Shields
+
