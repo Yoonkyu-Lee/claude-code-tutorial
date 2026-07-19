@@ -41,6 +41,15 @@ bash scripts/fetch-transcripts.sh --ids="<scratch>/ids.txt" --outdir="<scratch>"
 - 못 받은 영상은 `<outdir>/_skipped.tsv`(`id<TAB>사유<TAB>원문`)에 남는다. 사유 해석은 Step 1의 누락 처리 규칙과 같다 — `no-subs`·`members-only` 등 정상 사유는 **후보고 한 줄**, `other`·`no-error-output`만 사용자에게 판단을 구한다.
 - 이미 `<id>.txt`가 있으면 건너뛴다. 실패분만 재시도하려면 같은 명령을 다시 돌리면 된다.
 
+**설명란(더보기)도 함께 받는다** — 자막에 없는 출처가 여기 있다:
+```bash
+bash scripts/fetch-descriptions.sh --ids="<scratch>/ids.txt" --outdir="<scratch>/desc" --jobs=6
+# 결과: <scratch>/desc/<id>.desc — 이 경로도 worker에 넘긴다
+```
+- **왜**: 유튜버가 인용 출처·기사 링크·챕터를 설명란에 적는다. 자막에서 "로이터 통신"이 "이트 기통신"으로 뭉개져도 설명란에는 Reuters URL이 그대로 있다. 자막만 쓰면 출처가 `[불명확]`으로 남는 자리에 답이 있는 경우가 많다(2026-07 alview 실측: `[불명확]` 줄의 33%가 출처 관련).
+- **채널마다 형태가 다르다**: 번호 매긴 「내용 출처」 학술식 인용(softdragon), 기사 URL 직링크(alview), 챕터 타임스탬프(ColorScale).
+- 설명란이 비어 있거나 못 받으면 `<outdir>/_desc_skipped.tsv`에 남는다. **설명란은 없어도 정상**이니 후보고만 하고 진행한다.
+
 메타(게시일·원제·조회수)는 채널 모드면 Step 1의 `ch.tsv`에 이미 있으니 재사용한다. URL 모드에서 개별로 필요하면:
 ```bash
 export PATH="$HOME/scoop/shims:$PATH"
@@ -50,7 +59,7 @@ yt-dlp --skip-download --print-to-file "%(upload_date)s	%(view_count)s	%(duratio
 
 ## Step 4: 배치 dispatch (격리 병렬)
 - 승인 목록을 concurrency(기본 3, 최대 5)만큼 묶어 `digest-worker`를 **동시 호출**.
-- 각 worker에 전달: URL + 주제 + 채널 + 게시일(확정) + 원제 + 조회수/길이 + 자막파일(clean text 경로).
+- 각 worker에 전달: URL + 주제 + 채널 + 게시일(확정) + 원제 + 조회수/길이 + 자막파일(clean text 경로) + **설명란 파일 경로**(있으면).
 - 배치가 끝날 때까지 대기 → 짧게 보고 → 다음 배치. 한 편 실패가 나머지를 막지 않는다(격리).
 
 ## Step 5: 종합 보고

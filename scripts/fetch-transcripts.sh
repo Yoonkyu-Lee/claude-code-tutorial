@@ -70,9 +70,12 @@ while read -r line; do
   id="${line%%	*}"                       # TSV면 첫 칼럼만 (구분자는 실제 TAB)
   [ -z "$id" ] && continue
   fetch_one "$id" &
-  while [ "$(jobs -r | wc -l)" -ge "$JOBS" ]; do wait -n; done
+  # `wait -n`은 끝난 작업의 종료코드를 그대로 반환한다. 자막이 없는 영상에서
+  # fetch_one이 1을 내면 set -e가 그걸 잡아 스크립트 전체를 죽인다 → || true 필수.
+  # (지금까지는 전건 성공이라 안 터졌을 뿐, 잠복 버그였다.)
+  while [ "$(jobs -r | wc -l)" -ge "$JOBS" ]; do wait -n || true; done
 done < "$IDS"
-wait
+wait || true
 
 # 실패 분류
 SKIP="$OUTDIR/_skipped.tsv"
