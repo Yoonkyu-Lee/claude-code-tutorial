@@ -1,9 +1,10 @@
 # editorp89 (@editorp89 · 편집자P) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 19편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 20편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-19 | [2026-07-19-codex-cli-install-setup-guide-macos-with-orca](2026-07-19-codex-cli-install-setup-guide-macos-with-orca.md) | [시즌 3] 코덱스 CLI 설치 + 세팅 가이드 with Orca |
 | 2026-07-18 | [2026-07-18-chatgpt-app-install-principles-interface](2026-07-18-chatgpt-app-install-principles-interface.md) | [시즌 3] 바로바로 챗GPTx덕테이프x코덱스 ━ 05 : 챗GPT 앱 설치부터 핵심 원리와 인터페이스 짚어보기 |
 | 2026-07-17 | [2026-07-17-kimi-k3-release-ai-concepts](2026-07-17-kimi-k3-release-ai-concepts.md) | [시즌 3] Kimi K3의 등장과 뉴스를 이해하기 위한 인공지능 개념 |
 | 2026-07-12 | [2026-07-12-chatgpt-app-change-harness-engineering-basics](2026-07-12-chatgpt-app-change-harness-engineering-basics.md) | [시즌 3] 바로바로 챗GPTx덕테이프x코덱스 ━ 04 : 챗GPT앱 변화점, 하네스 엔지니어링 기초 |

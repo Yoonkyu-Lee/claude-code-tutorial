@@ -1,9 +1,10 @@
 # softdragon (@softdragon) — digest 색인
 
-주제 `tech`. 반도체·AI·바이오·과학 뉴스 해설 영상 digest. 총 20편. (최신순)
+주제 `tech`. 반도체·AI·바이오·과학 뉴스 해설 영상 digest. 총 21편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-20 | [2026-07-20-tesla-dry-battery-cheap-ev](2026-07-20-tesla-dry-battery-cheap-ev.md) | "테슬라가 성공했습니다" 머스크도 경악한 배터리, 전기차 가격 혁명이 시작됐다... |
 | 2026-07-16 | [2026-07-16-apple-vs-openai-hardware-lawsuit](2026-07-16-apple-vs-openai-hardware-lawsuit.md) | “애플 뒤통수 제대로 맞았다” 핵심 인재 400명 줄퇴사, 오픈AI가 숨겨온 비밀병기 ㄷㄷ |
 | 2026-07-13 | [2026-07-13-us-targeting-korean-memory-like-japan](2026-07-13-us-targeting-korean-memory-like-japan.md) | “삼성SK 시대 끝낸다” 미국의 소름돋는 수법, 일본도 당했었다 |
 | 2026-07-10 | [2026-07-10-obesity-drugs-first-impression-class-mobility](2026-07-10-obesity-drugs-first-impression-class-mobility.md) | 주사 한번에 인생이 바뀔 수도... 하버드대가 발표한 비만약의 정체 ㄷㄷ |

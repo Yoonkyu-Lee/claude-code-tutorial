@@ -1,9 +1,11 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 93편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 95편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-20 | [2026-07-20-ax-essence-redesign-the-between](2026-07-20-ax-essence-redesign-the-between.md) | AX의 본질, 한 문장으로 정리해드립니다 |
+| 2026-07-20 | [2026-07-20-coding-moat-gone-design-creator-economy](2026-07-20-coding-moat-gone-design-creator-economy.md) | 아직도 코딩만 배우세요? 돈은 이제 여기로 몰립니다 |
 | 2026-07-11 | [2026-07-11-payment-took-two-months-vibe-coding](2026-07-11-payment-took-two-months-vibe-coding.md) | 4일 만에 만들었는데, 결제 붙이는 데 2달 걸렸습니다 |
 | 2026-07-10 | [2026-07-10-taste-and-eval-not-prompts](2026-07-10-taste-and-eval-not-prompts.md) | 프롬프트 아무리 잘 써도 결과물이 안 좋은 진짜 이유 |
 | 2026-07-07 | [2026-07-07-evaluation-market-scoring-moat](2026-07-07-evaluation-market-scoring-moat.md) | 채점만 해주는 회사가 어떻게 1조 7천억을 벌었을까? |
