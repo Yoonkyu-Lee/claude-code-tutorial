@@ -1,9 +1,10 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 95편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 96편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-21 | [2026-07-21-solo-business-three-keys](2026-07-21-solo-business-three-keys.md) | 직원 0명 회사가 연 수십억을 법니다 (1인 사업 핵심 3가지) |
 | 2026-07-20 | [2026-07-20-ax-essence-redesign-the-between](2026-07-20-ax-essence-redesign-the-between.md) | AX의 본질, 한 문장으로 정리해드립니다 |
 | 2026-07-20 | [2026-07-20-coding-moat-gone-design-creator-economy](2026-07-20-coding-moat-gone-design-creator-economy.md) | 아직도 코딩만 배우세요? 돈은 이제 여기로 몰립니다 |
 | 2026-07-11 | [2026-07-11-payment-took-two-months-vibe-coding](2026-07-11-payment-took-two-months-vibe-coding.md) | 4일 만에 만들었는데, 결제 붙이는 데 2달 걸렸습니다 |
