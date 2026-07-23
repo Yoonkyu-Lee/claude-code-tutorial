@@ -1,11 +1,12 @@
 # ColorScale (@ColorScale) — digest 색인
 
-주제 `tech`. 디스플레이·패널 기술 심층분석 (OLED/LCD 구조, 모니터·TV 측정 리뷰, 모바일 디스플레이 분해, 애플 실리콘·반도체). 총 50편. (최신순)
+주제 `tech`. 디스플레이·패널 기술 심층분석 (OLED/LCD 구조, 모니터·TV 측정 리뷰, 모바일 디스플레이 분해, 애플 실리콘·반도체). 총 51편. (최신순)
 
 원제가 짧고 모호한 편이라 digest 파일명 slug는 제목이 아니라 **본문 내용** 기준으로 지었다. H1은 원제 그대로.
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-22 | [2026-07-22-galaxy-z-fold8-flex-titanium-crease-reduction](2026-07-22-galaxy-z-fold8-flex-titanium-crease-reduction.md) | 어떻게 없앴을까? |
 | 2026-07-18 | [2026-07-18-display-bezel-active-matrix-ltps-ltpo](2026-07-18-display-bezel-active-matrix-ltps-ltpo.md) | 왜 못 없앨까 |
 | 2026-06-26 | [2026-06-26-studio-display-xdr-panel-analysis](2026-06-26-studio-display-xdr-panel-analysis.md) | (아직은) 가성비. 스튜디오 디스플레이 XDR 리뷰 |
 | 2026-06-12 | [2026-06-12-apple-intelligence-google-model-integration](2026-06-12-apple-intelligence-google-model-integration.md) | 이번에는 다를까? |

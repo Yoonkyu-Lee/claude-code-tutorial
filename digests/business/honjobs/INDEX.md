@@ -1,9 +1,10 @@
 # honjobs (@honjobs) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 41편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 42편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-22 | [2026-07-22-12-vibe-coding-terms-explained-part2](2026-07-22-12-vibe-coding-terms-explained-part2.md) | 10분안에 바이브코딩에서 모르면 답답한 용어 12개 속시원하게 끝내드립니다 \| 모르면 앞으로 더 힘들어지니 이참에 짚고 넘어가세요! (자료 모두 제공)_2부 |
 | 2026-07-08 | [2026-07-08-claude-ai-employees-website-8-setup-steps](2026-07-08-claude-ai-employees-website-8-setup-steps.md) | 클로드 직원 5명이 제 사이트로 알아서 돈 벌어줍니다 (ai 직원 세팅법 8가지) |
 | 2026-07-03 | [2026-07-03-claude-5-proven-ways-to-make-money](2026-07-03-claude-5-proven-ways-to-make-money.md) | 클로드로 당장 수익 만드는 확실한 방법 5가지 (500만원 쓰고 검증했습니다) |
 | 2026-07-02 | [2026-07-02-vibe-coding-adsense-passive-income-site](2026-07-02-vibe-coding-adsense-passive-income-site.md) | 사이트 하나 만들어서 매달 10만원, 이렇게 벌었습니다 (바이브코딩 전 과정) |

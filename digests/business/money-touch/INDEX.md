@@ -1,9 +1,10 @@
 # money-touch (@MONEY_TOUCH) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 14편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 15편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-23 | [2026-07-23-real-estate-auction-flipping-side-hustle](2026-07-23-real-estate-auction-flipping-side-hustle.md) | "몰라서 못해요" 5일에 1억 6천 버는 기적의 수익률 1등 부업 |
 | 2026-07-09 | [2026-07-09-vertical-commerce-clothing-reselling](2026-07-09-vertical-commerce-clothing-reselling.md) | 20살에 시작한 부업으로 한달에 4억, 인생 역전한 23살 고졸 사장님 |
 | 2026-07-06 | [2026-07-06-naver-brand-connect-affiliate-side-hustle](2026-07-06-naver-brand-connect-affiliate-side-hustle.md) | "99.9%는 이게 있는 줄도 모를걸요?" 이미지 이어 붙이고 8천만 원 버는 역대급 부업 |
 | 2026-06-26 | [2026-06-26-no-inventory-brand-dropshipping-program](2026-06-26-no-inventory-brand-dropshipping-program.md) | 평일에 회사도 안가고 육아 하면서, 4천만 원씩 버는 40대 백수아빠의 비밀 부업 추천 |
