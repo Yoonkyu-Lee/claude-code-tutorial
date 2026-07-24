@@ -1,9 +1,10 @@
 # unrealtech (@unrealtech · 안될공학 - IT 테크 신기술) — digest 색인
 
-주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 204편. (최신순)
+주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 205편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-24 | [2026-07-24-google-frozen-v2-gemini-chip-compute-shortage-q2](2026-07-24-google-frozen-v2-gemini-chip-compute-shortage-q2.md) | 구글, Gemini 칩에 새긴 새로운 AI칩 만든다｜프로즌 v2와 컴퓨트 부족 (feat. Q2 실적발표) |
 | 2026-07-22 | [2026-07-22-shin-jinseo-beats-katago-go-ai-10-years](2026-07-22-shin-jinseo-beats-katago-go-ai-10-years.md) | 인간 vs AI, 다시 붙다 \| 신진서 카타고전으로 본 바둑 AI 10년의 변화 |
 | 2026-07-21 | [2026-07-21-kimi-k3-moe-efficiency-gpu-demand](2026-07-21-kimi-k3-moe-efficiency-gpu-demand.md) | GPU 시대 끝?… 키미K3 \| AI 효율 혁명의 진실 |
 | 2026-07-19 | [2026-07-19-gemini-playground-experience](2026-07-19-gemini-playground-experience.md) | 아바타 광고부터 미래 서울까지 \| Gemini Playground 체험기 |

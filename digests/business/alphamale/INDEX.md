@@ -1,9 +1,11 @@
 # alphamale (@alphamale__1212 · 알파남 - 부업으로 부자되는 방법) — digest 색인
 
-주제 `business`. 부업·블로그 수익화 홍보성 LIVE. 각 digest 상단에 검증 배너 + 수익 수치 (주장/미검증) 표기. 총 13편. (최신순)
+주제 `business`. 부업·블로그 수익화 홍보성 LIVE. 각 digest 상단에 검증 배너 + 수익 수치 (주장/미검증) 표기. 총 15편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-24 | [2026-07-24-profitable-blog-keyword-strategies-best-5](2026-07-24-profitable-blog-keyword-strategies-best-5.md) | 월급보다 많이 버는 수익성 높은 키워드 전략 BEST 5 |
+| 2026-07-22 | [2026-07-22-ai-automation-tools-5-years-1oku-conclusion](2026-07-22-ai-automation-tools-5-years-1oku-conclusion.md) | AI 자동화 프로그램으로 월 1,000? 5년간 1억 써보고 내린 결론 |
 | 2026-07-19 | [2026-07-19-naver-blog-seo-ai-era](2026-07-19-naver-blog-seo-ai-era.md) | 네이버 블로그 상위노출, AI 시대 이제 '이것' 모르면 끝납니다 (2026 최신판) |
 | 2026-07-18 | [2026-07-18-10-million-won-course-guaranteed-income](2026-07-18-10-million-won-course-guaranteed-income.md) | 1000만원 강의를 들으면 무조건 돈을 벌 수 있을까?(+부업 강의 후기) |
 | 2026-07-17 | [2026-07-17-adsense-low-competition-blog-keywords](2026-07-17-adsense-low-competition-blog-keywords.md) | 애드센스로 하루 300만 원? 경쟁 낮고 수익 잘 나는 블로그 키워드 폭로 |
