@@ -14,9 +14,9 @@
 - **기존 이동(지금)**: `notes/maker-evan/`, `notes/코딩알려주는누나/` → `notes/ai-coding/` 아래로 (git mv, ID 보존).
 - **주제명**: 코딩 채널 = `ai-coding`. 부업 영상(@MONEY_TOUCH) = `business` (P3에서 생성).
 - **INDEX 3계층**:
-  - 루트 `INDEX.md` = **주제 카탈로그** (주제 목록 + 각 주제 색인 링크).
-  - `notes/<topic>/INDEX.md` = **채널 카탈로그** (그 주제의 채널들).
-  - `notes/<topic>/<channel>/INDEX.md` = **노트 색인** (기존, 이동만).
+  - 루트 `index.md` = **주제 카탈로그** (주제 목록 + 각 주제 색인 링크).
+  - `notes/<topic>/index.md` = **채널 카탈로그** (그 주제의 채널들).
+  - `notes/<topic>/<channel>/index.md` = **노트 색인** (기존, 이동만).
 
 ## 3. 목표 · 비목표
 
@@ -36,8 +36,8 @@
 | 파일/폴더 | 변경 |
 |---|---|
 | `notes/maker-evan/`, `notes/코딩알려주는누나/` | → `notes/ai-coding/` 하위로 git mv |
-| `notes/ai-coding/INDEX.md` (신규) | ai-coding 채널 카탈로그 (기존 루트 표에서 이관) |
-| `INDEX.md` (루트) | 채널 카탈로그 → **주제 카탈로그**로 개편 |
+| `notes/ai-coding/index.md` (신규) | ai-coding 채널 카탈로그 (기존 루트 표에서 이관) |
+| `index.md` (루트) | 채널 카탈로그 → **주제 카탈로그**로 개편 |
 | `CLAUDE.md` | §1 정체성(다주제), §채널규약→주제·채널규약, §5 명명, §4 워크플로(주제 결정 단계) |
 | `.claude/skills/harness-study-note/SKILL.md` | Step 0(주제+채널 결정), `<NOTES_DIR>`=`notes/<topic>/<channel>/`, Step 9 INDEX 계층 |
 | `.claude/agents/study-note-worker.md` | 입력 `주제:` 추가, 저장경로 `notes/<주제>/<채널>/` |
@@ -53,19 +53,19 @@
 - 중복 검사(Step 0.5)는 `notes/**/*.md` 전역이라 계층 추가와 무관하게 그대로 동작.
 
 ### 5.2 INDEX 계층
-- **노트 생성 시**: 채널 색인(`notes/<topic>/<channel>/INDEX.md`)에 항목 추가 (기존 Step 9).
-- **새 채널**: 그 주제의 채널 카탈로그(`notes/<topic>/INDEX.md`)에 행 추가. 주제 자체가 새것이면 루트 주제 카탈로그에 행 추가 + `notes/<topic>/INDEX.md` 생성.
+- **노트 생성 시**: 채널 색인(`notes/<topic>/<channel>/index.md`)에 항목 추가 (기존 Step 9).
+- **새 채널**: 그 주제의 채널 카탈로그(`notes/<topic>/index.md`)에 행 추가. 주제 자체가 새것이면 루트 주제 카탈로그에 행 추가 + `notes/<topic>/index.md` 생성.
 - 배치의 INDEX 일괄 갱신(batch Step 4)도 (주제→채널) 라우팅으로 확장.
 
 ### 5.3 collect-detect 열거
-- `for d in notes/*/` → `for d in notes/*/*/` (주제/채널 디렉터리만; `notes/*/INDEX.md`는 파일이라 자동 제외).
+- `for d in notes/*/` → `for d in notes/*/*/` (주제/채널 디렉터리만; `notes/*/index.md`는 파일이라 자동 제외).
 - 채널 핸들 = `basename "$d"`, 주제 = `basename $(dirname "$d")`. 캐시 키·신규 노트 저장 경로에 주제 포함.
 - 채널 URL 복원은 핸들만 필요(주제 무관)하므로 resolve 로직 불변.
 
 ## 6. 마이그레이션 절차 (무손실)
 1. `mkdir notes/ai-coding` → `git mv notes/maker-evan notes/ai-coding/maker-evan`, 동일하게 코딩알려주는누나.
 2. 노트 수 검증: 이동 전후 `find notes -name '*.md' | wc -l` 동일.
-3. 루트 INDEX → 주제 카탈로그로 재작성, `notes/ai-coding/INDEX.md`에 채널 카탈로그 이관.
+3. 루트 INDEX → 주제 카탈로그로 재작성, `notes/ai-coding/index.md`에 채널 카탈로그 이관.
 4. 채널 INDEX 내부 링크는 상대경로(파일명)라 이동 후에도 유효 — 확인.
 5. 스킬/커맨드/스크립트 경로 로직 갱신.
 6. `collect-detect.sh` 재실행으로 열거가 `ai-coding/maker-evan`을 잡는지 검증.

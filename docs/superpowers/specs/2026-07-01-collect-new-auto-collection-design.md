@@ -76,7 +76,7 @@
 
 ### 4.2 채널 열거 · channel_id 캐시
 
-- `notes/*/` 디렉터리명이 곧 `@handle`. `INDEX.md` 등 파일은 무시, 디렉터리만.
+- `notes/*/` 디렉터리명이 곧 `@handle`. `index.md` 등 파일은 무시, 디렉터리만.
 - `.claude/collect-state.json`: `{ "<handle>": { "channel_id": "UC..." } }`. 채널당 resolve 1회(≈2s)를 캐시로 절약. 파일 없으면 생성. resolve 실패(채널 리네임/삭제) 시 그 채널만 skip + 경고, 나머지 진행.
 
 ### 4.3 신규 감지 · 필터
