@@ -93,6 +93,9 @@ while read -r line; do
     *"has been removed"*|*"account associated"*|*"terms of service"*|*"copyright claim"*) why=removed;;
     *"Premieres in"*|*"This live event will begin"*|*"live event has ended"*) why=not-yet-public;;
     *"Video unavailable"*)                                      why=unavailable;;
+    # 429 / 봇 확인 요구 = 레이트 리밋. 영상 문제가 아니라 우리가 너무 빨리 긁은 것이다.
+    # 쿨다운 후 --jobs 낮춰 재실행하면 회수된다(자막 있는데도 여기서 빠질 수 있으니 other와 구분).
+    *"Too Many Requests"*|*"HTTP Error 429"*|*"not a bot"*|*"Sign in to confirm you're"*|*"Sign in to confirm you’re"*) why=rate-limited;;
     "") # 에러가 없는데 txt가 없다 = 자막 트랙 자체가 없거나 변환 결과가 비었다
         if ls "$OUTDIR/$id".*.vtt >/dev/null 2>&1; then why=empty-transcript; else why=no-subs; fi;;
     *)  why=other;;
