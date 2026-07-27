@@ -1,9 +1,10 @@
 # editorp89 (@editorp89 · 편집자P) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 22편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 23편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-26 | [2026-07-26-orca-worktree-multi-agent-orchestration](2026-07-26-orca-worktree-multi-agent-orchestration.md) | [시즌 3] Orca로 다수의 에이전트 조율하기 with 워크트리 |
 | 2026-07-25 | [2026-07-25-orca-complete-beginner-setup-guide](2026-07-25-orca-complete-beginner-setup-guide.md) | [시즌 3] Orca 완전 초보 세팅 + 입문 가이드 |
 | 2026-07-21 | [2026-07-21-how-i-make-youtube-lectures](2026-07-21-how-i-make-youtube-lectures.md) | [시즌 3] 유튜브 강의 강의(촬영 도구, 프로그램 세팅, OBS 필터, 프레젠테이션 제작) |
 | 2026-07-19 | [2026-07-19-codex-cli-install-setup-guide-macos-with-orca](2026-07-19-codex-cli-install-setup-guide-macos-with-orca.md) | [시즌 3] 코덱스 CLI 설치 + 세팅 가이드 with Orca |

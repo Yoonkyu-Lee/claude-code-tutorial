@@ -1,9 +1,10 @@
 # softdragon (@softdragon) — digest 색인
 
-주제 `tech`. 반도체·AI·바이오·과학 뉴스 해설 영상 digest. 총 22편. (최신순)
+주제 `tech`. 반도체·AI·바이오·과학 뉴스 해설 영상 digest. 총 23편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-27 | [2026-07-27-datacenter-cooling-breakthrough](2026-07-27-datacenter-cooling-breakthrough.md) | "이제 세상이 바뀝니다" AI가 먹던 전기가 사라졌다; 과학자들 진짜 미쳤네;; |
 | 2026-07-24 | [2026-07-24-single-electron-memory-cxmt](2026-07-24-single-electron-memory-cxmt.md) | "삼전닉스도 못한 기술".. 순이익 1688% 폭증, 초대형 메모리 괴물 등장 ㄷㄷ |
 | 2026-07-20 | [2026-07-20-tesla-dry-battery-cheap-ev](2026-07-20-tesla-dry-battery-cheap-ev.md) | "테슬라가 성공했습니다" 머스크도 경악한 배터리, 전기차 가격 혁명이 시작됐다... |
 | 2026-07-16 | [2026-07-16-apple-vs-openai-hardware-lawsuit](2026-07-16-apple-vs-openai-hardware-lawsuit.md) | “애플 뒤통수 제대로 맞았다” 핵심 인재 400명 줄퇴사, 오픈AI가 숨겨온 비밀병기 ㄷㄷ |
