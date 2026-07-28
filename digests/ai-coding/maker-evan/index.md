@@ -1,9 +1,11 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 97편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 99편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-28 | [2026-07-28-this-video-was-made-by-ai](2026-07-28-this-video-was-made-by-ai.md) | 이 영상, 사람이 만든 게 아닙니다 |
+| 2026-07-28 | [2026-07-28-claude-code-capcut-subtitle-editing](2026-07-28-claude-code-capcut-subtitle-editing.md) | 아직도 캡컷 자막 손으로 자르세요? 이제 말로 시키세요 |
 | 2026-07-26 | [2026-07-26-editing-a-video-without-editing-software](2026-07-26-editing-a-video-without-editing-software.md) | 편집 프로그램 다 지웠습니다. |
 | 2026-07-21 | [2026-07-21-solo-business-three-keys](2026-07-21-solo-business-three-keys.md) | 직원 0명 회사가 연 수십억을 법니다 (1인 사업 핵심 3가지) |
 | 2026-07-20 | [2026-07-20-ax-essence-redesign-the-between](2026-07-20-ax-essence-redesign-the-between.md) | AX의 본질, 한 문장으로 정리해드립니다 |
