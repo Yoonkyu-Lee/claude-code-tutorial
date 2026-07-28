@@ -1,9 +1,11 @@
 # alphamale (@alphamale__1212 · 알파남 - 부업으로 부자되는 방법) — digest 색인
 
-주제 `business`. 부업·블로그 수익화 홍보성 LIVE. 각 digest 상단에 검증 배너 + 수익 수치 (주장/미검증) 표기. 총 16편. (최신순)
+주제 `business`. 부업·블로그 수익화 홍보성 LIVE. 각 digest 상단에 검증 배너 + 수익 수치 (주장/미검증) 표기. 총 18편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-27 | [2026-07-27-online-monetization-traffic-to-product](2026-07-27-online-monetization-traffic-to-product.md) | 7억을 정산해주고 확신한 온라인 수익화의 본질(5년 전에 이걸 알았다면) |
+| 2026-07-26 | [2026-07-26-why-free-info-givers-disappear](2026-07-26-why-free-info-givers-disappear.md) | 무료로 정보 주던 사람들이 점점 사라지는 진짜 이유 |
 | 2026-07-25 | [2026-07-25-ai-automation-selling-ebook-solo-shock](2026-07-25-ai-automation-selling-ebook-solo-shock.md) | AI 자동화 충격 현실 ㄷㄷ혼자 책 만들고 홍보해서 돈 버는 시대가 왔다 |
 | 2026-07-24 | [2026-07-24-profitable-blog-keyword-strategies-best-5](2026-07-24-profitable-blog-keyword-strategies-best-5.md) | 월급보다 많이 버는 수익성 높은 키워드 전략 BEST 5 |
 | 2026-07-22 | [2026-07-22-ai-automation-tools-5-years-1oku-conclusion](2026-07-22-ai-automation-tools-5-years-1oku-conclusion.md) | AI 자동화 프로그램으로 월 1,000? 5년간 1억 써보고 내린 결론 |
