@@ -1,9 +1,10 @@
 # unrealtech (@unrealtech · 안될공학 - IT 테크 신기술) — digest 색인
 
-주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 207편. (최신순)
+주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 208편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-28 | [2026-07-28-china-domestic-immersion-duv-vs-asml](2026-07-28-china-domestic-immersion-duv-vs-asml.md) | 중국이 DUV 국산화에 성공합니다… ASML 독점 흔드나 \| 실제 가능한 공정은 어디까지? |
 | 2026-07-27 | [2026-07-27-nvidia-dgx-spark-ai-developer-platform](2026-07-27-nvidia-dgx-spark-ai-developer-platform.md) | 젠슨황 깐부 회동 선물 "DGX Spark" 직접 써보니… 단순한 AI PC가 아닙니다 \| 엔비디아의 AI 개발자 플랫폼 큰 그림 [안될공학xNVIDIA] |
 | 2026-07-25 | [2026-07-25-galaxy-watch-ultra2-qualcomm-snapdragon-over-exynos](2026-07-25-galaxy-watch-ultra2-qualcomm-snapdragon-over-exynos.md) | 갤럭시 워치의 퀄컴 신의 한수, 왜 엑시노스를 뺐나 \| 갤럭시 워치 울트라2  미친 배터리 효율 |
 | 2026-07-24 | [2026-07-24-google-frozen-v2-gemini-chip-compute-shortage-q2](2026-07-24-google-frozen-v2-gemini-chip-compute-shortage-q2.md) | 구글, Gemini 칩에 새긴 새로운 AI칩 만든다｜프로즌 v2와 컴퓨트 부족 (feat. Q2 실적발표) |

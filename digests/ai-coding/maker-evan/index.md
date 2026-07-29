@@ -1,9 +1,11 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 99편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 101편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-29 | [2026-07-29-claude-code-codex-desktop-app-beginner-guide](2026-07-29-claude-code-codex-desktop-app-beginner-guide.md) | 클로드코드, 코덱스 입문 끝 - 완정 정리 |
+| 2026-07-29 | [2026-07-29-virtual-model-ads-without-shooting-hyperreal](2026-07-29-virtual-model-ads-without-shooting-hyperreal.md) | 이 얼굴, 세상에 없습니다… 촬영 없이 광고 찍는 법 |
 | 2026-07-28 | [2026-07-28-this-video-was-made-by-ai](2026-07-28-this-video-was-made-by-ai.md) | 이 영상, 사람이 만든 게 아닙니다 |
 | 2026-07-28 | [2026-07-28-claude-code-capcut-subtitle-editing](2026-07-28-claude-code-capcut-subtitle-editing.md) | 아직도 캡컷 자막 손으로 자르세요? 이제 말로 시키세요 |
 | 2026-07-26 | [2026-07-26-editing-a-video-without-editing-software](2026-07-26-editing-a-video-without-editing-software.md) | 편집 프로그램 다 지웠습니다. |

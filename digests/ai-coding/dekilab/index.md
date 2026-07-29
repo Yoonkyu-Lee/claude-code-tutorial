@@ -1,9 +1,10 @@
 # dekilab (@dekilab) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 5편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 6편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-29 | [2026-07-29-claude-motion-graphics-with-remotion](2026-07-29-claude-motion-graphics-with-remotion.md) | [유료강의 무료공개] 클로드 영상 자동화 3탄, 모션그래픽 꿀팁 풀겠습니다. |
 | 2026-07-10 | [2026-07-10-build-games-with-claude-fable5-and-higgsfield](2026-07-10-build-games-with-claude-fable5-and-higgsfield.md) | 미국이 금지시켰던 클로드 Fable로 게임을 제작해보았습니다 |
 | 2026-07-03 | [2026-07-03-build-premium-website-with-claude-no-code](2026-07-03-build-premium-website-with-claude-no-code.md) | 코딩 0줄로 200만원짜리 홈페이지 만들기 (AI 티 안 나는 비법 공개) |
 | 2026-06-25 | [2026-06-25-codex-free-agent-setup-to-blog-automation](2026-06-25-codex-free-agent-setup-to-blog-automation.md) | 클로드가 먹통일 땐, 코덱스를 써보세요! (필수 설정부터 블로그 자동화까지) |
