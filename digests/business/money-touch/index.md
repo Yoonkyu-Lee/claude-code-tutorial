@@ -1,9 +1,10 @@
 # money-touch (@MONEY_TOUCH) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 17편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 18편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-30 | [2026-07-30-celebrity-shopping-shorts-affiliate](2026-07-30-celebrity-shopping-shorts-affiliate.md) | 평일에 회사도 안가고 애기들 보면서, 하루 30분 집에서 월 3500버는 부업 |
 | 2026-07-29 | [2026-07-29-musinsa-reselling-automation-program-side-hustle](2026-07-29-musinsa-reselling-automation-program-side-hustle.md) | "1개만 사도 15만원 벌어요" 무신사 제품 쓸어담아 돈 버는 30대 남자의 부업 |
 | 2026-07-27 | [2026-07-27-housewife-youtube-shopping-shorts-side-hustle](2026-07-27-housewife-youtube-shopping-shorts-side-hustle.md) | "하루 30분" 집에서 부업으로 월 2500만원 버는 주부 (부업하는 아줌마들 1화) |
 | 2026-07-23 | [2026-07-23-real-estate-auction-flipping-side-hustle](2026-07-23-real-estate-auction-flipping-side-hustle.md) | "몰라서 못해요" 5일에 1억 6천 버는 기적의 수익률 1등 부업 |
