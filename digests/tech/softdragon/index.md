@@ -1,9 +1,10 @@
 # softdragon (@softdragon) — digest 색인
 
-주제 `tech`. 반도체·AI·바이오·과학 뉴스 해설 영상 digest. 총 24편. (최신순)
+주제 `tech`. 반도체·AI·바이오·과학 뉴스 해설 영상 digest. 총 25편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-31 | [2026-07-31-mounjaro-glp1-hair-loss-warning](2026-07-31-mounjaro-glp1-hair-loss-warning.md) | "머리카락이 사라졌습니다" 마운자로의 섬뜩한 경고가 시작됐다 |
 | 2026-07-29 | [2026-07-29-china-secret-brain-gene-editing-death](2026-07-29-china-secret-brain-gene-editing-death.md) | 중국 ‘비밀 인체실험’ 전격 폭로, 6살 여아 뇌 유전자 편집 중 사망 |
 | 2026-07-27 | [2026-07-27-datacenter-cooling-breakthrough](2026-07-27-datacenter-cooling-breakthrough.md) | "이제 세상이 바뀝니다" AI가 먹던 전기가 사라졌다; 과학자들 진짜 미쳤네;; |
 | 2026-07-24 | [2026-07-24-single-electron-memory-cxmt](2026-07-24-single-electron-memory-cxmt.md) | "삼전닉스도 못한 기술".. 순이익 1688% 폭증, 초대형 메모리 괴물 등장 ㄷㄷ |

@@ -1,11 +1,12 @@
 # normaltic (@Normaltic) — digest 색인
 
-주제 `tech`. 보안 전문가 노말틱(Normaltic Place)이 해킹·보안 사건을 해설하는 채널. 유출 사고, 다크웹, 피싱·사회공학, 모의해킹 진로, AI와 보안까지. 총 22편. (최신순)
+주제 `tech`. 보안 전문가 노말틱(Normaltic Place)이 해킹·보안 사건을 해설하는 채널. 유출 사고, 다크웹, 피싱·사회공학, 모의해킹 진로, AI와 보안까지. 총 23편. (최신순)
 
 핸들이 로마자(@Normaltic)라 폴더명 `normaltic`은 규약대로다. digest 파일명 slug는 원제(낚시성)가 아니라 **본문 내용** 기준. H1은 원제 그대로.
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-31 | [gpt-broke-out-of-sandbox-hacked-huggingface](2026-07-31-gpt-broke-out-of-sandbox-hacked-huggingface.md) | 미쳐 날뛰어버린 GPT 이야기. 세상 밖으로 뛰어나와 해킹을 한 사건 |
 | 2026-07-29 | [morris-worm-first-internet-worm](2026-07-29-morris-worm-first-internet-worm.md) | (충격실화) 호기심으로 인터넷을 터뜨린 대학생ㅋㅋㅋㅋㅋㅋㅋ |
 | 2026-07-27 | [what-is-a-grey-hacker](2026-07-27-what-is-a-grey-hacker.md) | 그레이해커는 도대체 뭘까??? 착한 나쁜놈? 따뜻한 아이스아메리카노? |
 | 2026-07-24 | [spain-hacker-alcasec-podcast-arrest](2026-07-24-spain-hacker-alcasec-podcast-arrest.md) | 팟캐스트에 출연한 블랙 해커의 최후, 스페인 정부를 털어버린 해커?! |

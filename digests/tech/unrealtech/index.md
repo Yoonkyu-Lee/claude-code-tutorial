@@ -1,9 +1,10 @@
 # unrealtech (@unrealtech · 안될공학 - IT 테크 신기술) — digest 색인
 
-주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 209편. (최신순)
+주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 210편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-07-31 | [2026-07-31-hyperscaler-gpu-recontracting-repricing](2026-07-31-hyperscaler-gpu-recontracting-repricing.md) | 돈만 쓰던 빅테크, 이제 본격적 회수가 시작됩니다 \| AI 클라우드 재계약의 비밀 \| 구글·마소·AWS 실적으로 본 공급 부족 |
 | 2026-07-30 | [2026-07-30-nvidia-korea-ai-factory-loop-samsung-sk-hyundai-naver](2026-07-30-nvidia-korea-ai-factory-loop-samsung-sk-hyundai-naver.md) | 한국을 거대한 AI 공장으로… 엔비디아가 한국 전체를 AI로 묶는 이유 \| 삼성·SK·현대차·네이버의 역할 \| 샌프란시스코 AI Summit |
 | 2026-07-28 | [2026-07-28-china-domestic-immersion-duv-vs-asml](2026-07-28-china-domestic-immersion-duv-vs-asml.md) | 중국이 DUV 국산화에 성공합니다… ASML 독점 흔드나 \| 실제 가능한 공정은 어디까지? |
 | 2026-07-27 | [2026-07-27-nvidia-dgx-spark-ai-developer-platform](2026-07-27-nvidia-dgx-spark-ai-developer-platform.md) | 젠슨황 깐부 회동 선물 "DGX Spark" 직접 써보니… 단순한 AI PC가 아닙니다 \| 엔비디아의 AI 개발자 플랫폼 큰 그림 [안될공학xNVIDIA] |
