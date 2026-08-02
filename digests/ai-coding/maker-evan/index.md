@@ -1,9 +1,12 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 102편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 105편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-02 | [2026-08-02-harness-moved-from-execution-to-planning](2026-08-02-harness-moved-from-execution-to-planning.md) | 아직도 하네스 쓰세요? 다른 사람들은 이미 움직입니다 |
+| 2026-08-02 | [2026-08-02-run-three-channels-without-an-editor](2026-08-02-run-three-channels-without-an-editor.md) | 편집자 없이 채널 세 개 굴리는 법 |
+| 2026-08-01 | [2026-08-01-copied-my-brain-into-ai-llm-wiki-100-hours](2026-08-01-copied-my-brain-into-ai-llm-wiki-100-hours.md) | AI한테 제 머릿속을 통째로 복사해봤습니다 (100시간 후기) |
 | 2026-07-31 | [2026-07-31-remotion-code-based-video-editing-workflow](2026-07-31-remotion-code-based-video-editing-workflow.md) | 아직도 편집 손으로 하세요? 저는 말로 시킵니다 |
 | 2026-07-29 | [2026-07-29-claude-code-codex-desktop-app-beginner-guide](2026-07-29-claude-code-codex-desktop-app-beginner-guide.md) | 클로드코드, 코덱스 입문 끝 - 완정 정리 |
 | 2026-07-29 | [2026-07-29-virtual-model-ads-without-shooting-hyperreal](2026-07-29-virtual-model-ads-without-shooting-hyperreal.md) | 이 얼굴, 세상에 없습니다… 촬영 없이 광고 찍는 법 |
