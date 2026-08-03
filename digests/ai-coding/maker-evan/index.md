@@ -1,9 +1,10 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 105편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 106편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-03 | [2026-08-03-claude-code-complete-guide-part-1-beginners](2026-08-03-claude-code-complete-guide-part-1-beginners.md) | 클로드 코드 완전정복 1부 (왕초보용) |
 | 2026-08-02 | [2026-08-02-harness-moved-from-execution-to-planning](2026-08-02-harness-moved-from-execution-to-planning.md) | 아직도 하네스 쓰세요? 다른 사람들은 이미 움직입니다 |
 | 2026-08-02 | [2026-08-02-run-three-channels-without-an-editor](2026-08-02-run-three-channels-without-an-editor.md) | 편집자 없이 채널 세 개 굴리는 법 |
 | 2026-08-01 | [2026-08-01-copied-my-brain-into-ai-llm-wiki-100-hours](2026-08-01-copied-my-brain-into-ai-llm-wiki-100-hours.md) | AI한테 제 머릿속을 통째로 복사해봤습니다 (100시간 후기) |

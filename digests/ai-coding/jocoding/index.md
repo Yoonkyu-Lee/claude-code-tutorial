@@ -1,11 +1,12 @@
 # jocoding (@jocoding) — digest 색인
 
-주제 `ai-coding`. 조코딩(개발자·AI 유튜버)의 AI 뉴스·코딩 실습·SaaS 수익화·AI 인재 인터뷰. 총 20편. (최신순)
+주제 `ai-coding`. 조코딩(개발자·AI 유튜버)의 AI 뉴스·코딩 실습·SaaS 수익화·AI 인재 인터뷰. 총 21편. (최신순)
 
 digest 파일명 slug는 원제(낚시성)가 아니라 **본문 내용** 기준. H1은 원제 그대로.
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-03 | [unity-ceo-ai-solo-studio-era](2026-08-03-unity-ceo-ai-solo-studio-era.md) | AI가 만드는 1인 스튜디오 시대, 유니티 CEO에게 물었습니다 |
 | 2026-07-27 | [ai-news-opus-5-huggingface-hack-open-weight-regulation](2026-07-27-ai-news-opus-5-huggingface-hack-open-weight-regulation.md) | AI뉴스 - Claude Opus 5, Hugging Face 해킹, 오픈웨이트 규제, Gemini 3.6 Flash, FLUX 3, 샌프란 AI Summit 등 |
 | 2026-07-21 | [openai-insider-gpt-live-codex-demo](2026-07-21-openai-insider-gpt-live-codex-demo.md) | OpenAI 내부자가 직접 알려주는 GPT-5.6과 Codex 활용법 |
 | 2026-07-20 | [kimi-k3-open-weight-ai-news](2026-07-20-kimi-k3-open-weight-ai-news.md) | AI뉴스 - Kimi K3 열풍, Fable 5 구독제 계속, 오픈AI 하드웨어, grok-build 오픈소스, Gemini Spark, Lucy 2.5 등 |

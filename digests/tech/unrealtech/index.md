@@ -1,9 +1,10 @@
 # unrealtech (@unrealtech · 안될공학 - IT 테크 신기술) — digest 색인
 
-주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 211편. (최신순)
+주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 212편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-03 | [2026-08-03-hbm4-base-die-logic-process](2026-08-03-hbm4-base-die-logic-process.md) | HBM 후발주자 치욕 딛고, 다시 왕좌 찾는 삼성 \| HBM4부터 핵심은 베이스다이가 된 기술적 이유 \| 삼성 파운드리 vs tsmc |
 | 2026-08-01 | [2026-08-01-gemini-robotics-2-cross-embodiment-shared-brain](2026-08-01-gemini-robotics-2-cross-embodiment-shared-brain.md) | 구글 로봇 경쟁자는 테슬라가 아닙니다... Gemini Robotics 2에서 밝혀진, 로봇판 안드로이드 등장 |
 | 2026-07-31 | [2026-07-31-hyperscaler-gpu-recontracting-repricing](2026-07-31-hyperscaler-gpu-recontracting-repricing.md) | 돈만 쓰던 빅테크, 이제 본격적 회수가 시작됩니다 \| AI 클라우드 재계약의 비밀 \| 구글·마소·AWS 실적으로 본 공급 부족 |
 | 2026-07-30 | [2026-07-30-nvidia-korea-ai-factory-loop-samsung-sk-hyundai-naver](2026-07-30-nvidia-korea-ai-factory-loop-samsung-sk-hyundai-naver.md) | 한국을 거대한 AI 공장으로… 엔비디아가 한국 전체를 AI로 묶는 이유 \| 삼성·SK·현대차·네이버의 역할 \| 샌프란시스코 AI Summit |
