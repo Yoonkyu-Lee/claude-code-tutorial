@@ -1,9 +1,10 @@
 # money-touch (@MONEY_TOUCH) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 19편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 20편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-05 | [2026-08-05-supplement-side-hustle-40m-a-month](2026-08-05-supplement-side-hustle-40m-a-month.md) | 하루 10분 육아하면서 월 순수익 4000만원 버는 주부 비밀 부업 |
 | 2026-08-03 | [2026-08-03-agricultural-consignment-side-hustle-25yo](2026-08-03-agricultural-consignment-side-hustle-25yo.md) | "하루 5,119만 원 찍혀요" 부업으로 인생 역전한 25살 막내아들 |
 | 2026-07-30 | [2026-07-30-celebrity-shopping-shorts-affiliate](2026-07-30-celebrity-shopping-shorts-affiliate.md) | 평일에 회사도 안가고 애기들 보면서, 하루 30분 집에서 월 3500버는 부업 |
 | 2026-07-29 | [2026-07-29-musinsa-reselling-automation-program-side-hustle](2026-07-29-musinsa-reselling-automation-program-side-hustle.md) | "1개만 사도 15만원 벌어요" 무신사 제품 쓸어담아 돈 버는 30대 남자의 부업 |

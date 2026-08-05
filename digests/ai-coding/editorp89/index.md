@@ -1,9 +1,10 @@
 # editorp89 (@editorp89 · 편집자P) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 27편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 28편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-03 | [2026-08-03-macos-macbook-quick-start-guide](2026-08-03-macos-macbook-quick-start-guide.md) | [시즌 03] macOS, 맥북 입문 속성 가이드 |
 | 2026-08-02 | [2026-08-02-edit-vibe-coded-site-with-agents-and-orca](2026-08-02-edit-vibe-coded-site-with-agents-and-orca.md) | [시즌 03] 바이브 코딩으로 만든 사이트에이전트와 수정하기 + 오르카(Orca) |
 | 2026-08-01 | [2026-08-01-chatgpt-work-landing-page-deploy](2026-08-01-chatgpt-work-landing-page-deploy.md) | [시즌 03] 챗GPT Work로 랜딩 페이지 제작 + 배포하기(실습 시간 15 min) |
 | 2026-07-30 | [2026-07-30-cursor-3-book-learning-guide](2026-07-30-cursor-3-book-learning-guide.md) | [시즌 03] 커서 3.0 도서 학습 가이드 |
