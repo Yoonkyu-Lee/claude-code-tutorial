@@ -1,11 +1,12 @@
 # jocoding (@jocoding) — digest 색인
 
-주제 `ai-coding`. 조코딩(개발자·AI 유튜버)의 AI 뉴스·코딩 실습·SaaS 수익화·AI 인재 인터뷰. 총 22편. (최신순)
+주제 `ai-coding`. 조코딩(개발자·AI 유튜버)의 AI 뉴스·코딩 실습·SaaS 수익화·AI 인재 인터뷰. 총 23편. (최신순)
 
 digest 파일명 slug는 원제(낚시성)가 아니라 **본문 내용** 기준. H1은 원제 그대로.
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-05 | [adobe-firefly-precise-image-editing](2026-08-05-adobe-firefly-precise-image-editing.md) | AI 이미지, '생성'보다 중요한 건 따로 있습니다 |
 | 2026-08-03 | [ai-news-astra-solves-10-open-problems-deepseek-v4-flash](2026-08-03-ai-news-astra-solves-10-open-problems-deepseek-v4-flash.md) | AI뉴스 - 오픈AI Astra 10대 난제 해결, DeepSeek-V4-Flash 정식, Seedance 2.5, MiniMax H3, Gemini Robotics 2 등 |
 | 2026-08-03 | [unity-ceo-ai-solo-studio-era](2026-08-03-unity-ceo-ai-solo-studio-era.md) | AI가 만드는 1인 스튜디오 시대, 유니티 CEO에게 물었습니다 |
 | 2026-07-27 | [ai-news-opus-5-huggingface-hack-open-weight-regulation](2026-07-27-ai-news-opus-5-huggingface-hack-open-weight-regulation.md) | AI뉴스 - Claude Opus 5, Hugging Face 해킹, 오픈웨이트 규제, Gemini 3.6 Flash, FLUX 3, 샌프란 AI Summit 등 |

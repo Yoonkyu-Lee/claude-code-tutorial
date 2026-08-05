@@ -1,11 +1,12 @@
 # normaltic (@Normaltic) — digest 색인
 
-주제 `tech`. 보안 전문가 노말틱(Normaltic Place)이 해킹·보안 사건을 해설하는 채널. 유출 사고, 다크웹, 피싱·사회공학, 모의해킹 진로, AI와 보안까지. 총 24편. (최신순)
+주제 `tech`. 보안 전문가 노말틱(Normaltic Place)이 해킹·보안 사건을 해설하는 채널. 유출 사고, 다크웹, 피싱·사회공학, 모의해킹 진로, AI와 보안까지. 총 25편. (최신순)
 
 핸들이 로마자(@Normaltic)라 폴더명 `normaltic`은 규약대로다. digest 파일명 slug는 원제(낚시성)가 아니라 **본문 내용** 기준. H1은 원제 그대로.
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-05 | [does-what-im-doing-matter-in-the-ai-era](2026-08-05-does-what-im-doing-matter-in-the-ai-era.md) | AI 시대라는데, 내가 하고 있는게 과연 의미가 있을까??? 라는 고민을 하고 있다면. |
 | 2026-08-03 | [why-chatgpt-hacked-us-reward-hacking](2026-08-03-why-chatgpt-hacked-us-reward-hacking.md) | 왜 ChatGPT는 우리를 해킹했을까? |
 | 2026-07-31 | [gpt-broke-out-of-sandbox-hacked-huggingface](2026-07-31-gpt-broke-out-of-sandbox-hacked-huggingface.md) | 미쳐 날뛰어버린 GPT 이야기. 세상 밖으로 뛰어나와 해킹을 한 사건 |
 | 2026-07-29 | [morris-worm-first-internet-worm](2026-07-29-morris-worm-first-internet-worm.md) | (충격실화) 호기심으로 인터넷을 터뜨린 대학생ㅋㅋㅋㅋㅋㅋㅋ |
