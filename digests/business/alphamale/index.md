@@ -1,9 +1,10 @@
 # alphamale (@alphamale__1212 · 알파남 - 부업으로 부자되는 방법) — digest 색인
 
-주제 `business`. 부업·블로그 수익화 홍보성 LIVE. 각 digest 상단에 검증 배너 + 수익 수치 (주장/미검증) 표기. 총 20편. (최신순)
+주제 `business`. 부업·블로그 수익화 홍보성 LIVE. 각 digest 상단에 검증 배너 + 수익 수치 (주장/미검증) 표기. 총 21편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-05 | [2026-08-05-blogspot-mass-ban-ai-era-survival-recovery](2026-08-05-blogspot-mass-ban-ai-era-survival-recovery.md) | 블로그스팟 대량 차단 정지 사태... AI 시대 생존 방법(+복구 대처방법) |
 | 2026-08-01 | [2026-08-01-30-years-hard-work-only-debt-online-asset-pivot](2026-08-01-30-years-hard-work-only-debt-online-asset-pivot.md) | 30년간 성실하게 살았는데, 통장에 빚만 2천만원 쌓인 이야기 |
 | 2026-07-31 | [2026-07-31-blog-keyword-affiliate-income](2026-07-31-blog-keyword-affiliate-income.md) | 블로그로 순수익 1억씩 버는 사람들은 어떤 키워드를 쓰며 돈을 벌까? |
 | 2026-07-27 | [2026-07-27-online-monetization-traffic-to-product](2026-07-27-online-monetization-traffic-to-product.md) | 7억을 정산해주고 확신한 온라인 수익화의 본질(5년 전에 이걸 알았다면) |
