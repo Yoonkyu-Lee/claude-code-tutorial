@@ -1,9 +1,11 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 108편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 110편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-07 | [2026-08-07-vibe-coding-starter-kit-complete-guide](2026-08-07-vibe-coding-starter-kit-complete-guide.md) | 바이브코딩 완전정복 |
+| 2026-08-07 | [2026-08-07-instagram-card-news-skill-none-i-made](2026-08-07-instagram-card-news-skill-none-i-made.md) | 매일 올라가는 제 인스타 카드뉴스, 제가 만든 카드는 한 장도 없습니다 |
 | 2026-08-06 | [2026-08-06-build-a-second-brain](2026-08-06-build-a-second-brain.md) | 제2의 두뇌 만들기 |
 | 2026-08-05 | [2026-08-05-detail-page-with-ai-skill](2026-08-05-detail-page-with-ai-skill.md) | 상세페이지 외주 맡기지 마세요, AI에게 시키세요 |
 | 2026-08-03 | [2026-08-03-claude-code-complete-guide-part-1-beginners](2026-08-03-claude-code-complete-guide-part-1-beginners.md) | 클로드 코드 완전정복 1부 (왕초보용) |

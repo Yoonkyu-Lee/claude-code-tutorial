@@ -1,9 +1,10 @@
 # with2511 (@with2511 · 기술노트with 알렉) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 17편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 18편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-06 | [2026-08-06-vibe-coding-video-collection-and-course-intro](2026-08-06-vibe-coding-video-collection-and-course-intro.md) | 바이브코딩 영상 한군에 모았습니다~! 그리고 바이브코딩 강의를 소개합니다~ |
 | 2026-07-27 | [2026-07-27-manifest-planning-ai-agent-vibe-coding](2026-07-27-manifest-planning-ai-agent-vibe-coding.md) | 이제 기획이 승부처다 \| 기획 전문 AI 매니페스트 실전 활용법 3가지 실습 \| 바이브 코딩하는 분들 꼭 끝까지 보세요. (30% 할인코드 포함) |
 | 2026-07-16 | [2026-07-16-function-class-module-package-api-openapi](2026-07-16-function-class-module-package-api-openapi.md) | 함수 클래스 모듈 패키지 API OpenAPI \| 바이브코딩 하시는 분들 끝까지 들어보세요. |
 | 2026-07-10 | [2026-07-10-can-vibe-coding-build-daangn-like-service](2026-07-10-can-vibe-coding-build-daangn-like-service.md) | 바이브코딩으로 서비스를 만드실 분들은 꼭 끝까지보세요 \| 당근마켓 견적 이야기 |
