@@ -1,9 +1,11 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 110편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 112편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-08 | [2026-08-08-openai-ai-agents-self-organized-breach](2026-08-08-openai-ai-agents-self-organized-breach.md) | 오픈 AI 내부 조사 결과 챗GPT가 범인 |
+| 2026-08-08 | [2026-08-08-full-youtube-automation-workflow-reveal](2026-08-08-full-youtube-automation-workflow-reveal.md) | 3개월 구독자 3만, 유튜브 자동화 전부 공개합니다 ㅣ라이브 편집본 |
 | 2026-08-07 | [2026-08-07-vibe-coding-starter-kit-complete-guide](2026-08-07-vibe-coding-starter-kit-complete-guide.md) | 바이브코딩 완전정복 |
 | 2026-08-07 | [2026-08-07-instagram-card-news-skill-none-i-made](2026-08-07-instagram-card-news-skill-none-i-made.md) | 매일 올라가는 제 인스타 카드뉴스, 제가 만든 카드는 한 장도 없습니다 |
 | 2026-08-06 | [2026-08-06-build-a-second-brain](2026-08-06-build-a-second-brain.md) | 제2의 두뇌 만들기 |
