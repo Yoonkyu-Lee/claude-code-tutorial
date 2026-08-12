@@ -1,9 +1,12 @@
 # alphamale (@alphamale__1212 · 알파남 - 부업으로 부자되는 방법) — digest 색인
 
-주제 `business`. 부업·블로그 수익화 홍보성 LIVE. 각 digest 상단에 검증 배너 + 수익 수치 (주장/미검증) 표기. 총 22편. (최신순)
+주제 `business`. 부업·블로그 수익화 홍보성 LIVE. 각 digest 상단에 검증 배너 + 수익 수치 (주장/미검증) 표기. 총 25편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-12 | [2026-08-12-naver-blog-monetization-shift-2027](2026-08-12-naver-blog-monetization-shift-2027.md) | 2027년 네이버 블로그로 돈 벌려면 반드시 이렇게 바꾸세요 |
+| 2026-08-12 | [2026-08-12-60s-retiree-ai-blog-side-income-interview](2026-08-12-60s-retiree-ai-blog-side-income-interview.md) | 60대가 은퇴 후 AI 글쓰기 구글 부업으로 집에서 돈 버는 방법(+네이버 구글) |
+| 2026-08-09 | [2026-08-09-volume-alone-wont-make-money](2026-08-09-volume-alone-wont-make-money.md) | 영상 1000개, 글 1000개 쓴다고 절대 돈 못벌어요 |
 | 2026-08-07 | [2026-08-07-golden-keywords-high-search-volume](2026-08-07-golden-keywords-high-search-volume.md) | 블로그 300만원씩 버는 황금 키워드 비밀｜검색량 높은 키워드 쉽게 찾는 방법 |
 | 2026-08-05 | [2026-08-05-blogspot-mass-ban-ai-era-survival-recovery](2026-08-05-blogspot-mass-ban-ai-era-survival-recovery.md) | 블로그스팟 대량 차단 정지 사태... AI 시대 생존 방법(+복구 대처방법) |
 | 2026-08-01 | [2026-08-01-30-years-hard-work-only-debt-online-asset-pivot](2026-08-01-30-years-hard-work-only-debt-online-asset-pivot.md) | 30년간 성실하게 살았는데, 통장에 빚만 2천만원 쌓인 이야기 |
