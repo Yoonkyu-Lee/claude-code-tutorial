@@ -1,9 +1,10 @@
 # editorp89 (@editorp89 · 편집자P) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 29편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 30편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-11 | [2026-08-11-chatgpt-sites-fast-website-deploy](2026-08-11-chatgpt-sites-fast-website-deploy.md) | [시즌 03] 급하게 웹 사이트를 만들어야 한다면? 챗GPT Sites |
 | 2026-08-05 | [2026-08-05-tool-fomo-terminal-is-the-root-warp-orca-paseo](2026-08-05-tool-fomo-terminal-is-the-root-warp-orca-paseo.md) | [시즌 03] 도구에 미쳐버린 사람들, Warp부터 Orca, Paseo까지 |
 | 2026-08-03 | [2026-08-03-macos-macbook-quick-start-guide](2026-08-03-macos-macbook-quick-start-guide.md) | [시즌 03] macOS, 맥북 입문 속성 가이드 |
 | 2026-08-02 | [2026-08-02-edit-vibe-coded-site-with-agents-and-orca](2026-08-02-edit-vibe-coded-site-with-agents-and-orca.md) | [시즌 03] 바이브 코딩으로 만든 사이트에이전트와 수정하기 + 오르카(Orca) |

@@ -1,9 +1,11 @@
 # money-touch (@MONEY_TOUCH) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 20편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 22편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-11 | [2026-08-11-google-adsense-blog-100billion-family](2026-08-11-google-adsense-blog-100billion-family.md) | "전세계가 다 하는데 한국인만 안 합니다" 65세 엄마도 하루 2,000달러 벌어요 외국인만 꿀 빠는 부업으로 100억 번 가족 |
+| 2026-08-09 | [2026-08-09-housewife-shopping-shorts-compilation](2026-08-09-housewife-shopping-shorts-compilation.md) | "부업으로 딸 국제학교 보냈어요" 온동네 아줌마들이 남편보다 잘버는 비밀 쇼츠 (부업하는 아줌마들 통합본) |
 | 2026-08-05 | [2026-08-05-supplement-side-hustle-40m-a-month](2026-08-05-supplement-side-hustle-40m-a-month.md) | 하루 10분 육아하면서 월 순수익 4000만원 버는 주부 비밀 부업 |
 | 2026-08-03 | [2026-08-03-agricultural-consignment-side-hustle-25yo](2026-08-03-agricultural-consignment-side-hustle-25yo.md) | "하루 5,119만 원 찍혀요" 부업으로 인생 역전한 25살 막내아들 |
 | 2026-07-30 | [2026-07-30-celebrity-shopping-shorts-affiliate](2026-07-30-celebrity-shopping-shorts-affiliate.md) | 평일에 회사도 안가고 애기들 보면서, 하루 30분 집에서 월 3500버는 부업 |

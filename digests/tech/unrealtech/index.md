@@ -1,9 +1,13 @@
 # unrealtech (@unrealtech · 안될공학 - IT 테크 신기술) — digest 색인
 
-주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 214편. (최신순)
+주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 218편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-12 | [2026-08-12-imax-odyssey-1570-film](2026-08-12-imax-odyssey-1570-film.md) | 영화 '오디세이' 영화관 안 가던 사람도 IMAX 찾는 이유 \| 놀란 감독이 IMAX에 집착한 기술적 이유 |
+| 2026-08-11 | [2026-08-11-apple-afm3-nand-model-storage-hbf-znand](2026-08-11-apple-afm3-nand-model-storage-hbf-znand.md) | AI 때문에 아이폰 용량 더 커진다? 애플, DRAM 아닌 NAND를 활용한 접근 분석 \| AFM3가 바꾸는 스마트폰 메모리 \| HBF와 zNAND-O |
+| 2026-08-10 | [2026-08-10-starlink-isl-laser-optical-communication](2026-08-10-starlink-isl-laser-optical-communication.md) | 위성만 봐선 안 보이는 스타링크의 핵심, 우주와 지상을 빛으로 연결한다 \| 스타링크 ISL과 광통신의 구조 |
+| 2026-08-09 | [2026-08-09-spacex-10gw-datacenter-power-revenue-semianalysis](2026-08-09-spacex-10gw-datacenter-power-revenue-semianalysis.md) | AI 데이터센터, 짓는대로 돈 된다… SpaceX가 서둘러 10GW 데이터센터 건설 하는 이유! Microsoft가 고객? SemiAnalysis 전력 당 매출 분석 |
 | 2026-08-06 | [2026-08-06-hbf-znand-samsung-hynix-nand-strategies](2026-08-06-hbf-znand-samsung-hynix-nand-strategies.md) | 삼성·하이닉스 막 공개. HBM보다 10배 큰 메모리 \| HBF·zNAND-O 전격 분석 \| 서로 다른 NAND 전략 |
 | 2026-08-04 | [2026-08-04-hbm4-pricing-ddr5-opportunity-cost-base-die](2026-08-04-hbm4-pricing-ddr5-opportunity-cost-base-die.md) | HBM4 가격은 왜 오를까? \| DDR5부터 베이스 다이까지, 제조사의 계산법 |
 | 2026-08-03 | [2026-08-03-hbm4-base-die-logic-process](2026-08-03-hbm4-base-die-logic-process.md) | HBM 후발주자 치욕 딛고, 다시 왕좌 찾는 삼성 \| HBM4부터 핵심은 베이스다이가 된 기술적 이유 \| 삼성 파운드리 vs tsmc |

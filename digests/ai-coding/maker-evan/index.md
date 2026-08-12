@@ -1,9 +1,13 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 112편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 116편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-12 | [2026-08-12-gpt-claude-august-update-three-things](2026-08-12-gpt-claude-august-update-three-things.md) | GPT·클로드 8월 업데이트 정리 — 지금 챙길 것 3개 |
+| 2026-08-12 | [2026-08-12-cut-ai-bill-in-half-five-mistakes](2026-08-12-cut-ai-bill-in-half-five-mistakes.md) | AI 요금 반으로 줄인 방법 — 잘못 쓰는 법 5가지 |
+| 2026-08-12 | [2026-08-12-claude-vs-gpt-three-months-same-tasks](2026-08-12-claude-vs-gpt-three-months-same-tasks.md) | 클로드 vs GPT, 석 달 동안 같은 일을 시켜봤습니다 |
+| 2026-08-11 | [2026-08-11-opus-5-computer-use-no-mouse](2026-08-11-opus-5-computer-use-no-mouse.md) | 오퍼스 5 되고 나서 마우스를 한 번도 안 잡았습니다 |
 | 2026-08-08 | [2026-08-08-openai-ai-agents-self-organized-breach](2026-08-08-openai-ai-agents-self-organized-breach.md) | 오픈 AI 내부 조사 결과 챗GPT가 범인 |
 | 2026-08-08 | [2026-08-08-full-youtube-automation-workflow-reveal](2026-08-08-full-youtube-automation-workflow-reveal.md) | 3개월 구독자 3만, 유튜브 자동화 전부 공개합니다 ㅣ라이브 편집본 |
 | 2026-08-07 | [2026-08-07-vibe-coding-starter-kit-complete-guide](2026-08-07-vibe-coding-starter-kit-complete-guide.md) | 바이브코딩 완전정복 |
