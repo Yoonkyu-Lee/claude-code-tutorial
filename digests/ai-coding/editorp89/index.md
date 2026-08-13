@@ -1,9 +1,10 @@
 # editorp89 (@editorp89 · 편집자P) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 30편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 31편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-12 | [2026-08-12-grokbot-cloud-computer-agent](2026-08-12-grokbot-cloud-computer-agent.md) | [시즌 3] 24/7 켜져 있는 컴퓨터 1대와 에이전트를 몽땅 제공하는 그록봇(Grokbot) |
 | 2026-08-11 | [2026-08-11-chatgpt-sites-fast-website-deploy](2026-08-11-chatgpt-sites-fast-website-deploy.md) | [시즌 03] 급하게 웹 사이트를 만들어야 한다면? 챗GPT Sites |
 | 2026-08-05 | [2026-08-05-tool-fomo-terminal-is-the-root-warp-orca-paseo](2026-08-05-tool-fomo-terminal-is-the-root-warp-orca-paseo.md) | [시즌 03] 도구에 미쳐버린 사람들, Warp부터 Orca, Paseo까지 |
 | 2026-08-03 | [2026-08-03-macos-macbook-quick-start-guide](2026-08-03-macos-macbook-quick-start-guide.md) | [시즌 03] macOS, 맥북 입문 속성 가이드 |

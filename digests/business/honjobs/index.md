@@ -1,9 +1,10 @@
 # honjobs (@honjobs) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 43편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 44편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-13 | [2026-08-13-8-safe-ways-to-use-ai-vibe-coding](2026-08-13-8-safe-ways-to-use-ai-vibe-coding.md) | Ai 잘못 사용했다가 피해속출(안전하게 사용하는 8가지 방법) |
 | 2026-07-31 | [2026-07-31-8-ways-to-make-money-with-higgsfield](2026-07-31-8-ways-to-make-money-with-higgsfield.md) | 요즘 제일 핫한 힉스필드로 돈버는 8가지 방법 - 빠르게 선점한 사람들은 이미 돈 벌고 있음(방법 모두 공개) |
 | 2026-07-22 | [2026-07-22-12-vibe-coding-terms-explained-part2](2026-07-22-12-vibe-coding-terms-explained-part2.md) | 10분안에 바이브코딩에서 모르면 답답한 용어 12개 속시원하게 끝내드립니다 \| 모르면 앞으로 더 힘들어지니 이참에 짚고 넘어가세요! (자료 모두 제공)_2부 |
 | 2026-07-08 | [2026-07-08-claude-ai-employees-website-8-setup-steps](2026-07-08-claude-ai-employees-website-8-setup-steps.md) | 클로드 직원 5명이 제 사이트로 알아서 돈 벌어줍니다 (ai 직원 세팅법 8가지) |

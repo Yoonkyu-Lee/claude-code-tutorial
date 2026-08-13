@@ -1,9 +1,11 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 116편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 118편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-13 | [2026-08-13-ai-took-the-first-rung-not-senior-jobs](2026-08-13-ai-took-the-first-rung-not-senior-jobs.md) | AI가 뺏은 건 경력자 자리가 아니라 첫 자리였습니다 |
+| 2026-08-12 | [2026-08-12-sessions-talk-to-each-other](2026-08-12-sessions-talk-to-each-other.md) | 세션끼리 서로 말을 겁니다 — 클로드 코드 2.1.224가 바꾼 것 |
 | 2026-08-12 | [2026-08-12-gpt-claude-august-update-three-things](2026-08-12-gpt-claude-august-update-three-things.md) | GPT·클로드 8월 업데이트 정리 — 지금 챙길 것 3개 |
 | 2026-08-12 | [2026-08-12-cut-ai-bill-in-half-five-mistakes](2026-08-12-cut-ai-bill-in-half-five-mistakes.md) | AI 요금 반으로 줄인 방법 — 잘못 쓰는 법 5가지 |
 | 2026-08-12 | [2026-08-12-claude-vs-gpt-three-months-same-tasks](2026-08-12-claude-vs-gpt-three-months-same-tasks.md) | 클로드 vs GPT, 석 달 동안 같은 일을 시켜봤습니다 |

@@ -1,9 +1,10 @@
 # unrealtech (@unrealtech · 안될공학 - IT 테크 신기술) — digest 색인
 
-주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 218편. (최신순)
+주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 219편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-13 | [2026-08-13-terafab-fel-euv-particle-accelerator-lithography](2026-08-13-terafab-fel-euv-particle-accelerator-lithography.md) | 테라팹, 기존 EUV 안쓰는 미친 구상 \| 입자가속기 도입이 현실이 되는 이유 \|  FEL-EUV의 가능성 |
 | 2026-08-12 | [2026-08-12-imax-odyssey-1570-film](2026-08-12-imax-odyssey-1570-film.md) | 영화 '오디세이' 영화관 안 가던 사람도 IMAX 찾는 이유 \| 놀란 감독이 IMAX에 집착한 기술적 이유 |
 | 2026-08-11 | [2026-08-11-apple-afm3-nand-model-storage-hbf-znand](2026-08-11-apple-afm3-nand-model-storage-hbf-znand.md) | AI 때문에 아이폰 용량 더 커진다? 애플, DRAM 아닌 NAND를 활용한 접근 분석 \| AFM3가 바꾸는 스마트폰 메모리 \| HBF와 zNAND-O |
 | 2026-08-10 | [2026-08-10-starlink-isl-laser-optical-communication](2026-08-10-starlink-isl-laser-optical-communication.md) | 위성만 봐선 안 보이는 스타링크의 핵심, 우주와 지상을 빛으로 연결한다 \| 스타링크 ISL과 광통신의 구조 |
