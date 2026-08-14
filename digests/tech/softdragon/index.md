@@ -1,9 +1,10 @@
 # softdragon (@softdragon) — digest 색인
 
-주제 `tech`. 반도체·AI·바이오·과학 뉴스 해설 영상 digest. 총 29편. (최신순)
+주제 `tech`. 반도체·AI·바이오·과학 뉴스 해설 영상 digest. 총 30편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-14 | [2026-08-14-hbm-successor-hbf-vs-zhbm](2026-08-14-hbm-successor-hbf-vs-zhbm.md) | "HBM 다음은 이것" 삼성·SK가 목숨 걸고 꺼낸 차세대 메모리 ㄷㄷ |
 | 2026-08-11 | [2026-08-11-hyundai-outpaces-german-big-three](2026-08-11-hyundai-outpaces-german-big-three.md) | "벤츠는 상대도 안 된다" 현대차 10년 대반격, 독3사 다 합쳐도 못이긴다 ㄷㄷ |
 | 2026-08-07 | [2026-08-07-sk-ai-factory-era](2026-08-07-sk-ai-factory-era.md) | "SK의 시대가 온다" 한국 역사상 이런 적이 없었다.. 엔비디아도 붙은 역대급 투자 ㄷㄷ |
 | 2026-08-05 | [2026-08-05-apple-supplier-karma-memory-crunch](2026-08-05-apple-supplier-karma-memory-crunch.md) | "너희한텐 안 팔아요" 애플이 제대로 당했습니다... 15년 갑질 역대급 '업보 청산' |

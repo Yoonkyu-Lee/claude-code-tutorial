@@ -1,9 +1,10 @@
 # money-touch (@MONEY_TOUCH) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 23편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 24편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-14 | [2026-08-14-danggeun-market-consignment-reselling-side-hustle](2026-08-14-danggeun-market-consignment-reselling-side-hustle.md) | 당근 마켓에서 중고거래 말고 '이것' 팔아서 한달에 순수익 2천씩 버는 남자 ㄷㄷ.... |
 | 2026-08-13 | [2026-08-13-agriculture-online-selling-5billion](2026-08-13-agriculture-online-selling-5billion.md) | 시장에서 찍은 사진으로 50억 버는 40대 남성 |
 | 2026-08-11 | [2026-08-11-google-adsense-blog-100billion-family](2026-08-11-google-adsense-blog-100billion-family.md) | "전세계가 다 하는데 한국인만 안 합니다" 65세 엄마도 하루 2,000달러 벌어요 외국인만 꿀 빠는 부업으로 100억 번 가족 |
 | 2026-08-09 | [2026-08-09-housewife-shopping-shorts-compilation](2026-08-09-housewife-shopping-shorts-compilation.md) | "부업으로 딸 국제학교 보냈어요" 온동네 아줌마들이 남편보다 잘버는 비밀 쇼츠 (부업하는 아줌마들 통합본) |

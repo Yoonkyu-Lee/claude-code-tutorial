@@ -1,9 +1,13 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 118편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 122편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-14 | [2026-08-14-second-brain-retrieval](2026-08-14-second-brain-retrieval.md) | 쌓기만 하면 못 찾습니다 — 두 번째 뇌를 실제로 쓰는 법 |
+| 2026-08-14 | [2026-08-14-video-pipeline-six-stages-one-command](2026-08-14-video-pipeline-six-stages-one-command.md) | 며칠 걸리던 영상 작업이 명령 한 줄이 되기까지 — 파이프라인 전부 |
+| 2026-08-14 | [2026-08-14-local-models-to-cut-claude-code-costs](2026-08-14-local-models-to-cut-claude-code-costs.md) | AI 요금은 어려운 작업이 아니라 쉬운 작업에서 샙니다 — 로컬 모델로 내리는 기준 |
+| 2026-08-14 | [2026-08-14-context-engineering-why-same-claude-differs](2026-08-14-context-engineering-why-same-claude-differs.md) | 같은 클로드 코드인데 왜 결과가 다를까 — 컨텍스트 엔지니어링 |
 | 2026-08-13 | [2026-08-13-ai-took-the-first-rung-not-senior-jobs](2026-08-13-ai-took-the-first-rung-not-senior-jobs.md) | AI가 뺏은 건 경력자 자리가 아니라 첫 자리였습니다 |
 | 2026-08-12 | [2026-08-12-sessions-talk-to-each-other](2026-08-12-sessions-talk-to-each-other.md) | 세션끼리 서로 말을 겁니다 — 클로드 코드 2.1.224가 바꾼 것 |
 | 2026-08-12 | [2026-08-12-gpt-claude-august-update-three-things](2026-08-12-gpt-claude-august-update-three-things.md) | GPT·클로드 8월 업데이트 정리 — 지금 챙길 것 3개 |
