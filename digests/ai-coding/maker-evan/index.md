@@ -1,9 +1,11 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 122편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 124편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-16 | [2026-08-16-replace-subscriptions-with-one-api-key](2026-08-16-replace-subscriptions-with-one-api-key.md) | 구독 세 개 끊고 API 키 하나로 바꿨더니 이번 달 1,800원 나왔습니다 |
+| 2026-08-16 | [2026-08-16-anatomy-of-daily-video-production-skill](2026-08-16-anatomy-of-daily-video-production-skill.md) | 제가 매일 쓰는 스킬 하나를 통째로 뜯어봤습니다 |
 | 2026-08-14 | [2026-08-14-second-brain-retrieval](2026-08-14-second-brain-retrieval.md) | 쌓기만 하면 못 찾습니다 — 두 번째 뇌를 실제로 쓰는 법 |
 | 2026-08-14 | [2026-08-14-video-pipeline-six-stages-one-command](2026-08-14-video-pipeline-six-stages-one-command.md) | 며칠 걸리던 영상 작업이 명령 한 줄이 되기까지 — 파이프라인 전부 |
 | 2026-08-14 | [2026-08-14-local-models-to-cut-claude-code-costs](2026-08-14-local-models-to-cut-claude-code-costs.md) | AI 요금은 어려운 작업이 아니라 쉬운 작업에서 샙니다 — 로컬 모델로 내리는 기준 |
