@@ -1,9 +1,11 @@
 # alphamale (@alphamale__1212 · 알파남 - 부업으로 부자되는 방법) — digest 색인
 
-주제 `business`. 부업·블로그 수익화 홍보성 LIVE. 각 digest 상단에 검증 배너 + 수익 수치 (주장/미검증) 표기. 총 25편. (최신순)
+주제 `business`. 부업·블로그 수익화 홍보성 LIVE. 각 digest 상단에 검증 배너 + 수익 수치 (주장/미검증) 표기. 총 27편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-16 | [2026-08-16-online-real-estate-blog-passive-income](2026-08-16-online-real-estate-blog-passive-income.md) | [무자본 부업] 0원으로 온라인 건물 짓고 매달 월세 받는 법 |
+| 2026-08-14 | [2026-08-14-focus-on-keywords-not-writing](2026-08-14-focus-on-keywords-not-writing.md) | 블로그로 돈 벌고 싶다면 제발 글쓰기보다 '이것' 먼저 집중하세요 |
 | 2026-08-12 | [2026-08-12-naver-blog-monetization-shift-2027](2026-08-12-naver-blog-monetization-shift-2027.md) | 2027년 네이버 블로그로 돈 벌려면 반드시 이렇게 바꾸세요 |
 | 2026-08-12 | [2026-08-12-60s-retiree-ai-blog-side-income-interview](2026-08-12-60s-retiree-ai-blog-side-income-interview.md) | 60대가 은퇴 후 AI 글쓰기 구글 부업으로 집에서 돈 버는 방법(+네이버 구글) |
 | 2026-08-09 | [2026-08-09-volume-alone-wont-make-money](2026-08-09-volume-alone-wont-make-money.md) | 영상 1000개, 글 1000개 쓴다고 절대 돈 못벌어요 |

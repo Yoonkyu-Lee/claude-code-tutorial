@@ -1,9 +1,11 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 124편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 126편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-17 | [2026-08-17-claude-video-show-videos-to-ai](2026-08-17-claude-video-show-videos-to-ai.md) | 영상을 AI에게 보여줬더니 3분 만에 정리 끝 \| claude-video 완벽 소개 |
+| 2026-08-17 | [2026-08-17-ai-animal-shorts-replicate-seedance-workflow](2026-08-17-ai-animal-shorts-replicate-seedance-workflow.md) | 요즘 유튜브에 쏟아지는 이 쇼츠, 만드는 법 대 공개 |
 | 2026-08-16 | [2026-08-16-replace-subscriptions-with-one-api-key](2026-08-16-replace-subscriptions-with-one-api-key.md) | 구독 세 개 끊고 API 키 하나로 바꿨더니 이번 달 1,800원 나왔습니다 |
 | 2026-08-16 | [2026-08-16-anatomy-of-daily-video-production-skill](2026-08-16-anatomy-of-daily-video-production-skill.md) | 제가 매일 쓰는 스킬 하나를 통째로 뜯어봤습니다 |
 | 2026-08-14 | [2026-08-14-second-brain-retrieval](2026-08-14-second-brain-retrieval.md) | 쌓기만 하면 못 찾습니다 — 두 번째 뇌를 실제로 쓰는 법 |
