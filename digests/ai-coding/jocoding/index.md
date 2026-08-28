@@ -1,11 +1,18 @@
 # jocoding (@jocoding) — digest 색인
 
-주제 `ai-coding`. 조코딩(개발자·AI 유튜버)의 AI 뉴스·코딩 실습·SaaS 수익화·AI 인재 인터뷰. 총 25편. (최신순)
+주제 `ai-coding`. 조코딩(개발자·AI 유튜버)의 AI 뉴스·코딩 실습·SaaS 수익화·AI 인재 인터뷰. 총 32편. (최신순)
 
 digest 파일명 slug는 원제(낚시성)가 아니라 **본문 내용** 기준. H1은 원제 그대로.
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-26 | [notion-hq-tour-custom-agents-self-healing](2026-08-26-notion-hq-tour-custom-agents-self-healing.md) | 미국의 노션 본사, 직접 다녀왔습니다 - AI로 일하는 실리콘밸리 회사는 뭐가 다를까 |
+| 2026-08-24 | [ai-news-ox-alpha-openai-rl-pause-mythos5-robot-olympics](2026-08-24-ai-news-ox-alpha-openai-rl-pause-mythos5-robot-olympics.md) | AI뉴스 - ox-alpha 열풍, 오픈AI RL 중지, Mythos 5 개방, Gemini 하입과 무료, 모더나 머크, 독파모, 통속의 뇌, 로봇 올림픽 등 |
+| 2026-08-21 | [ax-talent-war-finals-sketch](2026-08-21-ax-talent-war-finals-sketch.md) | AI 시대, 기업은 어떤 인재를 뽑을까? AX 인재전쟁 본선 스케치 \| OpenAI × 조코딩AX파트너스 |
+| 2026-08-20 | [samil-pwc-codex-consulting-ax](2026-08-20-samil-pwc-codex-consulting-ax.md) | 삼일PwC는 Codex를 어떻게 활용할까? \| OpenAI × AX 인재전쟁 |
+| 2026-08-19 | [channeltalk-codex-adoption](2026-08-19-channeltalk-codex-adoption.md) | 채널톡은 Codex를 어떻게 활용할까? \| OpenAI × AX 인재전쟁 |
+| 2026-08-18 | [musinsa-codex-adoption-tech-lead](2026-08-18-musinsa-codex-adoption-tech-lead.md) | 무신사는 Codex를 어떻게 활용할까? \| OpenAI × 조코딩AX파트너스 |
+| 2026-08-18 | [kakaopay-securities-how-they-use-codex](2026-08-18-kakaopay-securities-how-they-use-codex.md) | 카카오페이증권은 Codex를 어떻게 활용할까? \| OpenAI × AX 인재전쟁 |
 | 2026-08-17 | [ai-news-grok-4-6-openai-computer-history-anthropic-riemann](2026-08-17-ai-news-grok-4-6-openai-computer-history-anthropic-riemann.md) | AI 뉴스 - Grok 4.6 및 Grok Bot, 오픈AI Computer History, Ultrafast, 앤트로픽 리만 가설, Gemini 3.7 Flash 등 |
 | 2026-08-10 | [ai-news-google-exodus-gpt6-astra-luna-unlimited-coldcard-hack](2026-08-10-ai-news-google-exodus-gpt6-astra-luna-unlimited-coldcard-hack.md) | AI 뉴스 - Google 떠나는 인재들, GPT-6 Astra 소식, Luna 무제한, 콜드카드 하드월렛 해킹, Muse Spark 1.2, Imagine Image 2.0 등 |
 | 2026-08-05 | [adobe-firefly-precise-image-editing](2026-08-05-adobe-firefly-precise-image-editing.md) | AI 이미지, '생성'보다 중요한 건 따로 있습니다 |

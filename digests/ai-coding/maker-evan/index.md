@@ -1,9 +1,23 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 126편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 140편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-28 | [2026-08-28-buzz-block-nostr-agent-workspace](2026-08-28-buzz-block-nostr-agent-workspace.md) | 왜 다들 Buzz로 가나 — 별 3만 개 받은 잭 도시 회사의 오픈소스 |
+| 2026-08-28 | [2026-08-28-aside-browser-login-handoff](2026-08-28-aside-browser-login-handoff.md) | AI가 로그인 앞에서 멈춥니다 — 이게 이 브라우저를 잘 만든 이유입니다 (Aside) |
+| 2026-08-27 | [2026-08-27-aside-cli-browser-agent-channel-surfing](2026-08-27-aside-cli-browser-agent-channel-surfing.md) | 클로드 코드가 못 하는 일을 Aside CLI에 시켜봤습니다 (채널 70곳 파도타기) |
+| 2026-08-26 | [2026-08-26-card-news-eight-slides-skill-one-topic-line](2026-08-26-card-news-eight-slides-skill-one-topic-line.md) | 인스타 카드뉴스 8장, 이제 제가 안 만듭니다 (주제 한 줄이면 끝) |
+| 2026-08-26 | [2026-08-26-claude-seo-plugin-for-seo-geo-automation](2026-08-26-claude-seo-plugin-for-seo-geo-automation.md) | 왜 다들 SEO·GEO 자동화에 이걸 깔까 (깃허브 별 1.5만 claude-seo) |
+| 2026-08-25 | [2026-08-25-seven-traps-of-youtube-automation](2026-08-25-seven-traps-of-youtube-automation.md) | 유튜브 자동화, 이거 모르고 하면 영상 다시 만듭니다 |
+| 2026-08-23 | [2026-08-23-five-youtube-automation-skills-revealed](2026-08-23-five-youtube-automation-skills-revealed.md) | 유튜브 자동화, 제가 쓰는 스킬 5종 전부 공개합니다 |
+| 2026-08-23 | [2026-08-23-threads-writing-in-ten-minutes-a-day](2026-08-23-threads-writing-in-ten-minutes-a-day.md) | 스레드 글쓰기, 하루 10분이면 끝납니다 |
+| 2026-08-22 | [2026-08-22-context-is-everything-token-savings](2026-08-22-context-is-everything-token-savings.md) | 컨텍스트가 전부다 — 토큰 87% 줄인 방법 총정리 |
+| 2026-08-22 | [2026-08-22-switch-to-opus-4-6-when-refused-model-settings](2026-08-22-switch-to-opus-4-6-when-refused-model-settings.md) | 거부당하면 Opus 4.6으로 바꾸세요 \| 제가 쓰는 클로드 모델 세팅 전부 |
+| 2026-08-21 | [2026-08-21-claude-code-desktop-app-over-terminal](2026-08-21-claude-code-desktop-app-over-terminal.md) | 이제 터미널 안 씁니다 — 클로드 코드 데스크탑 앱으로 바뀐 것들 |
+| 2026-08-21 | [2026-08-21-why-everyone-schedules-ai-at-night](2026-08-21-why-everyone-schedules-ai-at-night.md) | 왜 다들 AI한테 밤에 시키기 시작했나 |
+| 2026-08-20 | [2026-08-20-nine-years-crawling-remove-the-reason-to-be-blocked](2026-08-20-nine-years-crawling-remove-the-reason-to-be-blocked.md) | 크롤링 9년 하고 내린 결론 — 차단을 이기지 말고 이유를 없애세요 |
+| 2026-08-18 | [2026-08-18-chrome-extension-plus-claude-desktop-combo](2026-08-18-chrome-extension-plus-claude-desktop-combo.md) | 크롬 익스텐션 + 클로드 데스크탑 앱, 결국 이 조합으로 정착했습니다 |
 | 2026-08-17 | [2026-08-17-claude-video-show-videos-to-ai](2026-08-17-claude-video-show-videos-to-ai.md) | 영상을 AI에게 보여줬더니 3분 만에 정리 끝 \| claude-video 완벽 소개 |
 | 2026-08-17 | [2026-08-17-ai-animal-shorts-replicate-seedance-workflow](2026-08-17-ai-animal-shorts-replicate-seedance-workflow.md) | 요즘 유튜브에 쏟아지는 이 쇼츠, 만드는 법 대 공개 |
 | 2026-08-16 | [2026-08-16-replace-subscriptions-with-one-api-key](2026-08-16-replace-subscriptions-with-one-api-key.md) | 구독 세 개 끊고 API 키 하나로 바꿨더니 이번 달 1,800원 나왔습니다 |
