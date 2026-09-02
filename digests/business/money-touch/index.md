@@ -1,13 +1,17 @@
 # money-touch (@MONEY_TOUCH) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 28편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 32편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-08-31 | [2026-08-31-nurse-side-hustle-rental-space](2026-08-31-nurse-side-hustle-rental-space.md) | 평일에 회사 다니면서, 부업으로 수천 만 원 버는 90년생 간호사의 하루 "남의 집 빌려서 월 3천 벌어요" |
 | 2026-08-28 | [2026-08-28-costco-coupang-consignment-reselling-side-hustle](2026-08-28-costco-coupang-consignment-reselling-side-hustle.md) | '이 여자 미쳤습니다" 살다살다 이렇게 돈 버는 사람 처음 봤습니다. 남들 다 먹는 햇반으로 월 6500버는 애기엄마 |
 | 2026-08-25 | [2026-08-25-senior-65-adsense-blog-100billion-cash](2026-08-25-senior-65-adsense-blog-100billion-cash.md) | 전세계 1위 부업으로 현금 100억/ 65세 |
 | 2026-08-23 | [2026-08-23-danggeun-consignment-selling-22m-net-profit](2026-08-23-danggeun-consignment-selling-22m-net-profit.md) | 당근에서 중고 말고 '이것' 팔아서 월 순수익 2200만원 쓸어가는 충격적인 방법 |
 | 2026-08-22 | [2026-08-22-daum-blog-ai-writing-2billion](2026-08-22-daum-blog-ai-writing-2billion.md) | "한국인들만 몰라서 못합니다" 전세계 1등 부업으로 20억 쓸어담은 미친 01년생 부업 |
+| 2026-08-21 | [2026-08-21-korean-reading-for-foreigners-side-hustle](2026-08-21-korean-reading-for-foreigners-side-hustle.md) | "이건 저희 부모님도 가능해요" 외국인들한테 한국어 읽어주고 달러 버는 역대급 부업 |
+| 2026-08-20 | [2026-08-20-13-spaces-rental-20m-monthly](2026-08-20-13-spaces-rental-20m-monthly.md) | "이런 부업이 없어요" 건물주도 아닌데 공간 13개 빌려주고 매달 2000만원씩 통장에 꽂혀요 |
+| 2026-08-19 | [2026-08-19-danggeun-reselling-69yo-housewife](2026-08-19-danggeun-reselling-69yo-housewife.md) | 당근에서 중고거래 대신 '이거' 팔아서 순수익 500번 69세 주부 부업 |
 | 2026-08-14 | [2026-08-14-danggeun-market-consignment-reselling-side-hustle](2026-08-14-danggeun-market-consignment-reselling-side-hustle.md) | 당근 마켓에서 중고거래 말고 '이것' 팔아서 한달에 순수익 2천씩 버는 남자 ㄷㄷ.... |
 | 2026-08-13 | [2026-08-13-agriculture-online-selling-5billion](2026-08-13-agriculture-online-selling-5billion.md) | 시장에서 찍은 사진으로 50억 버는 40대 남성 |
 | 2026-08-11 | [2026-08-11-google-adsense-blog-100billion-family](2026-08-11-google-adsense-blog-100billion-family.md) | "전세계가 다 하는데 한국인만 안 합니다" 65세 엄마도 하루 2,000달러 벌어요 외국인만 꿀 빠는 부업으로 100억 번 가족 |
