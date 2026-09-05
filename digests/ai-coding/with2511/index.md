@@ -1,9 +1,10 @@
 # with2511 (@with2511 · 기술노트with 알렉) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 21편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 22편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-03 | [2026-09-03-tech-note-book-table-of-contents-walkthrough](2026-09-03-tech-note-book-table-of-contents-walkthrough.md) | 컴공 4년동안 배우는 핵심을 한권에 | 기술노트 도서 목차 설명 | 바이브코딩 클로드코드 AI로 개발할 때, 알아야 하는 필수 IT 지식 |
 | 2026-09-01 | [2026-09-01-tech-notes-series-launch](2026-09-01-tech-notes-series-launch.md) | AI 시대에 안보면 평생 후회할 IT 지식 기술노트 영상 시작합니다. \| 바이브코딩 \| 클로드 코드 |
 | 2026-08-27 | [2026-08-27-tech-note-book-intro-essential-it-knowledge](2026-08-27-tech-note-book-intro-essential-it-knowledge.md) | AI 개발 시 알아야 하는 필수 IT 지식 기술노트 도서 소개 영상 |
 | 2026-08-13 | [2026-08-13-failures-that-became-energy](2026-08-13-failures-that-became-energy.md) | 내 인생을 송두리째 바꿔버린 그때 그 실패 \| 혹시 사는게 좀 힘들다면 들어보세요. 50대가 되어보니 깨닫는 것들 |

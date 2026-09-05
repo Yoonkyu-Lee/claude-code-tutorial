@@ -1,9 +1,15 @@
 # softdragon (@softdragon) — digest 색인
 
-주제 `tech`. 반도체·AI·바이오·과학 뉴스 해설 영상 digest. 총 31편. (최신순)
+주제 `tech`. 반도체·AI·바이오·과학 뉴스 해설 영상 digest. 총 37편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-04 | [2026-09-04-china-memory-catching-up-samsung-tech-leak](2026-09-04-china-memory-catching-up-samsung-tech-leak.md) | "중국 반도체 선전포고" 10년 간 비밀리에 훔친 기술 공개, 최태원도 기가 찰듯... |
+| 2026-08-31 | [2026-08-31-cpu-crunch-ai-agent-datacenter](2026-08-31-cpu-crunch-ai-agent-datacenter.md) | "데이터센터를 갈아엎는다" 전세계 CPU 확보전쟁, 반도체 천지개벽 시작 ㄷㄷ |
+| 2026-08-28 | [2026-08-28-korea-ai-risk-capital-naver-ventures](2026-08-28-korea-ai-risk-capital-naver-ventures.md) | "이런 건 본 적이 없다" 붕괴 직전 한국 AI, 대부분이 모르는 네이버 신의 한수 ㄷㄷ |
+| 2026-08-26 | [2026-08-26-north-korea-hacking-korea-security-program-paradox](2026-08-26-north-korea-hacking-korea-security-program-paradox.md) | "완전히 속았습니다" 내 컴퓨터가 북한 해커 놀이터? 한국 초토화시킨 충격적 해킹 수법 |
+| 2026-08-21 | [2026-08-21-viagra-sildenafil-cancer-metastasis](2026-08-21-viagra-sildenafil-cancer-metastasis.md) | “비아그라는 위대했다” 현재 의학계 연구 1위, 전세계를 뒤흔든 역대급 암치료법 등장 ㄷㄷ |
+| 2026-08-19 | [2026-08-19-apple-alibaba-qwen-china-ai](2026-08-19-apple-alibaba-qwen-china-ai.md) | "중국AI 쓰겠습니다" 중국에 애걸복걸한 애플... 절망적인 위기상황 |
 | 2026-08-17 | [2026-08-17-tesla-radar-fsd-data-moat](2026-08-17-tesla-radar-fsd-data-moat.md) | "이런 건 본 적이 없다" 테슬라가 꺼낸 최종병기, 상식 깬 자율주행 등장 ㄷㄷ |
 | 2026-08-14 | [2026-08-14-hbm-successor-hbf-vs-zhbm](2026-08-14-hbm-successor-hbf-vs-zhbm.md) | "HBM 다음은 이것" 삼성·SK가 목숨 걸고 꺼낸 차세대 메모리 ㄷㄷ |
 | 2026-08-11 | [2026-08-11-hyundai-outpaces-german-big-three](2026-08-11-hyundai-outpaces-german-big-three.md) | "벤츠는 상대도 안 된다" 현대차 10년 대반격, 독3사 다 합쳐도 못이긴다 ㄷㄷ |

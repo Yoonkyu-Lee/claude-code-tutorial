@@ -1,9 +1,11 @@
 # editorp89 (@editorp89 · 편집자P) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 37편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 39편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-05 | [2026-09-05-openai-astra-review-automation-use-cases](2026-09-05-openai-astra-review-automation-use-cases.md) | [시즌 3] 오픈AI 아스트라(Astra) 리뷰 + 자동화 유즈케이스 |
+| 2026-09-03 | [2026-09-03-loop-engineering-intro](2026-09-03-loop-engineering-intro.md) | [시즌 3] 유행 다 지나고 배우는 루프 엔지니어링 입문 |
 | 2026-08-30 | [2026-08-30-ccstatusline-guide](2026-08-30-ccstatusline-guide.md) | [시즌 3] 내 클로드 코드에 계기판을 달아주고 싶다면? ccstatusline 가이드 |
 | 2026-08-29 | [2026-08-29-paseo-beginner-guide-windows-macos](2026-08-29-paseo-beginner-guide-windows-macos.md) | [시즌 3] 윈도우, macOS 유저를 위한 Paseo 입문 가이드(모바일, 원격 통합 세팅까지) |
 | 2026-08-23 | [2026-08-23-server-and-port-fundamentals](2026-08-23-server-and-port-fundamentals.md) | [시즌 3] 유행에서 흔들리지 않는 개념, 서버와 포트 |

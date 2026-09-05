@@ -1,17 +1,19 @@
 # normaltic (@Normaltic) — digest 색인
 
-주제 `tech`. 보안 전문가 노말틱(Normaltic Place)이 해킹·보안 사건을 해설하는 채널. 유출 사고, 다크웹, 피싱·사회공학, 모의해킹 진로, AI와 보안까지. 총 36편. (최신순)
+주제 `tech`. 보안 전문가 노말틱(Normaltic Place)이 해킹·보안 사건을 해설하는 채널. 유출 사고, 다크웹, 피싱·사회공학, 모의해킹 진로, AI와 보안까지. 총 38편. (최신순)
 
 핸들이 로마자(@Normaltic)라 폴더명 `normaltic`은 규약대로다. digest 파일명 slug는 원제(낚시성)가 아니라 **본문 내용** 기준. H1은 원제 그대로.
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-04 | [2026-09-04-qtfy-chinese-hacking-quartermaster](2026-09-04-qtfy-chinese-hacking-quartermaster.md) | QTFY의 정체. 수상한 중국의 회사의 해킹 도구들이 밝혀졌다. |
 | 2026-09-02 | [student-accidental-ransomware-and-joy-of-hacking](2026-09-02-student-accidental-ransomware-and-joy-of-hacking.md) | 실수로 랜섬웨어 뿌린 학생 이야기, 해킹 공부의 즐거움에 대해 생각해보기 |
 | 2026-08-31 | [aliexpress-suspicious-fingerprinting](2026-08-31-aliexpress-suspicious-fingerprinting.md) | 알리에서 수상한 소리가 나온다고?!!! (퓡거 프린팅) |
 | 2026-08-28 | [gta6-early-leak-issue](2026-08-28-gta6-early-leak-issue.md) | GTA6 선선공개 이슈? 넷플릭스보다 빨리 공개된 GTA6 |
 | 2026-08-26 | [new-worries-in-ai-era](2026-08-26-new-worries-in-ai-era.md) | AI 시대의 새로운 고민들 이야기 |
 | 2026-08-24 | [us-hacking-license-story](2026-08-24-us-hacking-license-story.md) | 해킹 허가증 발급하는 미국의 이야기 |
 | 2026-08-21 | [another-backdoor-for-customers](2026-08-21-another-backdoor-for-customers.md) | 또 발견된 백도어?! 고객들을 위한 백도어?! |
+| 2026-08-19 | [2026-08-19-is-this-hacking-reading-listener-stories](2026-08-19-is-this-hacking-reading-listener-stories.md) | 이거... 해킹인가요?!! 사연 읽어보기 |
 | 2026-08-17 | [wannacry-white-hat-hacker-marcus-hutchins](2026-08-17-wannacry-white-hat-hacker-marcus-hutchins.md) | 진짜 전세계를 구했던 화이트해커의 알려지지 않은 이야기 |
 | 2026-08-14 | [gpt-huggingface-hack-backstory-openai-disclosure](2026-08-14-gpt-huggingface-hack-backstory-openai-disclosure.md) | GPT 해킹 발생 전 있었던 충격적인 이야기. OpenAI가 직접 밝힌 이야기! |
 | 2026-08-12 | [odyssey-nolan-trojan-horse-hacking-allegory](2026-08-12-odyssey-nolan-trojan-horse-hacking-allegory.md) | 놀란 감독님이 숨겨 놓은 뜻...! 정보보안에 이렇게 관심이 많았다니... |

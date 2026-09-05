@@ -1,9 +1,15 @@
 # unrealtech (@unrealtech · 안될공학 - IT 테크 신기술) — digest 색인
 
-주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 222편. (최신순)
+주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 228편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-05 | [2026-09-05-gpt6-astra-long-horizon-work-cost-per-task](2026-09-05-gpt6-astra-long-horizon-work-cost-per-task.md) | GPT6 Astra, 인간 일자리 대체의 시작인가... 5일 동안 쉬지않고 일한 후 미친 결과 | 10만 GPU로 만든 ‘일하는 AI’의 등장 | 구글, 앤트로픽 전략 차이 |
+| 2026-09-04 | [2026-09-04-rubin-cpx-revival-168gb-hbm4](2026-09-04-rubin-cpx-revival-168gb-hbm4.md) | HBM4 추가로 더 탑재, 엔비디아 Rubin CPX 부활설 |삼성 HBM4 13Gbps가 의미 있었던 이유 | 168GB HBM4의 정체 |
+| 2026-09-03 | [2026-09-03-exynos-2700-galaxy-s27-ultra-mainboard-order](2026-09-03-exynos-2700-galaxy-s27-ultra-mainboard-order.md) | 메인보드 발주 확인, 갤럭시S27 울트라에 삼성 칩 탑재 보도 분석 | 엑시노스2700 성능·원가·2나노 수율까지 분석 |
+| 2026-09-01 | [2026-09-01-moderna-mrna-cancer-vaccine-phase3-ai](2026-09-01-moderna-mrna-cancer-vaccine-phase3-ai.md) | 모더나 암 백신 3상 성공… 진짜 암 치료 판 바뀌나 | AI 맞춤형 치료제 팩트체크 |
+| 2026-08-30 | [2026-08-30-hbf-znand-thermal-nand-reliability-challenges](2026-08-30-hbf-znand-thermal-nand-reliability-challenges.md) | HBF 성공 가능성 낮다? 말하지 않는 치명적 난제 | HBF, zNAND-O 핵심 과제는 발열, 온도, NAND 신뢰성 |
+| 2026-08-29 | [2026-08-29-hbm-memory-wall-ai-bottleneck](2026-08-29-hbm-memory-wall-ai-bottleneck.md) | 최강 GPU도 HBM 없으면 느려진다 | AI 시대 메모리가 주인공이 된 이유 [패치의 칩문학 시즌1 - 2편] |
 | 2026-08-16 | [2026-08-16-hbf-cannibalizes-hbm-sk-hynix-next-memory](2026-08-16-hbf-cannibalizes-hbm-sk-hynix-next-memory.md) | HBM 수요 갉아먹는 HBF, 왜 SK하이닉스가 직접 미나 \| 최태원 인터뷰에서 찾은 힌트, SK하이닉스의 다음 메모리 전략 |
 | 2026-08-15 | [2026-08-15-gemini-3-7-flash-340-tokens-decode-agentic](2026-08-15-gemini-3-7-flash-340-tokens-decode-agentic.md) | 구글 Gemini 3.7 Flash, 대체 뭘 바꾼건지...  초당 340토큰, 코딩만 아니라 에이전틱 AI 특화 |
 | 2026-08-14 | [2026-08-14-genspark-secondbrain-note-hands-on](2026-08-14-genspark-secondbrain-note-hands-on.md) | AI로 두 번째 뇌 만드는 가장 빠른 방법, 말만 해 두면 끝 \|젠스파크 SecondBrain·세컨드브레인 노트 직접 체험 |

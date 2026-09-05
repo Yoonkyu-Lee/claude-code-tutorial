@@ -1,9 +1,10 @@
 # money-touch (@MONEY_TOUCH) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 32편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 33편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-03 | [2026-09-03-brand-dropshipping-20billion-ai-image-swap](2026-09-03-brand-dropshipping-20billion-ai-image-swap.md) | 어차피 알려줘도 아무도 안해요_ 200억 매출찍고 인생역전한 40대 아빠 |
 | 2026-08-31 | [2026-08-31-nurse-side-hustle-rental-space](2026-08-31-nurse-side-hustle-rental-space.md) | 평일에 회사 다니면서, 부업으로 수천 만 원 버는 90년생 간호사의 하루 "남의 집 빌려서 월 3천 벌어요" |
 | 2026-08-28 | [2026-08-28-costco-coupang-consignment-reselling-side-hustle](2026-08-28-costco-coupang-consignment-reselling-side-hustle.md) | '이 여자 미쳤습니다" 살다살다 이렇게 돈 버는 사람 처음 봤습니다. 남들 다 먹는 햇반으로 월 6500버는 애기엄마 |
 | 2026-08-25 | [2026-08-25-senior-65-adsense-blog-100billion-cash](2026-08-25-senior-65-adsense-blog-100billion-cash.md) | 전세계 1위 부업으로 현금 100억/ 65세 |

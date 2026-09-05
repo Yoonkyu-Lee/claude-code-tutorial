@@ -1,9 +1,10 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 141편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 142편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-04 | [2026-09-04-why-everyone-is-deleting-claude-md](2026-09-04-why-everyone-is-deleting-claude-md.md) | 왜 다들 CLAUDE.md를 지우고 있나 — 페이블 5.1이 바꾼 규칙 |
 | 2026-09-01 | [2026-09-01-three-person-ai-native-company](2026-09-01-three-person-ai-native-company.md) | 3명이서 회사 하나를 굴리는 법 (AI 네이티브 조직 3개월 기록) |
 | 2026-08-28 | [2026-08-28-buzz-block-nostr-agent-workspace](2026-08-28-buzz-block-nostr-agent-workspace.md) | 왜 다들 Buzz로 가나 — 별 3만 개 받은 잭 도시 회사의 오픈소스 |
 | 2026-08-28 | [2026-08-28-aside-browser-login-handoff](2026-08-28-aside-browser-login-handoff.md) | AI가 로그인 앞에서 멈춥니다 — 이게 이 브라우저를 잘 만든 이유입니다 (Aside) |
