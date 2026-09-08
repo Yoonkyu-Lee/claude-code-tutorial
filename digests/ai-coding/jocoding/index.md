@@ -1,11 +1,12 @@
 # jocoding (@jocoding) — digest 색인
 
-주제 `ai-coding`. 조코딩(개발자·AI 유튜버)의 AI 뉴스·코딩 실습·SaaS 수익화·AI 인재 인터뷰. 총 34편. (최신순)
+주제 `ai-coding`. 조코딩(개발자·AI 유튜버)의 AI 뉴스·코딩 실습·SaaS 수익화·AI 인재 인터뷰. 총 35편. (최신순)
 
 digest 파일명 slug는 원제(낚시성)가 아니라 **본문 내용** 기준. H1은 원제 그대로.
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-07 | [ai-news-gpt6-astra-fable-5-1-gemini-3-8-flash-muse-spark](2026-09-07-ai-news-gpt6-astra-fable-5-1-gemini-3-8-flash-muse-spark.md) | AI뉴스 - GPT-6 Astra 미쳤다, Fable 5.1, Gemini 3.8 Flash, Muse Spark 1.3, World Labs Atlas 등 |
 | 2026-09-01 | [codex-nh-api-stock-trading-agent](2026-09-01-codex-nh-api-stock-trading-agent.md) | AI에게 맡기는 주식 자동매매 - Codex와 NH투자증권 API로 투자 에이전트 만들기 |
 | 2026-08-31 | [ai-news-astra-fable-5-1-glm-5-3](2026-08-31-ai-news-astra-fable-5-1-glm-5-3.md) | AI뉴스 - Astra, AGI 올해 달성, Fable 5.1, 할라피뇨, 넥토리얼, GLM-5.3, 실시간 H3, Gemini Omni 1.1 등 |
 | 2026-08-26 | [notion-hq-tour-custom-agents-self-healing](2026-08-26-notion-hq-tour-custom-agents-self-healing.md) | 미국의 노션 본사, 직접 다녀왔습니다 - AI로 일하는 실리콘밸리 회사는 뭐가 다를까 |

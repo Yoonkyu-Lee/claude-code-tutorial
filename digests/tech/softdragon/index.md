@@ -1,9 +1,11 @@
 # softdragon (@softdragon) — digest 색인
 
-주제 `tech`. 반도체·AI·바이오·과학 뉴스 해설 영상 digest. 총 37편. (최신순)
+주제 `tech`. 반도체·AI·바이오·과학 뉴스 해설 영상 digest. 총 39편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-07 | [2026-09-07-amd-helios-second-supply-axis](2026-09-07-amd-helios-second-supply-axis.md) | "이런 건 본 적이 없다" AMD가 꺼낸 최종병기, AI 반도체 혁명이 시작됐습니다 |
+| 2026-09-06 | [2026-09-06-applying-for-korea-science-minister-heisenberg](2026-09-06-applying-for-korea-science-minister-heisenberg.md) | 대한민국 과기부 장관 지원합니다. (하이젠버그) |
 | 2026-09-04 | [2026-09-04-china-memory-catching-up-samsung-tech-leak](2026-09-04-china-memory-catching-up-samsung-tech-leak.md) | "중국 반도체 선전포고" 10년 간 비밀리에 훔친 기술 공개, 최태원도 기가 찰듯... |
 | 2026-08-31 | [2026-08-31-cpu-crunch-ai-agent-datacenter](2026-08-31-cpu-crunch-ai-agent-datacenter.md) | "데이터센터를 갈아엎는다" 전세계 CPU 확보전쟁, 반도체 천지개벽 시작 ㄷㄷ |
 | 2026-08-28 | [2026-08-28-korea-ai-risk-capital-naver-ventures](2026-08-28-korea-ai-risk-capital-naver-ventures.md) | "이런 건 본 적이 없다" 붕괴 직전 한국 AI, 대부분이 모르는 네이버 신의 한수 ㄷㄷ |

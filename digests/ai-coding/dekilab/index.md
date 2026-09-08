@@ -1,9 +1,10 @@
 # dekilab (@dekilab) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 9편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 10편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-06 | [2026-09-06-ai-video-production-beginner-guide-higgsfield](2026-09-06-ai-video-production-beginner-guide-higgsfield.md) | 12분만에 끝내는 최신 AI 영상 제작 입문 가이드 |
 | 2026-09-03 | [2026-09-03-grokbot-free-usage-guide](2026-09-03-grokbot-free-usage-guide.md) | 11분만에 끝내는 그록봇 무료 사용법 (지금 안 쓰면 손해) |
 | 2026-08-29 | [2026-08-29-chatgpt-work-beginner-guide](2026-08-29-chatgpt-work-beginner-guide.md) | AI 처음이라면 챗지피티 워크로 시작하세요 [입문 가이드 제공] |
 | 2026-08-13 | [2026-08-13-build-free-reservation-system-with-claude-no-code](2026-08-13-build-free-reservation-system-with-claude-no-code.md) | 개발 1도 몰라도 됩니다. 예약 시스템 무료로 만드는 법 \| 클로드 웹사이트 2탄 |

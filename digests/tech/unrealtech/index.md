@@ -1,15 +1,26 @@
 # unrealtech (@unrealtech · 안될공학 - IT 테크 신기술) — digest 색인
 
-주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 228편. (최신순)
+주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 239편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-07 | [2026-09-07-gpt6-astra-demos-vision-tool-use-loop](2026-09-07-gpt6-astra-demos-vision-tool-use-loop.md) | GPT6 Astra, 난리인 이유가 보이네요 \| 진짜 좋아진 능력과 기술적 차이 \|  OpenAI만의 기술적 해자일까? |
+| 2026-09-07 | [2026-09-07-gpt6-astra-compute-is-revenue](2026-09-07-gpt6-astra-compute-is-revenue.md) | GPT6 Astra, AI로 돈 번다… NVIDIA 젠슨황 말을 증명하다 \| Compute is Revenue |
+| 2026-09-06 | [2026-09-06-cybercab-launch-10-second-drive-unit-production](2026-09-06-cybercab-launch-10-second-drive-unit-production.md) | 사이버캡 출시 직후 밝혀진, 놀라운 기술과 전략들... 10초 단위 생산과 브레이크액·희토류까지 없앤 테슬라 \| Fleet 사업자까지 |
 | 2026-09-05 | [2026-09-05-gpt6-astra-long-horizon-work-cost-per-task](2026-09-05-gpt6-astra-long-horizon-work-cost-per-task.md) | GPT6 Astra, 인간 일자리 대체의 시작인가... 5일 동안 쉬지않고 일한 후 미친 결과 | 10만 GPU로 만든 ‘일하는 AI’의 등장 | 구글, 앤트로픽 전략 차이 |
 | 2026-09-04 | [2026-09-04-rubin-cpx-revival-168gb-hbm4](2026-09-04-rubin-cpx-revival-168gb-hbm4.md) | HBM4 추가로 더 탑재, 엔비디아 Rubin CPX 부활설 |삼성 HBM4 13Gbps가 의미 있었던 이유 | 168GB HBM4의 정체 |
 | 2026-09-03 | [2026-09-03-exynos-2700-galaxy-s27-ultra-mainboard-order](2026-09-03-exynos-2700-galaxy-s27-ultra-mainboard-order.md) | 메인보드 발주 확인, 갤럭시S27 울트라에 삼성 칩 탑재 보도 분석 | 엑시노스2700 성능·원가·2나노 수율까지 분석 |
 | 2026-09-01 | [2026-09-01-moderna-mrna-cancer-vaccine-phase3-ai](2026-09-01-moderna-mrna-cancer-vaccine-phase3-ai.md) | 모더나 암 백신 3상 성공… 진짜 암 치료 판 바뀌나 | AI 맞춤형 치료제 팩트체크 |
 | 2026-08-30 | [2026-08-30-hbf-znand-thermal-nand-reliability-challenges](2026-08-30-hbf-znand-thermal-nand-reliability-challenges.md) | HBF 성공 가능성 낮다? 말하지 않는 치명적 난제 | HBF, zNAND-O 핵심 과제는 발열, 온도, NAND 신뢰성 |
 | 2026-08-29 | [2026-08-29-hbm-memory-wall-ai-bottleneck](2026-08-29-hbm-memory-wall-ai-bottleneck.md) | 최강 GPU도 HBM 없으면 느려진다 | AI 시대 메모리가 주인공이 된 이유 [패치의 칩문학 시즌1 - 2편] |
+| 2026-08-28 | [2026-08-28-nvidia-nvhbm-samsung-zhbm-base-die-roadmap](2026-08-28-nvidia-nvhbm-samsung-zhbm-base-die-roadmap.md) | NVIDIA HBM 등장, 삼성 zHBM 상세 스펙 공개 3일 후... GPU 못 팔아도 ASIC/XPU 엔비디아 남는 이유 |
+| 2026-08-28 | [2026-08-28-nand-flash-essd-hbf-znand-ai-storage-demand](2026-08-28-nand-flash-essd-hbf-znand-ai-storage-demand.md) | eSSD, HBF, zNAND-O... 홀대받던 NAND Flash는 앞으로 훨씬 더 많이 필요해진다 |
+| 2026-08-26 | [2026-08-26-m5-ultra-1200gbps-memory-bandwidth-mlx-local-ai](2026-08-26-m5-ultra-1200gbps-memory-bandwidth-mlx-local-ai.md) | HBM급 미친 메모리 스펙, M5 Ultra 등장... 애플은 에이전틱 AI 시대 강자입니다 \| MLX·오픈 모델의 폭발 |
+| 2026-08-26 | [2026-08-26-exynos-2700-beats-next-gen-snapdragon-internal-test](2026-08-26-exynos-2700-beats-next-gen-snapdragon-internal-test.md) | 삼성 엑시노스 2700, 차세대 퀄컴 칩 성능 이겼다 \| 이번 내부 테스트가 유독 신빙성 높은 이유 |
+| 2026-08-25 | [2026-08-25-cxmt-ddr5-china-memory-threat-samsung-tech-leak](2026-08-25-cxmt-ddr5-china-memory-threat-samsung-tech-leak.md) | 중국 메모리, 기술력도 따라왔지만 이젠 정말 위협인 이유 \| CXMT DDR5·삼성 기술유출 |
+| 2026-08-24 | [2026-08-24-nvidia-ai-infra-financing-platform-compute-as-asset](2026-08-24-nvidia-ai-infra-financing-platform-compute-as-asset.md) | 엔비디아 금융 플랫폼 등장! 빅테크가 이렇게까지 AI에 투자하는 진짜 이유 \| GPU 부족이 곧 매출 손실이 되는 시대 |
+| 2026-08-23 | [2026-08-23-sk-hynix-nature-cpo-optical-memory-pooling](2026-08-23-sk-hynix-nature-cpo-optical-memory-pooling.md) | SK하이닉스 Nature 논문 최초 공개, AI 광학 메모리 시대 등장 \| CPO가 메모리까지 들어오면 생기는 일 |
+| 2026-08-20 | [2026-08-20-gpu-king-of-ai-era-cpu-cuda-power-shift](2026-08-20-gpu-king-of-ai-era-cpu-cuda-power-shift.md) | GPU는 왜 AI 시대의 왕이 됐을까? 소프트웨어는 칩을 타고 흐른다 \| CPU·GPU·CUDA 권력 이동 [패치의 칩문학 시즌1 - 1편] |
 | 2026-08-16 | [2026-08-16-hbf-cannibalizes-hbm-sk-hynix-next-memory](2026-08-16-hbf-cannibalizes-hbm-sk-hynix-next-memory.md) | HBM 수요 갉아먹는 HBF, 왜 SK하이닉스가 직접 미나 \| 최태원 인터뷰에서 찾은 힌트, SK하이닉스의 다음 메모리 전략 |
 | 2026-08-15 | [2026-08-15-gemini-3-7-flash-340-tokens-decode-agentic](2026-08-15-gemini-3-7-flash-340-tokens-decode-agentic.md) | 구글 Gemini 3.7 Flash, 대체 뭘 바꾼건지...  초당 340토큰, 코딩만 아니라 에이전틱 AI 특화 |
 | 2026-08-14 | [2026-08-14-genspark-secondbrain-note-hands-on](2026-08-14-genspark-secondbrain-note-hands-on.md) | AI로 두 번째 뇌 만드는 가장 빠른 방법, 말만 해 두면 끝 \|젠스파크 SecondBrain·세컨드브레인 노트 직접 체험 |

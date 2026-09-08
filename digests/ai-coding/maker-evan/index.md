@@ -1,9 +1,14 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 142편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 147편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-07 | [2026-09-07-why-experts-use-low-codex-effort](2026-09-07-why-experts-use-low-codex-effort.md) | 왜 고수들은 코덱스 에포트를 낮게 쓸까 — 모델별 최적 구간 |
+| 2026-09-07 | [2026-09-07-why-everyone-builds-skills-first](2026-09-07-why-everyone-builds-skills-first.md) | 왜 다들 스킬부터 만드나 — 클로드에게 매뉴얼을 주는 법 |
+| 2026-09-07 | [2026-09-07-three-reels-1011-followers-no-editor](2026-09-07-three-reels-1011-followers-no-editor.md) | 릴스 세 편으로 팔로워 1,011명 만든 방법 (편집자 없음) |
+| 2026-09-07 | [2026-09-07-astra-vs-sol-same-prompt-illustration-test](2026-09-07-astra-vs-sol-same-prompt-illustration-test.md) | 아스트라 vs 솔, 같은 그림을 시켰더니 차이가 보입니다 |
+| 2026-09-06 | [2026-09-06-why-everyone-moves-to-codex-astra](2026-09-06-why-everyone-moves-to-codex-astra.md) | 왜 다들 코덱스로 옮기고 있나 — 아스트라가 바꾼 것 |
 | 2026-09-04 | [2026-09-04-why-everyone-is-deleting-claude-md](2026-09-04-why-everyone-is-deleting-claude-md.md) | 왜 다들 CLAUDE.md를 지우고 있나 — 페이블 5.1이 바꾼 규칙 |
 | 2026-09-01 | [2026-09-01-three-person-ai-native-company](2026-09-01-three-person-ai-native-company.md) | 3명이서 회사 하나를 굴리는 법 (AI 네이티브 조직 3개월 기록) |
 | 2026-08-28 | [2026-08-28-buzz-block-nostr-agent-workspace](2026-08-28-buzz-block-nostr-agent-workspace.md) | 왜 다들 Buzz로 가나 — 별 3만 개 받은 잭 도시 회사의 오픈소스 |
