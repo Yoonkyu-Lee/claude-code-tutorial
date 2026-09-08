@@ -1,9 +1,10 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 147편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 148편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-08 | [2026-09-08-yc-ai-playbook-second-brain-setup](2026-09-08-yc-ai-playbook-second-brain-setup.md) | YC의 AI 플레이북을 제 자료에 그대로 적용했습니다 — 제2의 두뇌 세팅 |
 | 2026-09-07 | [2026-09-07-why-experts-use-low-codex-effort](2026-09-07-why-experts-use-low-codex-effort.md) | 왜 고수들은 코덱스 에포트를 낮게 쓸까 — 모델별 최적 구간 |
 | 2026-09-07 | [2026-09-07-why-everyone-builds-skills-first](2026-09-07-why-everyone-builds-skills-first.md) | 왜 다들 스킬부터 만드나 — 클로드에게 매뉴얼을 주는 법 |
 | 2026-09-07 | [2026-09-07-three-reels-1011-followers-no-editor](2026-09-07-three-reels-1011-followers-no-editor.md) | 릴스 세 편으로 팔로워 1,011명 만든 방법 (편집자 없음) |

@@ -1,9 +1,18 @@
 # alphamale (@alphamale__1212 · 알파남 - 부업으로 부자되는 방법) — digest 색인
 
-주제 `business`. 부업·블로그 수익화 홍보성 LIVE. 각 digest 상단에 검증 배너 + 수익 수치 (주장/미검증) 표기. 총 27편. (최신순)
+주제 `business`. 부업·블로그 수익화 홍보성 LIVE. 각 digest 상단에 검증 배너 + 수익 수치 (주장/미검증) 표기. 총 36편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-06 | [2026-09-06-change-your-life-in-one-minute](2026-09-06-change-your-life-in-one-minute.md) | 1분 안에 당신의 인생을 바꿔드립니다 |
+| 2026-09-02 | [2026-09-02-naver-adpost-approval-beginner-guide](2026-09-02-naver-adpost-approval-beginner-guide.md) | 60대 컴맹을 위한 네이버 애드포스트 승인 합격 왕초보 강의(+신청방법 조건 수익구조) |
+| 2026-08-30 | [2026-08-30-lending-money-and-free-knowhow-result](2026-08-30-lending-money-and-free-knowhow-result.md) | 친한 지인 돈을 빌려주고, 공짜로 돈 버는 방법까지 알려줘 본 충격 결과 |
+| 2026-08-28 | [2026-08-28-monthly-1-million-automation-keywords](2026-08-28-monthly-1-million-automation-keywords.md) | 월 100만 원 수익 자동화, 핵심 키워드 공개! |
+| 2026-08-26 | [2026-08-26-beginner-blogger-habits-to-drop](2026-08-26-beginner-blogger-habits-to-drop.md) | 글 5만 개 쓰고 깨달았습니다. 초보 블로거가 당장 버려야 할 습관 |
+| 2026-08-25 | [2026-08-25-elementary-student-income-proof-just-execute](2026-08-25-elementary-student-income-proof-just-execute.md) | 초딩 실제 수익 인증ㄷㄷ초등학생이 AI 시대 집에서 돈 버는 법 |
+| 2026-08-24 | [2026-08-24-is-naver-blog-dead-in-ai-era](2026-08-24-is-naver-blog-dead-in-ai-era.md) | 2026 AI 시대, 한국에서 네이버 블로그로 돈 벌던 시대가 끝났을까? 직접 확인해봤습니다 |
+| 2026-08-23 | [2026-08-23-why-money-makers-give-away-knowhow](2026-08-23-why-money-makers-give-away-knowhow.md) | 돈 버는 사람들은 왜 노하우를 무료로 공개할까?(99%가 모르는 이유) |
+| 2026-08-20 | [2026-08-20-naver-homepan-monetization-secret](2026-08-20-naver-homepan-monetization-secret.md) | 네이버 홈판 수익화 하는법? 강사들도 모르는 소름돋는 비밀(해결책 공개) |
 | 2026-08-16 | [2026-08-16-online-real-estate-blog-passive-income](2026-08-16-online-real-estate-blog-passive-income.md) | [무자본 부업] 0원으로 온라인 건물 짓고 매달 월세 받는 법 |
 | 2026-08-14 | [2026-08-14-focus-on-keywords-not-writing](2026-08-14-focus-on-keywords-not-writing.md) | 블로그로 돈 벌고 싶다면 제발 글쓰기보다 '이것' 먼저 집중하세요 |
 | 2026-08-12 | [2026-08-12-naver-blog-monetization-shift-2027](2026-08-12-naver-blog-monetization-shift-2027.md) | 2027년 네이버 블로그로 돈 벌려면 반드시 이렇게 바꾸세요 |
