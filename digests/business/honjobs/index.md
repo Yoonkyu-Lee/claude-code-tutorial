@@ -1,9 +1,10 @@
 # honjobs (@honjobs) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 45편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 46편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-09 | [2026-09-09-ai-directed-shorts-part2-six-core-tips](2026-09-09-ai-directed-shorts-part2-six-core-tips.md) | 7일간 Ai가 시키는 대로 쇼츠 운영 2탄 \| 6가지 핵심꿀팁! 현재 구독자 7,000명(채널공개) |
 | 2026-08-31 | [2026-08-31-7-days-ai-directed-youtube-growth](2026-08-31-7-days-ai-directed-youtube-growth.md) | 7일동안 AI 가 시키는 대로 유튜브 키우기(14일만에 구독자 6,000명 달성) |
 | 2026-08-13 | [2026-08-13-8-safe-ways-to-use-ai-vibe-coding](2026-08-13-8-safe-ways-to-use-ai-vibe-coding.md) | Ai 잘못 사용했다가 피해속출(안전하게 사용하는 8가지 방법) |
 | 2026-07-31 | [2026-07-31-8-ways-to-make-money-with-higgsfield](2026-07-31-8-ways-to-make-money-with-higgsfield.md) | 요즘 제일 핫한 힉스필드로 돈버는 8가지 방법 - 빠르게 선점한 사람들은 이미 돈 벌고 있음(방법 모두 공개) |

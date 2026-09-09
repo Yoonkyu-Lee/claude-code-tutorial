@@ -1,9 +1,10 @@
 # unrealtech (@unrealtech · 안될공학 - IT 테크 신기술) — digest 색인
 
-주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 239편. (최신순)
+주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 240편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-09 | [2026-09-09-gpt6-astra-agent-cost-structure-token-saving](2026-09-09-gpt6-astra-agent-cost-structure-token-saving.md) | GPT6, 일반인도 잡일, 업무 다 대체됩니다… 제대로 쓰는 법 \| AI 에이전트의 진짜 비용 구조 \| Computer Use·하네스·토큰 절약법까지 |
 | 2026-09-07 | [2026-09-07-gpt6-astra-demos-vision-tool-use-loop](2026-09-07-gpt6-astra-demos-vision-tool-use-loop.md) | GPT6 Astra, 난리인 이유가 보이네요 \| 진짜 좋아진 능력과 기술적 차이 \|  OpenAI만의 기술적 해자일까? |
 | 2026-09-07 | [2026-09-07-gpt6-astra-compute-is-revenue](2026-09-07-gpt6-astra-compute-is-revenue.md) | GPT6 Astra, AI로 돈 번다… NVIDIA 젠슨황 말을 증명하다 \| Compute is Revenue |
 | 2026-09-06 | [2026-09-06-cybercab-launch-10-second-drive-unit-production](2026-09-06-cybercab-launch-10-second-drive-unit-production.md) | 사이버캡 출시 직후 밝혀진, 놀라운 기술과 전략들... 10초 단위 생산과 브레이크액·희토류까지 없앤 테슬라 \| Fleet 사업자까지 |
