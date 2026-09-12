@@ -1,9 +1,10 @@
 # editorp89 (@editorp89 · 편집자P) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 40편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 41편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-09 | [2026-09-09-astra-6-lineage-like-game-gpt-image-2-5](2026-09-09-astra-6-lineage-like-game-gpt-image-2-5.md) | [시즌 3] GPT Astra 6로 리니지 like 게임 만들기(GPT Image 2.5)(프롬프트 공개) |
 | 2026-09-06 | [2026-09-06-astra-6-app-teaser-video-motion-graphics](2026-09-06-astra-6-app-teaser-video-motion-graphics.md) | [시즌 3] 아스트라 6(Astra 6) 실습 : 앱 티저 영상 만들기 |
 | 2026-09-05 | [2026-09-05-openai-astra-review-automation-use-cases](2026-09-05-openai-astra-review-automation-use-cases.md) | [시즌 3] 오픈AI 아스트라(Astra) 리뷰 + 자동화 유즈케이스 |
 | 2026-09-03 | [2026-09-03-loop-engineering-intro](2026-09-03-loop-engineering-intro.md) | [시즌 3] 유행 다 지나고 배우는 루프 엔지니어링 입문 |

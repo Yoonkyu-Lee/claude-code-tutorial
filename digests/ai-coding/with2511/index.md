@@ -1,9 +1,10 @@
 # with2511 (@with2511 · 기술노트with 알렉) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 23편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 24편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-11 | [2026-09-11-software-types-web-app-native-hybrid](2026-09-11-software-types-web-app-native-hybrid.md) | 앱·웹 종류 처음에 잘못 선택하면 처음부터 다시 만들어야 합니다 \| 바이브코딩 전에 꼭 알아야 할 IT 지식 |
 | 2026-09-08 | [2026-09-08-software-development-part-for-beginners](2026-09-08-software-development-part-for-beginners.md) | [소프트웨어 개발] 개발 처음인 분들만 보세요. \| 바이브코딩 하는 분들 꼭 끝까지 보세요~ |
 | 2026-09-03 | [2026-09-03-tech-note-book-table-of-contents-walkthrough](2026-09-03-tech-note-book-table-of-contents-walkthrough.md) | 컴공 4년동안 배우는 핵심을 한권에 | 기술노트 도서 목차 설명 | 바이브코딩 클로드코드 AI로 개발할 때, 알아야 하는 필수 IT 지식 |
 | 2026-09-01 | [2026-09-01-tech-notes-series-launch](2026-09-01-tech-notes-series-launch.md) | AI 시대에 안보면 평생 후회할 IT 지식 기술노트 영상 시작합니다. \| 바이브코딩 \| 클로드 코드 |

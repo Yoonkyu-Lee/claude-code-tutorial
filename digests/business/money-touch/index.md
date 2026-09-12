@@ -1,9 +1,10 @@
 # money-touch (@MONEY_TOUCH) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 34편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 35편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-10 | [2026-09-10-twin-mom-japanese-shorts-automation](2026-09-10-twin-mom-japanese-shorts-automation.md) | "하루 20분" 집에서 부업으로 3000버는 쌍둥이 아기엄마 |
 | 2026-09-07 | [2026-09-07-retired-3star-general-72-dropshipping-side-income](2026-09-07-retired-3star-general-72-dropshipping-side-income.md) | 71세 전직 3성 장군, 하루 1시간 부업으로 월 450만원 법니다 |
 | 2026-09-03 | [2026-09-03-brand-dropshipping-20billion-ai-image-swap](2026-09-03-brand-dropshipping-20billion-ai-image-swap.md) | 어차피 알려줘도 아무도 안해요_ 200억 매출찍고 인생역전한 40대 아빠 |
 | 2026-08-31 | [2026-08-31-nurse-side-hustle-rental-space](2026-08-31-nurse-side-hustle-rental-space.md) | 평일에 회사 다니면서, 부업으로 수천 만 원 버는 90년생 간호사의 하루 "남의 집 빌려서 월 3천 벌어요" |

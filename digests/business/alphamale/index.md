@@ -1,9 +1,10 @@
 # alphamale (@alphamale__1212 · 알파남 - 부업으로 부자되는 방법) — digest 색인
 
-주제 `business`. 부업·블로그 수익화 홍보성 LIVE. 각 digest 상단에 검증 배너 + 수익 수치 (주장/미검증) 표기. 총 37편. (최신순)
+주제 `business`. 부업·블로그 수익화 홍보성 LIVE. 각 digest 상단에 검증 배너 + 수익 수치 (주장/미검증) 표기. 총 38편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-11 | [2026-09-11-ai-era-blog-money-keyword-finding](2026-09-11-ai-era-blog-money-keyword-finding.md) | AI 시대, 블로그로 돈 쓸어담는 사람들은 이렇게 키워드를 찾습니다 |
 | 2026-09-09 | [2026-09-09-notiplus-newspick-hub-model-analysis](2026-09-09-notiplus-newspick-hub-model-analysis.md) | 직원 13명으로 영업이익 93억, 이 회사의 미친 수익구조(+애드센스 뉴스픽 노티플러스) |
 | 2026-09-06 | [2026-09-06-change-your-life-in-one-minute](2026-09-06-change-your-life-in-one-minute.md) | 1분 안에 당신의 인생을 바꿔드립니다 |
 | 2026-09-02 | [2026-09-02-naver-adpost-approval-beginner-guide](2026-09-02-naver-adpost-approval-beginner-guide.md) | 60대 컴맹을 위한 네이버 애드포스트 승인 합격 왕초보 강의(+신청방법 조건 수익구조) |

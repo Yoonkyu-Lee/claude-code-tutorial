@@ -1,9 +1,13 @@
 # unrealtech (@unrealtech · 안될공학 - IT 테크 신기술) — digest 색인
 
-주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 240편. (최신순)
+주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 244편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-12 | [2026-09-12-nvidia-real-moat-cuda-nvlink-mellanox-system](2026-09-12-nvidia-real-moat-cuda-nvlink-mellanox-system.md) | 엔비디아 진짜 해자는 GPU가 아니다 \| CUDA·NVLink·Mellanox가 만든 AI 시스템 |
+| 2026-09-11 | [2026-09-11-iphone18-pro-a20-pro-afm3-ai-alignment](2026-09-11-iphone18-pro-a20-pro-afm3-ai-alignment.md) | 아이폰18 Pro, 애플은 AI에서 모든 게 준비됩니다... 메모리 열 설계까지 바꾼 AI 아이폰 \| A20 Pro와 AFM 3가 맞춰진 이유 |
+| 2026-09-10 | [2026-09-10-apple-iphone-duo-foldable-vs-galaxy-fold](2026-09-10-apple-iphone-duo-foldable-vs-galaxy-fold.md) | 비싸도 산다는 현 상황... 애플 폴더블 ‘아이폰 듀오‘ 출시 \| 갤럭시 폴드와 다른 기술적 이유 |
+| 2026-09-09 | [2026-09-09-cybercab-rider-reactions-robotaxi-daily-life](2026-09-09-cybercab-rider-reactions-robotaxi-daily-life.md) | 사이버캡 직접 타본 사람들 반응은?  역세권 의미 변화, 일상과 돈 버는 규칙이 달라질 수 있다 \| 로보택시 시대의 일상 |
 | 2026-09-09 | [2026-09-09-gpt6-astra-agent-cost-structure-token-saving](2026-09-09-gpt6-astra-agent-cost-structure-token-saving.md) | GPT6, 일반인도 잡일, 업무 다 대체됩니다… 제대로 쓰는 법 \| AI 에이전트의 진짜 비용 구조 \| Computer Use·하네스·토큰 절약법까지 |
 | 2026-09-07 | [2026-09-07-gpt6-astra-demos-vision-tool-use-loop](2026-09-07-gpt6-astra-demos-vision-tool-use-loop.md) | GPT6 Astra, 난리인 이유가 보이네요 \| 진짜 좋아진 능력과 기술적 차이 \|  OpenAI만의 기술적 해자일까? |
 | 2026-09-07 | [2026-09-07-gpt6-astra-compute-is-revenue](2026-09-07-gpt6-astra-compute-is-revenue.md) | GPT6 Astra, AI로 돈 번다… NVIDIA 젠슨황 말을 증명하다 \| Compute is Revenue |

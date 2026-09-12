@@ -1,9 +1,10 @@
 # softdragon (@softdragon) — digest 색인
 
-주제 `tech`. 반도체·AI·바이오·과학 뉴스 해설 영상 digest. 총 40편. (최신순)
+주제 `tech`. 반도체·AI·바이오·과학 뉴스 해설 영상 digest. 총 41편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-11 | [2026-09-11-google-deepmind-ai-scientist-corruption](2026-09-11-google-deepmind-ai-scientist-corruption.md) | "AGI 시대가 두려워졌다" 구글 AI가 사기 치고 조롱까지.. 섬뜩한 집단 타락 ㄷㄷ |
 | 2026-09-09 | [2026-09-09-pacific-indian-ocean-link-breakdown](2026-09-09-pacific-indian-ocean-link-breakdown.md) | "이런 적은 없었습니다" 태평양 연결고리 절단, 올 연말 역대급 기후 재앙온다 ㄷㄷ |
 | 2026-09-07 | [2026-09-07-amd-helios-second-supply-axis](2026-09-07-amd-helios-second-supply-axis.md) | "이런 건 본 적이 없다" AMD가 꺼낸 최종병기, AI 반도체 혁명이 시작됐습니다 |
 | 2026-09-06 | [2026-09-06-applying-for-korea-science-minister-heisenberg](2026-09-06-applying-for-korea-science-minister-heisenberg.md) | 대한민국 과기부 장관 지원합니다. (하이젠버그) |
