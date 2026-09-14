@@ -1,9 +1,10 @@
 # maker-evan (@maker-evan · 메이커 에반) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 151편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 152편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-14 | [2026-09-14-four-reasons-i-switched-to-codex](2026-09-14-four-reasons-i-switched-to-codex.md) | 클로드 코드 잘 안 씁니다 — 코덱스로 갈아탄 이유 4가지 |
 | 2026-09-11 | [2026-09-11-why-openai-blocked-200-dollar-pro](2026-09-11-why-openai-blocked-200-dollar-pro.md) | 오픈AI가 프로 구독을 막은 진짜 이유 — 200달러 요금제의 계산 |
 | 2026-09-09 | [2026-09-09-claude-code-beginner-six-steps](2026-09-09-claude-code-beginner-six-steps.md) | 클로드 코드 입문, 여섯 단계면 끝납니다 |
 | 2026-09-09 | [2026-09-09-vibe-coding-starter-kit-backend-structure](2026-09-09-vibe-coding-starter-kit-backend-structure.md) | AI가 만든 코드, 계속 이어 쓰는 방법 (바이브코딩 스타터킷) |

@@ -1,9 +1,10 @@
 # editorp89 (@editorp89 · 편집자P) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 42편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 43편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-14 | [2026-09-14-codenotch-token-dashboard-app](2026-09-14-codenotch-token-dashboard-app.md) | [시즌 3] 컴퓨터에 토큰 계기판을 달아주는 심플 앱, Codenotch(무료) |
 | 2026-09-13 | [2026-09-13-opus-gpt-sol-grok-performance-comparison](2026-09-13-opus-gpt-sol-grok-performance-comparison.md) | [시즌 3] Opus, GPT Sol, Grok의 성능 비교! 학습자에게 유의미할까? |
 | 2026-09-09 | [2026-09-09-astra-6-lineage-like-game-gpt-image-2-5](2026-09-09-astra-6-lineage-like-game-gpt-image-2-5.md) | [시즌 3] GPT Astra 6로 리니지 like 게임 만들기(GPT Image 2.5)(프롬프트 공개) |
 | 2026-09-06 | [2026-09-06-astra-6-app-teaser-video-motion-graphics](2026-09-06-astra-6-app-teaser-video-motion-graphics.md) | [시즌 3] 아스트라 6(Astra 6) 실습 : 앱 티저 영상 만들기 |

@@ -1,9 +1,10 @@
 # softdragon (@softdragon) — digest 색인
 
-주제 `tech`. 반도체·AI·바이오·과학 뉴스 해설 영상 digest. 총 42편. (최신순)
+주제 `tech`. 반도체·AI·바이오·과학 뉴스 해설 영상 digest. 총 43편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-14 | [2026-09-14-samsung-foundry-vs-tsmc-broken-dream](2026-09-14-samsung-foundry-vs-tsmc-broken-dream.md) | "그냥 TSMC 가세요..." 무너진 이재용의 꿈, 자멸하는 삼성 현재 상황 ㄷㄷ |
 | 2026-09-13 | [2026-09-13-zam-intel-softbank-next-hbm-bonding](2026-09-13-zam-intel-softbank-next-hbm-bonding.md) | 삼전닉스 HBM보다 빠르다? 미국과 일본의 메모리 신무기 \| 하이젠버그 |
 | 2026-09-11 | [2026-09-11-google-deepmind-ai-scientist-corruption](2026-09-11-google-deepmind-ai-scientist-corruption.md) | "AGI 시대가 두려워졌다" 구글 AI가 사기 치고 조롱까지.. 섬뜩한 집단 타락 ㄷㄷ |
 | 2026-09-09 | [2026-09-09-pacific-indian-ocean-link-breakdown](2026-09-09-pacific-indian-ocean-link-breakdown.md) | "이런 적은 없었습니다" 태평양 연결고리 절단, 올 연말 역대급 기후 재앙온다 ㄷㄷ |

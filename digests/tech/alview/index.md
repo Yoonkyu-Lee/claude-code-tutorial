@@ -1,12 +1,25 @@
 # alview (@알뷰) — digest 색인
 
-주제 `tech`. 스마트폰·웨어러블 유출/루머 속보. 편당 2~3분, 거의 매일 업로드. 총 50편. (최신순)
+주제 `tech`. 스마트폰·웨어러블 유출/루머 속보. 편당 2~3분, 거의 매일 업로드. 총 63편. (최신순)
 
 폴더명은 규약(`@핸들 그대로`)의 예외다 — 핸들이 한글(`@알뷰`)이라 경로·URL 안정성을 위해 `alview`로 로마자화했다.
 원제가 낚시성이라 digest 파일명 slug는 제목이 아니라 **본문 내용** 기준. H1은 원제 그대로.
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-14 | [galaxy-s26-price-hike-report](2026-09-14-galaxy-s26-price-hike-report.md) | 갤럭시 S26 - 비상!!!! 큰일 났어요!!! |
+| 2026-09-13 | [apple-interview-wide-aspect-ratio-jab-at-rivals](2026-09-13-apple-interview-wide-aspect-ratio-jab-at-rivals.md) | 아이폰 듀오 - 애플이 공개 저격을 했습니다 ㄷㄷㄷㄷ |
+| 2026-09-11 | [a20-pro-benchmark-and-weight-tradeoff](2026-09-11-a20-pro-benchmark-and-weight-tradeoff.md) | 아이폰 18 프로 - 미친 성능이 등장했습니다 |
+| 2026-09-09 | [iphone-duo-foldable-selling-points-vs-fold](2026-09-09-iphone-duo-foldable-selling-points-vs-fold.md) | 아이폰 듀오 - 갤럭시Z 폴드8과는 전혀 달랐습니다 |
+| 2026-09-09 | [foldable-iphone-duo-naming-and-spec-leaks](2026-09-09-foldable-iphone-duo-naming-and-spec-leaks.md) | 폴더블 아이폰 - 속보!! 충격적인 소식이 떴습니다!! |
+| 2026-09-09 | [ios27-beta-code-iphone-18-pro-camera-features](2026-09-09-ios27-beta-code-iphone-18-pro-camera-features.md) | 아이폰 18 프로 - 새로운 신기능이 공식 유출되었습니다 |
+| 2026-09-08 | [m6-chip-as-preview-of-a20-pro](2026-09-08-m6-chip-as-preview-of-a20-pro.md) | 아이폰 18 프로 - 성능이 더 기대되는 이유가 생겼습니다 |
+| 2026-09-07 | [galaxy-s27-edge-revival-and-exynos-2700-debate](2026-09-07-galaxy-s27-edge-revival-and-exynos-2700-debate.md) | 갤럭시 S27 - 지옥에서 누가 돌아왔게 |
+| 2026-09-06 | [iphone-ultra-foldable-production-crisis](2026-09-06-iphone-ultra-foldable-production-crisis.md) | 아이폰 울트라 - 상황이 진짜 심각한데요??? |
+| 2026-09-05 | [iphone-18-pro-price-hike-memory-cost](2026-09-05-iphone-18-pro-price-hike-memory-cost.md) | 아이폰 18 프로 - 4배나 더 비싸졌습니다 |
+| 2026-09-04 | [exynos-2700-internal-test-and-s27-ultra-dual-sourcing](2026-09-04-exynos-2700-internal-test-and-s27-ultra-dual-sourcing.md) | 갤럭시 S27 울트라 - 큰 일이 벌어지고 있습니다 |
+| 2026-09-03 | [ternus-ceo-transition-and-iphone-18-pro-silver-drop](2026-09-03-ternus-ceo-transition-and-iphone-18-pro-silver-drop.md) | 아이폰 18 프로 - 완전히 멘탈이 나가버렸습니다 |
+| 2026-09-02 | [iphone-20th-all-glass-progress-and-openai-mac-stockpile](2026-09-02-iphone-20th-all-glass-progress-and-openai-mac-stockpile.md) | 아이폰 XX - 오랜만에 희망적인 좋은 소식 |
 | 2026-07-19 | [galaxy-tab-s12-ultra-design-leak](2026-07-19-galaxy-tab-s12-ultra-design-leak.md) | 갤럭시탭 S12 울트라 - 실물 사진 등장!! |
 | 2026-07-18 | [flex-titanium-crease-reduction](2026-07-18-flex-titanium-crease-reduction.md) | 갤럭시Z 폴드8 - 출시도 안했는데 삼성이 직접 스포일러 했어요 ㅋㅋㅋㅋㅋ |
 | 2026-07-17 | [s26-ultra-burn-in-software-fix-and-pixel-11-render-leak](2026-07-17-s26-ultra-burn-in-software-fix-and-pixel-11-render-leak.md) | 갤럭시 S26 울트라 - 번인 논란, 삼성의 공식 입장이 나왔습니다 |
