@@ -1,9 +1,10 @@
 # unrealtech (@unrealtech · 안될공학 - IT 테크 신기술) — digest 색인
 
-주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 246편. (최신순)
+주제 `tech`. IT/테크 뉴스 해설 영상 digest. 총 247편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-15 | [2026-09-15-samsung-high-na-euv-12inch-mask-vs-tsmc](2026-09-15-samsung-high-na-euv-12inch-mask-vs-tsmc.md) | TSMC보다 2년 빠르게 도입하는 삼성?  High-NA EUV의 한계와 두 회사의 서로 다른 계산 |
 | 2026-09-14 | [2026-09-14-ai-cartel-slowdown-debate-investment-china](2026-09-14-ai-cartel-slowdown-debate-investment-china.md) | 갑작스레 AI 속도 늦추자... 투자는 확대?  ‘카르텔’ 논란의 진짜 쟁점 \| 중국은 멈추지 않는다 |
 | 2026-09-13 | [2026-09-13-chinese-secrets-leaked-to-claude-via-distillation](2026-09-13-chinese-secrets-leaked-to-claude-via-distillation.md) | 중국 정부 기밀 정보, Claude로… 앤트로픽 베끼려다가 중국 기밀이 Claude로 넘어간 현 상황 \| 딥시크·키미 황당한 역유출 \| 러시아 정보도? |
 | 2026-09-12 | [2026-09-12-nvidia-real-moat-cuda-nvlink-mellanox-system](2026-09-12-nvidia-real-moat-cuda-nvlink-mellanox-system.md) | 엔비디아 진짜 해자는 GPU가 아니다 \| CUDA·NVLink·Mellanox가 만든 AI 시스템 |

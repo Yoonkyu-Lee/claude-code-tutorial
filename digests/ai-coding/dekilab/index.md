@@ -1,9 +1,10 @@
 # dekilab (@dekilab) — digest 색인
 
-영상별 digest(주제별 상세 요약 → 시간순 전문). 총 11편. (최신순)
+영상별 digest(주제별 상세 요약 → 시간순 전문). 총 12편. (최신순)
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-15 | [2026-09-15-ai-drama-video-with-gpt6-astra-and-seedance](2026-09-15-ai-drama-video-with-gpt6-astra-and-seedance.md) | 현존 최고 모델 조합으로 드라마 영상을 만들어보았습니다 |
 | 2026-09-10 | [2026-09-10-blog-writing-to-upload-workflow](2026-09-10-blog-writing-to-upload-workflow.md) | 글 작성부터 업로드까지, 워크플로우 무료로 공개합니다. |
 | 2026-09-06 | [2026-09-06-ai-video-production-beginner-guide-higgsfield](2026-09-06-ai-video-production-beginner-guide-higgsfield.md) | 12분만에 끝내는 최신 AI 영상 제작 입문 가이드 |
 | 2026-09-03 | [2026-09-03-grokbot-free-usage-guide](2026-09-03-grokbot-free-usage-guide.md) | 11분만에 끝내는 그록봇 무료 사용법 (지금 안 쓰면 손해) |

@@ -1,12 +1,13 @@
 # alview (@알뷰) — digest 색인
 
-주제 `tech`. 스마트폰·웨어러블 유출/루머 속보. 편당 2~3분, 거의 매일 업로드. 총 63편. (최신순)
+주제 `tech`. 스마트폰·웨어러블 유출/루머 속보. 편당 2~3분, 거의 매일 업로드. 총 81편. (최신순)
 
 폴더명은 규약(`@핸들 그대로`)의 예외다 — 핸들이 한글(`@알뷰`)이라 경로·URL 안정성을 위해 `alview`로 로마자화했다.
 원제가 낚시성이라 digest 파일명 slug는 제목이 아니라 **본문 내용** 기준. H1은 원제 그대로.
 
 | 게시일 | digest | 원제 |
 |---|---|---|
+| 2026-09-15 | [iphone-18-pro-battery-life-eu-test](2026-09-15-iphone-18-pro-battery-life-eu-test.md) | 아이폰 18 프로 - 기대하셔도 좋습니다 |
 | 2026-09-14 | [galaxy-s26-price-hike-report](2026-09-14-galaxy-s26-price-hike-report.md) | 갤럭시 S26 - 비상!!!! 큰일 났어요!!! |
 | 2026-09-13 | [apple-interview-wide-aspect-ratio-jab-at-rivals](2026-09-13-apple-interview-wide-aspect-ratio-jab-at-rivals.md) | 아이폰 듀오 - 애플이 공개 저격을 했습니다 ㄷㄷㄷㄷ |
 | 2026-09-11 | [a20-pro-benchmark-and-weight-tradeoff](2026-09-11-a20-pro-benchmark-and-weight-tradeoff.md) | 아이폰 18 프로 - 미친 성능이 등장했습니다 |
@@ -20,6 +21,23 @@
 | 2026-09-04 | [exynos-2700-internal-test-and-s27-ultra-dual-sourcing](2026-09-04-exynos-2700-internal-test-and-s27-ultra-dual-sourcing.md) | 갤럭시 S27 울트라 - 큰 일이 벌어지고 있습니다 |
 | 2026-09-03 | [ternus-ceo-transition-and-iphone-18-pro-silver-drop](2026-09-03-ternus-ceo-transition-and-iphone-18-pro-silver-drop.md) | 아이폰 18 프로 - 완전히 멘탈이 나가버렸습니다 |
 | 2026-09-02 | [iphone-20th-all-glass-progress-and-openai-mac-stockpile](2026-09-02-iphone-20th-all-glass-progress-and-openai-mac-stockpile.md) | 아이폰 XX - 오랜만에 희망적인 좋은 소식 |
+| 2026-09-01 | [galaxy-s27-ultra-self-healing-glass-coating](2026-09-01-galaxy-s27-ultra-self-healing-glass-coating.md) | 갤럭시 S27 울트라 - 이건 정말로 기대가 됩니다 |
+| 2026-08-31 | [fold8-demand-exceeds-supply-ddi-shortage](2026-08-31-fold8-demand-exceeds-supply-ddi-shortage.md) | 갤럭시Z 폴드8 - 너무 잘 팔려서 문제가 생겼습니다 |
+| 2026-08-30 | [iphone-17-tops-q2-sales-korea-doubles](2026-08-30-iphone-17-tops-q2-sales-korea-doubles.md) | 아이폰 판매량 - 애플 큰일 났네 망했다 망했어 아이폰 진짜 망했네 |
+| 2026-08-29 | [s27-pro-plateau-base-model-design-render](2026-08-29-s27-pro-plateau-base-model-design-render.md) | 갤럭시 S27 - 아직 희망은 남아있습니다 |
+| 2026-08-28 | [galaxy-s27-ultra-design-near-confirmed](2026-08-28-galaxy-s27-ultra-design-near-confirmed.md) | 갤럭시 S27 울트라 - 사실상 확정처럼 보이네요 |
+| 2026-08-27 | [galaxy-s27-final-design-direction](2026-08-27-galaxy-s27-final-design-direction.md) | 갤럭시 S27 - 결국 이 디자인으로 갑니다 |
+| 2026-08-26 | [exynos-2700-internal-benchmark-beats-snapdragon](2026-08-26-exynos-2700-internal-benchmark-beats-snapdragon.md) | 갤럭시 S27 - 이게 말이 되나요??? |
+| 2026-08-25 | [galaxy-s27-ultra-adopts-iphone-plateau-design](2026-08-25-galaxy-s27-ultra-adopts-iphone-plateau-design.md) | 갤럭시 S27 - 결국 정답은 애플 |
+| 2026-08-24 | [camera-airpods-delayed-to-2027](2026-08-24-camera-airpods-delayed-to-2027.md) | 에어팟 프로 4 - 아니 이게 무슨 소리야 |
+| 2026-08-23 | [airpods-ultra-camera-role-revealed-in-macos-framework](2026-08-23-airpods-ultra-camera-role-revealed-in-macos-framework.md) | 에어팟 프로 4 - 카메라의 정체가 밝혀졌습니다 |
+| 2026-08-22 | [iphone-ultra-launch-delay-and-ceramic-apple-watch](2026-08-22-iphone-ultra-launch-delay-and-ceramic-apple-watch.md) | 아이폰 울트라 - 와 이게 진짜라구요??? |
+| 2026-08-21 | [iphone-18-pro-reuses-17-pro-cases](2026-08-21-iphone-18-pro-reuses-17-pro-cases.md) | 아이폰 18 프로 - 와 이건 진짜 예상 못했는데요 |
+| 2026-08-20 | [macos-beta-code-reveals-apple-unreleased-lineup](2026-08-20-macos-beta-code-reveals-apple-unreleased-lineup.md) | 에어팟 프로 4 - 이게 끝이 아니라구요??? |
+| 2026-08-19 | [a20-pro-performance-and-ultra-us-first-launch](2026-08-19-a20-pro-performance-and-ultra-us-first-launch.md) | 아이폰 18 프로 - 성능이 생각보다 미쳤습니다 |
+| 2026-08-18 | [galaxy-z-fold-9-wide-wide-rumor](2026-08-18-galaxy-z-fold-9-wide-wide-rumor.md) | 갤럭시Z 폴드9 와이드 와이드 - 삼성 또 이상한 거 만들어요 ㅋㅋㅋ |
+| 2026-08-17 | [galaxy-buds-max-headphone-in-development](2026-08-17-galaxy-buds-max-headphone-in-development.md) | 갤럭시 버즈 헤드폰 - 우리 개발하고 있어요 |
+| 2026-08-16 | [iphone-ultra-production-delay-channelnews-report](2026-08-16-iphone-ultra-production-delay-channelnews-report.md) | 아이폰 울트라 - 이게 말이 되나요??? |
 | 2026-07-19 | [galaxy-tab-s12-ultra-design-leak](2026-07-19-galaxy-tab-s12-ultra-design-leak.md) | 갤럭시탭 S12 울트라 - 실물 사진 등장!! |
 | 2026-07-18 | [flex-titanium-crease-reduction](2026-07-18-flex-titanium-crease-reduction.md) | 갤럭시Z 폴드8 - 출시도 안했는데 삼성이 직접 스포일러 했어요 ㅋㅋㅋㅋㅋ |
 | 2026-07-17 | [s26-ultra-burn-in-software-fix-and-pixel-11-render-leak](2026-07-17-s26-ultra-burn-in-software-fix-and-pixel-11-render-leak.md) | 갤럭시 S26 울트라 - 번인 논란, 삼성의 공식 입장이 나왔습니다 |
